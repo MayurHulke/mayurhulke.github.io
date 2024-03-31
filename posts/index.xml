@@ -14,13 +14,6 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://mayurhulke.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test Post</title>
-      <link>https://mayurhulke.github.io/posts/test-page/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/posts/test-page/</guid>
-      <description>Desc Text.</description>
-    </item>
-    <item>
       <title>Vision Transformers (ViT) in Image Recognition</title>
       <link>https://mayurhulke.github.io/posts/vit/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
