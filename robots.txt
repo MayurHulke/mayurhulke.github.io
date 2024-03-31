@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://mayurhulke.github.io/sitemap.xml
