@@ -18,9 +18,7 @@
       <link>https://mayurhulke.github.io/posts/vit/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://mayurhulke.github.io/posts/vit/</guid>
-      <description>Vision Transformers (ViT) in Image Recognition It is an overview of how Vision Transformers (ViT) have been applied to image recognition tasks, detailing the factors that have enabled their success and highlighting their performance on various benchmarks.
-Introduction Transformers, originally designed for natural language processing, have been successfully adapted for image recognition tasks. This adaptation involves treating image patches as tokens and processing them through the Transformer architecture.
-Applying Transformers to Images The process begins by dividing an image into patches and embedding these patches into a sequence of vectors.</description>
+      <description>Vision Transformers (ViT) in Image Recognition Currently in Progress&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;&amp;hellip;</description>
     </item>
   </channel>
 </rss>
