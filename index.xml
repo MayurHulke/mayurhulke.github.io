@@ -18,7 +18,7 @@
       <link>https://mayurhulke.github.io/posts/rl/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://mayurhulke.github.io/posts/rl/</guid>
-      <description>The RL Framework: The Problem In this post, you&amp;rsquo;ll learn how to specify a real-world problem as a Markov Decision Process (MDP), so that it can be solved with reinforcement learning.
+      <description>RL Framework: The Problem In this post, you&amp;rsquo;ll learn how to specify a real-world problem as a Markov Decision Process (MDP), so that it can be solved with reinforcement learning.
 The Setting Let&amp;rsquo;s kick things off with a simple example. Imagine you&amp;rsquo;re playing a video game where you&amp;rsquo;re navigating through a maze. At first, you might bump into walls or take wrong turns, but over time, you learn the layout, figure out where the traps are, and start making smarter moves to reach the end faster and with higher scores.</description>
     </item>
   </channel>
