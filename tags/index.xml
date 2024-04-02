@@ -14,17 +14,10 @@
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
     <atom:link href="https://mayurhulke.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Computer Vision</title>
-      <link>https://mayurhulke.github.io/tags/computer-vision/</link>
+      <title>Reinforcement Learning</title>
+      <link>https://mayurhulke.github.io/tags/reinforcement-learning/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/tags/computer-vision/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Transformer</title>
-      <link>https://mayurhulke.github.io/tags/transformer/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>https://mayurhulke.github.io/tags/transformer/</guid>
+      <guid>https://mayurhulke.github.io/tags/reinforcement-learning/</guid>
       <description></description>
     </item>
   </channel>
