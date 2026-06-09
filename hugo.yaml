@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production
-  description: "Mayur Hulke — Robotics Tech Lead at Deltia AI. Building the perception-to-action stack for industrial manipulation."
+  description: "Mayur Hulke, Robotics Lead at Deltia AI. Building the physical-intelligence layer for industrial robots."
   author: "Mayur Hulke"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
