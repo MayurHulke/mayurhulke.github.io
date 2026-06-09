@@ -39,7 +39,7 @@ params:
 
   # Header logo: short name + animated Rocky icon (Project Hail Mary). Acts as home button.
   label:
-    text: "Mayur Hulke"
+    text: "Amaze. Amaze. Amaze."
     icon: "img/icons/rocky.gif"
     iconHeight: 34
 

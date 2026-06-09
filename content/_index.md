@@ -11,4 +11,4 @@ So that's what I spend my days on, teaching robots to see, decide, and act. **VL
 
 Before the factory floor, I spent years at the Bristol Robotics Lab building an intelligent bionic leg for Paralympic athletes and people living with lower-limb amputation. That's where I learned that the best robotics quietly gives someone a piece of their life back.
 
-Right now I'm building Deltia's robotics venture from the ground up, alongside the **Google DeepMind** robotics team, **AWS**, and **NVIDIA**. I write down everything I learn along the way in [my blog](https://letstalkwithrobots.substack.com/?utm_campaign=profile_chips), for anyone who loves building robots as much as I do. 👨🏽‍💻
+Right now I'm building Deltia's robotics venture from the ground up, alongside the **Google DeepMind** robotics team, **AWS**, and **NVIDIA**. I write down some of my points of view on robotics along the way in [my blog](https://letstalkwithrobots.substack.com/?utm_campaign=profile_chips), for anyone who loves building robots as much as I do. 👨🏽‍💻
