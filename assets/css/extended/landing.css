@@ -88,6 +88,28 @@ body:has(.profile) {
   margin: 0 0 1.1rem 0;
 }
 
+.hero-collab { margin: 0.2rem 0 1.1rem; }
+.hero-collab-label {
+  display: block;
+  font-size: 0.78rem;
+  color: var(--secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+.hero-collab-logos {
+  display: inline-flex;
+  align-items: center;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 0.55rem 1rem;
+}
+.hero-collab-logos img { height: 26px; width: auto; object-fit: contain; display: block; }
+.hero-collab-logos img.sq { height: 30px; border-radius: 5px; }
+
 .hero-cta {
   display: flex;
   flex-wrap: wrap;
@@ -96,6 +118,7 @@ body:has(.profile) {
   margin-top: auto;
   margin-bottom: 1rem;
 }
+@media (max-width: 820px) { .hero-collab-logos { justify-content: center; } }
 
 .hero-btn {
   display: inline-flex;

@@ -8,10 +8,19 @@
                 {{- with $.Params.tagline }}<h1 class="hero-tagline">{{ . }}</h1>{{- end }}
                 {{- with $.Params.hero_sub }}<p class="hero-sub">{{ . | markdownify }}</p>{{- end }}
 
+                <div class="hero-collab">
+                    <span class="hero-collab-label">In collaboration with</span>
+                    <div class="hero-collab-logos">
+                        <img src="{{ "/logos/brands/deepmind.svg" | relURL }}" alt="Google DeepMind">
+                        <img src="{{ "/logos/brands/aws.svg" | relURL }}" alt="AWS">
+                        <img src="{{ "/logos/brands/nvidia.svg" | relURL }}" alt="NVIDIA">
+                        <img class="sq" src="{{ "/logos/brands/massrobotics.jpeg" | relURL }}" alt="MassRobotics">
+                    </div>
+                </div>
+
                 <div class="hero-cta">
-                    <a class="hero-btn hero-btn--primary" href="{{ "experience/" | relURL }}">See my work</a>
+                    <a class="hero-btn hero-btn--primary" href="{{ "experience/" | relURL }}">My Journey</a>
                     <a class="hero-btn" href="https://letstalkwithrobots.substack.com/?utm_campaign=profile_chips" target="_blank" rel="noopener">My Notes</a>
-                    <a class="hero-btn" href="mailto:mayurhulke@gmail.com">Get in touch</a>
                 </div>
 
                 {{- partial "social_icons.html" . -}}
