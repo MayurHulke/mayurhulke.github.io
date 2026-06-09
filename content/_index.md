@@ -1,7 +1,6 @@
 ---
 kicker: "Hi, I'm Mayur 👋"
 tagline: "Building the physical-intelligence layer for robots. 🤖"
-hero_sub: "Robotics Lead at Deltia AI, building the perception-to-action stack for industrial manipulation."
 ---
 
 Big Hero 6 and *I, Robot* fanboy turned robotics engineer. That obsession became **30+ national robotics competitions** 🏆 and, eventually, a career building the **physical-intelligence layer** for real robots.

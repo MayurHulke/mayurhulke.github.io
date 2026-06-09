@@ -61,10 +61,6 @@ params:
       url: "https://www.youtube.com/@LetsTalkWithRobots"
     - name: instagram
       url: "https://www.instagram.com/themayurhulk/"
-    - name: email
-      url: "mailto:mayurhulke@gmail.com"
-    - name: rss
-      url: "/index.xml"
 
   fuseOpts:
     isCaseSensitive: false
@@ -82,7 +78,7 @@ outputs:
 menu:
   main:
     - identifier: experience
-      name: Experience
+      name: My Journey
       url: /experience/
       weight: 15
     - identifier: notes

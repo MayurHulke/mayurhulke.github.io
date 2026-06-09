@@ -1,5 +1,5 @@
 ---
-title: "Experience"
+title: "My Journey"
 url: "/experience/"
 ShowReadingTime: false
 ShowWordCount: false
@@ -7,8 +7,6 @@ ShowToc: false
 ShowBreadCrumbs: false
 hideMeta: true
 ---
-
-## My Journey
 
 <div class="timeline">
 
