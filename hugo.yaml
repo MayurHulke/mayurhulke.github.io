@@ -85,14 +85,10 @@ menu:
       name: Experience
       url: /experience/
       weight: 15
-    - identifier: writing
-      name: Writing
-      url: /posts/
+    - identifier: notes
+      name: My Notes
+      url: "https://letstalkwithrobots.substack.com/?utm_campaign=profile_chips"
       weight: 20
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 30
 
 markup:
   goldmark:
