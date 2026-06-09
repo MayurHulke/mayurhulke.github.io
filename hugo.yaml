@@ -53,10 +53,14 @@ params:
     imageTitle: "Mayur Hulke"
 
   socialIcons:
-    - name: github
-      url: "https://github.com/mayurhulke"
     - name: linkedin
       url: "https://www.linkedin.com/in/mayurhulke/"
+    - name: x
+      url: "https://x.com/LetstalkRobots"
+    - name: youtube
+      url: "https://www.youtube.com/@LetsTalkWithRobots"
+    - name: instagram
+      url: "https://www.instagram.com/themayurhulk/"
     - name: email
       url: "mailto:mayurhulke@gmail.com"
     - name: rss
