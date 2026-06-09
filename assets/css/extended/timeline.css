@@ -1,0 +1,124 @@
+.timeline { margin: 1.5rem 0 2rem 0; }
+
+.timeline-event {
+  position: relative;
+  padding-left: 3rem;
+  padding-bottom: 1.75rem;
+  border-left: 2px solid var(--border);
+  opacity: 0.82;
+  transition: opacity 0.2s ease;
+}
+.timeline-event:last-child { padding-bottom: 0.25rem; }
+.timeline-event--current { opacity: 1; }
+
+.timeline-event-marker {
+  position: absolute;
+  left: -21px;
+  top: -3px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #f5f5f7;
+  border: 2px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1;
+}
+.timeline-event-marker img { width: 100%; height: 100%; object-fit: contain; padding: 4px; }
+
+/* initial-letter node (when no logo) */
+.timeline-event-marker--initial { background: var(--accent-soft); border-color: var(--accent); }
+.timeline-event-marker--initial span {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--accent);
+  line-height: 1;
+}
+
+/* empty marker -> small dot */
+.timeline-event-marker:empty::after {
+  content: "";
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  background: var(--primary);
+}
+
+/* Current role: GREEN "live" node + pulsing ring */
+.timeline-event--current .timeline-event-marker {
+  border-color: #34c759;
+  box-shadow: 0 0 0 3px rgba(52, 199, 89, 0.18);
+}
+.timeline-event--current .timeline-event-marker--initial span { color: #1f9d44; }
+.timeline-event--current .timeline-event-marker::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  background: rgba(52, 199, 89, 0.4);
+  animation: pulse-ring 2.4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+  z-index: -1;
+}
+@keyframes pulse-ring {
+  0%   { transform: scale(0.55); opacity: 0.75; }
+  100% { transform: scale(1.9); opacity: 0; }
+}
+
+/* small green live dot next to the date of current roles */
+.timeline-live {
+  display: inline-block;
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #34c759;
+  margin-left: 8px;
+  vertical-align: middle;
+  box-shadow: 0 0 0 0 rgba(52, 199, 89, 0.55);
+  animation: live-blink 1.8s ease-in-out infinite;
+}
+@keyframes live-blink {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(52, 199, 89, 0.5); }
+  50%      { box-shadow: 0 0 0 5px rgba(52, 199, 89, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timeline-event--current .timeline-event-marker::before,
+  .timeline-live { animation: none; }
+}
+
+@media (max-width: 480px) {
+  .timeline-event { margin-left: 10px; padding-left: 2.8rem; }
+  .timeline-event-marker { left: -17px; width: 32px; height: 32px; }
+  .timeline-event-marker img { padding: 2px; }
+  .timeline-event-marker--initial span { font-size: 0.9rem; }
+}
+
+.timeline-event-date {
+  font-size: 0.82em;
+  color: var(--secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
+.timeline-event-header { font-weight: 600; color: var(--primary); margin-bottom: 0.4rem; line-height: 1.4; }
+.timeline-event-role { font-weight: 600; }
+.timeline-event-company { font-weight: 500; color: var(--secondary); }
+.timeline-event-location { font-weight: 400; color: var(--secondary); font-size: 0.9em; }
+
+.timeline-event-body { color: var(--content); font-size: 0.95em; }
+.timeline-event-body p { margin: 0 0 0.5rem 0; }
+.timeline-event-body ul { margin: 0.25rem 0 0 0; padding-left: 1.1rem; }
+.timeline-event-body li { margin-bottom: 0.25rem; }
+.timeline-event-body li::marker { color: var(--secondary); }
+
+/* inline photo inside a timeline entry (e.g. the bionic-leg shot) */
+.timeline-event-body img {
+  max-width: 360px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0.6rem 0 0.2rem;
+  display: block;
+}

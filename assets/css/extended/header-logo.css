@@ -1,0 +1,5 @@
+/* tiny right margin so the Rocky icon doesn't crowd the name */
+.logo a img[aria-label="logo"] {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
