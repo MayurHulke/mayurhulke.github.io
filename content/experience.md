@@ -21,11 +21,11 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 <div class="subprograms">
 <div class="subprogram">
 <img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind">
-<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-desc">A three-month Google DeepMind program for European robotics startups building physical AI, with access to the Gemini Robotics models and Google's AI infrastructure, mentorship, and Cloud credits, ending in a Demo Day in London.</span></div>
+<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Present</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Grounding VLAs in the Gemini Robotics models and going beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
 </div>
 <div class="subprogram">
 <img class="subprogram-logo" src="/logos/nvidia.svg" alt="Physical AI Fellowship">
-<div><span class="subprogram-name">Physical AI Fellowship</span><span class="subprogram-desc">An eight-week fellowship by AWS, NVIDIA, and MassRobotics for startups at the intersection of robotics and physical AI, with AWS credits and generative-AI experts, the NVIDIA Isaac platform, and MassRobotics' prototyping facilities, ending in a Boston Tech Week showcase.</span></div>
+<div><span class="subprogram-name">Physical AI Fellowship · AWS, NVIDIA, MassRobotics</span><span class="subprogram-date">Apr 2026 – Present</span><span class="subprogram-desc">Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span></div>
 </div>
 </div>
 {{< /event >}}
