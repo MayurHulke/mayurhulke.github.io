@@ -25,7 +25,7 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 </div>
 <div class="subprogram">
 <img class="subprogram-logo" src="/logos/nvidia.svg" alt="Physical AI Fellowship">
-<div><span class="subprogram-name">Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Present</span><span class="subprogram-desc">Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span><span class="subprogram-powered"><img src="/logos/brands/aws.svg" alt="AWS"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></span></div>
+<div><span class="subprogram-name">Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Present</span><span class="subprogram-desc">Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span><span class="subprogram-powered"><img src="/logos/brands/aws.png" alt="AWS"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></span></div>
 </div>
 </div>
 {{< /event >}}
@@ -68,12 +68,6 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 <div class="timeline">
 
 {{< event date="2020" role="MSc, Advanced Robotics & Artificial Intelligence" company="University of Bristol" location="Distinction in dissertation" logo="/logos/brands/bristol.jpeg" >}}
-{{< /event >}}
-
-{{< event date="2018" role="BE, Electronics Engineering" company="RKNEC College of Engineering, Nagpur" location="First Class" initial="R" >}}
-{{< /event >}}
-
-{{< event date="2012" role="Diploma, Electronics & Telecommunications" company="SDMP College, Nagpur" location="Distinction" initial="S" >}}
 {{< /event >}}
 
 </div>
