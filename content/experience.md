@@ -80,5 +80,4 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
 - **Awards:** Young Innovators Award 2021 (UK); 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
-- **Selected for:** Google DeepMind Gemini Robotics Accelerator; Physical AI Fellowship (AWS, NVIDIA, MassRobotics)
-- **Collaborations:** NHS, BLESMA, Help for Heroes
+- **Collaborations:** Google DeepMind, AWS, NVIDIA, MassRobotics, NHS, BLESMA, Help for Heroes
