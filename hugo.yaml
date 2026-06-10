@@ -48,8 +48,8 @@ params:
     enabled: true
     title: "Mayur Hulke"
     imageUrl: "img/profile/lab.jpg"
-    imageWidth: 800
-    imageHeight: 800
+    imageWidth: 1280
+    imageHeight: 721
     imageTitle: "Mayur Hulke"
 
   socialIcons:
