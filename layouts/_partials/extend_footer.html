@@ -1,0 +1,47 @@
+{{/* Typewriter animation for the "Amaze Amaze Amaze" logo wordmark */}}
+<script>
+(function () {
+  var link = document.querySelector('.logo a');
+  if (!link) return;
+  // drop the static label text node(s), keep the Rocky icon
+  Array.prototype.slice.call(link.childNodes).forEach(function (n) {
+    if (n.nodeType === 3) link.removeChild(n);
+  });
+  var wrap = document.createElement('span');
+  wrap.className = 'logo-typing';
+  var txt = document.createElement('span');
+  var caret = document.createElement('span');
+  caret.className = 'logo-caret';
+  caret.textContent = '|';
+  wrap.appendChild(txt);
+  wrap.appendChild(caret);
+  link.appendChild(wrap);
+
+  var full = 'Amaze Amaze Amaze';
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    txt.textContent = full;
+    return;
+  }
+  var i = 0, dir = 1;
+  function start() {
+    // reserve the full width so the theme toggle never shifts while typing
+    txt.textContent = full;
+    wrap.style.minWidth = Math.ceil(wrap.getBoundingClientRect().width) + 'px';
+    txt.textContent = '';
+    tick();
+  }
+  function tick() {
+    txt.textContent = full.slice(0, i);
+    if (dir > 0) {
+      i++;
+      if (i > full.length) { dir = -1; return setTimeout(tick, 2600); }
+      setTimeout(tick, 120);
+    } else {
+      i--;
+      if (i < 0) { i = 0; dir = 1; return setTimeout(tick, 700); }
+      setTimeout(tick, 55);
+    }
+  }
+  if (document.fonts && document.fonts.ready) { document.fonts.ready.then(start); } else { start(); }
+})();
+</script>
