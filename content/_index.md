@@ -7,7 +7,7 @@ It started with *Big Hero 6*, *I, Robot*, and Andy Weir's *Project Hail Mary* (y
 
 These days I'm **Robotics Lead at Deltia AI**, building the **physical-intelligence layer** that lets robots actually do useful work on a factory floor. It began with a 7B vision-language model quietly watching real work across **60+ factory sites**. Once it could understand what it was seeing, the next step felt obvious: close the loop, and let that same understanding drive the arms doing the work.
 
-So that's what I spend my days on, teaching robots to see, decide, and act. **VLAs** to break a task down, **diffusion policies** for the contact-rich moments, **world models** to imagine what comes next, and classic **impedance control at 1 kHz** for the parts where the physics is already solved. Object-centric, cross-embodiment, and always measured against what actually ships, not what looks good in a slide deck.
+So that's what I spend my days on, teaching robots to see, decide, and act. Honestly, it's still a green field. Nobody knows yet what the winning recipe is: some of it is classical control, **impedance at 1 kHz** where the physics is already well understood, and some of it is learned, **diffusion policies**, **VLAs**, **world models**, hybrid versus end-to-end. I get to try these ideas against real factory work, and the question I keep coming back to is simple: what actually works at scale? Because if it doesn't scale, it doesn't matter.
 
 Before the factory floor, I spent years at the Bristol Robotics Lab building an intelligent bionic leg for Paralympic athletes and people living with lower-limb amputation. That's where I learned that the best robotics quietly gives someone a piece of their life back.
 
