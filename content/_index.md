@@ -3,7 +3,7 @@ kicker: "Hi, I'm Mayur 👋"
 tagline: "Building the physical-intelligence layer for robots. 🤖"
 ---
 
-My obsession with robots started at the movies. First *I, Robot*, then *Big Hero 6*, and then Andy Weir's *Project Hail Mary*. I read the book before the film, but the film did it absolute justice, and yes, that little guy up in the corner is Rocky. A pile of others stacked up on top of those, and I wanted to build the machines I kept watching on screen and reading about late into the night. That itch pulled me into **30+ national robotics competitions** 🏆, and by the time I was heading into college I knew this wasn't a phase: it was what I wanted to do for the rest of my life.
+My love for robots started at the movies. First *I, Robot*, then *Big Hero 6*, and then Andy Weir's *Project Hail Mary*. I read the book before the film, but the film did it absolute justice, and yes, that little guy up in the corner is Rocky. A pile of others stacked up on top of those, and I wanted to build the machines I kept watching on screen and reading about late into the night. That itch pulled me into **30+ national robotics competitions** 🏆, and by the time I was heading into college I knew this wasn't a phase: it was what I wanted to do for the rest of my life.
 
 These days I'm **Robotics Lead at Deltia AI**, building the **physical-intelligence layer** that lets robots actually do useful work on a factory floor. The first piece was a 7B vision-language model quietly watching real work across **60+ factory sites**. Once it could understand what it was seeing, the next step felt obvious: close the loop, and let that same understanding drive the arms doing the work.
 
