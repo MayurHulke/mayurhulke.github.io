@@ -47,9 +47,9 @@ params:
   profileMode:
     enabled: true
     title: "Mayur Hulke"
-    imageUrl: "img/profile/mayur.jpg"
-    imageWidth: 380
-    imageHeight: 380
+    imageUrl: "img/profile/lab.jpg"
+    imageWidth: 1600
+    imageHeight: 1600
     imageTitle: "Mayur Hulke"
 
   socialIcons:
