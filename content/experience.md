@@ -21,7 +21,7 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 <div class="subprograms">
 <div class="subprogram">
 <img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind">
-<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Present</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Grounding VLAs in the Gemini Robotics models and going beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
+<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Present</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Pushing VLAs beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
 </div>
 <div class="subprogram">
 <img class="subprogram-logo" src="/logos/nvidia.svg" alt="Physical AI Fellowship">
