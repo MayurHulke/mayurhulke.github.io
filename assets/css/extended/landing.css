@@ -109,7 +109,6 @@ body:has(.profile) {
 }
 .hero-collab-logos img { height: 26px; width: auto; object-fit: contain; display: block; flex-shrink: 0; }
 .hero-collab-logos img.sq { height: 30px; border-radius: 5px; }
-.hero-collab-logos img.wordmark { height: 28px; width: 222px; max-width: none; object-fit: contain; }
 
 .hero-cta {
   display: flex;
