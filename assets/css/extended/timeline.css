@@ -125,6 +125,9 @@
   padding: 0.7rem 0.85rem;
 }
 .timeline-event-body img.subprogram-logo { width: 26px; height: 26px; max-width: 26px; object-fit: contain; flex-shrink: 0; margin: 2px 0 0; border-radius: 0; }
+.subprogram-logo-link { display: inline-flex; flex-shrink: 0; align-items: flex-start; transition: opacity 0.15s ease; }
+.subprogram-powered a { display: inline-flex; align-items: center; transition: opacity 0.15s ease; }
+.subprogram-logo-link:hover, .subprogram-powered a:hover { opacity: 0.6; }
 .subprogram-name { display: block; font-weight: 600; color: var(--primary); }
 .subprogram-date { display: block; font-size: 0.74em; color: var(--secondary); text-transform: uppercase; letter-spacing: 0.04em; margin: 0.12rem 0 0.2rem; }
 .subprogram-desc { display: block; color: var(--content); font-size: 0.92em; margin-top: 0.15rem; line-height: 1.5; }

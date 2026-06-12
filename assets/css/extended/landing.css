@@ -107,6 +107,8 @@ body:has(.profile) {
   border-radius: 12px;
   padding: 0.55rem 1rem;
 }
+.hero-collab-logos a { display: inline-flex; align-items: center; flex-shrink: 0; transition: opacity 0.15s ease; }
+.hero-collab-logos a:hover { opacity: 0.6; }
 .hero-collab-logos img { height: 26px; width: auto; object-fit: contain; display: block; flex-shrink: 0; }
 .hero-collab-logos img.sq { height: 30px; border-radius: 5px; }
 

@@ -20,12 +20,12 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 
 <div class="subprograms">
 <div class="subprogram">
-<img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind">
+<a class="subprogram-logo-link" href="https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind"></a>
 <div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Present</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Pushing VLAs beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
 </div>
 <div class="subprogram">
-<img class="subprogram-logo" src="/logos/nvidia.svg" alt="Physical AI Fellowship">
-<div><span class="subprogram-name">Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Present</span><span class="subprogram-desc">Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span><span class="subprogram-powered"><img src="/logos/brands/aws.png" alt="AWS"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></span></div>
+<a class="subprogram-logo-link" href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/nvidia.svg" alt="Physical AI Fellowship"></a>
+<div><span class="subprogram-name">Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Present</span><span class="subprogram-desc">Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span><span class="subprogram-powered"><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/aws.png" alt="AWS"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></a></span></div>
 </div>
 </div>
 {{< /event >}}
@@ -80,4 +80,4 @@ In this role, Deltia AI was selected for two programs I lead the technical work 
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
 - **Awards:** Young Innovators Award 2021 (UK); 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
-- **Collaborations:** Google DeepMind, AWS, NVIDIA, MassRobotics, NHS, BLESMA, Help for Heroes
+- **Collaborations:** [Google DeepMind](https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=), [AWS](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [NVIDIA](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [MassRobotics](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), NHS, BLESMA, Help for Heroes

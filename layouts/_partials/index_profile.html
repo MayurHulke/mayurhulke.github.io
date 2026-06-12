@@ -10,11 +10,14 @@
 
                 <div class="hero-collab">
                     <span class="hero-collab-label">In collaboration with</span>
+                    {{- $accel := "https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=" }}
+                    {{- $fellow := "https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" }}
                     <div class="hero-collab-logos">
-                        <img src="{{ "/logos/brands/deepmind.svg" | relURL }}" alt="Google DeepMind">
-                        <img src="{{ "/logos/brands/aws.png" | relURL }}" alt="AWS">
-                        <img src="{{ "/logos/brands/nvidia.svg" | relURL }}" alt="NVIDIA">
-                        <img class="sq" src="{{ "/logos/brands/massrobotics.jpeg" | relURL }}" alt="MassRobotics">
+                        <a href="{{ $accel }}" target="_blank" rel="noopener" aria-label="Google"><img src="{{ "/logos/brands/google-g.webp" | relURL }}" alt="Google"></a>
+                        <a href="{{ $accel }}" target="_blank" rel="noopener" aria-label="Google DeepMind"><img src="{{ "/logos/brands/deepmind.svg" | relURL }}" alt="Google DeepMind"></a>
+                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="AWS"><img src="{{ "/logos/brands/aws.png" | relURL }}" alt="AWS"></a>
+                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="NVIDIA"><img src="{{ "/logos/brands/nvidia.svg" | relURL }}" alt="NVIDIA"></a>
+                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="MassRobotics"><img class="sq" src="{{ "/logos/brands/massrobotics.jpeg" | relURL }}" alt="MassRobotics"></a>
                     </div>
                 </div>
 
