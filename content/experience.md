@@ -43,13 +43,8 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Production models contributed to a **1.3% complaint rate** and higher online-purchase confidence.
 {{< /event >}}
 
-{{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" location="🇬🇧 Bristol, England, UK" logo="/logos/brands/chisel.jpeg" >}}
-- Built an intelligent bionic leg — including performance legs for Paralympic amputees — that understands fit, gait, and movement in real time.
-- Backed by **Innovate UK**, built on **NHS** research partnerships.
-{{< /event >}}
-
-{{< event date="Dec 2018 – Oct 2023" role="Founder, ML & Robotics Engineer" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Founded and led the venture end to end, developing an intelligent bionic leg — including performance legs for Paralympic amputees — that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
+{{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
+- Founded and led the venture end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
 - **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 
