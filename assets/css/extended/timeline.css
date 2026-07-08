@@ -113,7 +113,7 @@
 .timeline-event-body li { margin-bottom: 0.25rem; }
 .timeline-event-body li::marker { color: var(--secondary); }
 
-/* nested programs under a role (e.g. accelerator + fellowship under Deltia) */
+/* nested programs under a role (e.g. accelerator + fellowship under Almetra) */
 .subprograms { display: flex; flex-direction: column; gap: 0.55rem; margin-top: 0.6rem; }
 .subprogram {
   display: flex;
