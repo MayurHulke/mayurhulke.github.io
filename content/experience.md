@@ -11,12 +11,12 @@ hideMeta: true
 <div class="timeline">
 
 {{< event date="Mar 2026 – Present" role="Robotics Tech Lead" company="Almetra" location="🇩🇪 Berlin, Germany · 🇬🇧 London, UK" current="true" logo="/logos/brands/almetra.svg" >}}
-- Building Almetra's robotics venture from the ground up, side by side with our Co-founder & CTO.
+- Building Almetra AI's robotics venture from the ground up, side by side with our Co-founder & CTO.
 - Architecting the physical-AI stack, and training and deploying generalist manipulation policies on real robots in manufacturing.
 
-![Our Franka Research 3 Duo and Universal Robots cell at Almetra](/img/franka-lab.jpg)
+![Our Franka Research 3 Duo and Universal Robots cell at Almetra AI](/img/franka-lab.jpg)
 
-In this role, Almetra was selected for two programs I lead the technical work on:
+In this role, Almetra AI was selected for two programs I lead the technical work on:
 
 <div class="subprograms">
 <div class="subprogram">
