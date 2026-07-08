@@ -30,7 +30,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 </div>
 {{< /event >}}
 
-{{< event date="Oct 2024 – Feb 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" note="(previously Deltia)" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
+{{< event date="Oct 2024 – Feb 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
 - Trained and deployed fine-tuned **VLMs** in production across **13+ manufacturing stations** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
 - Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
 - Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency.
