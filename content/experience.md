@@ -48,17 +48,17 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Backed by **Innovate UK**, built on **NHS** research partnerships.
 {{< /event >}}
 
+{{< event date="Dec 2018 – Oct 2023" role="Founder, ML & Robotics Engineer" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
+- Founded and led the venture end to end, developing an intelligent bionic leg — including performance legs for Paralympic amputees — that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
+- **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
+- Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
+
+![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
+{{< /event >}}
+
 {{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge Computing" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
 - Owned a portable embedded camera system for vehicle detection, classification, and tracking across 4/6/8-lane UK and USA motorways (NVIDIA Xavier, Jetson Nano).
 - **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units**, setting new smart-motorway benchmarks.
-{{< /event >}}
-
-{{< event date="Nov 2018 – Nov 2021" role="ML & Robotics Engineer" company="Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Developed an intelligent bionic leg — including performance legs for Paralympic amputees — that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
-- **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
-- Founded [**Chisel Robotics**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/) to take the work further — backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
-
-![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
 {{< /event >}}
 
 {{< event date="Jan 2018 – Feb 2019" role="Research Internships" company="Bristol Robotics Lab · YU-SCAN · LettUs Grow" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
