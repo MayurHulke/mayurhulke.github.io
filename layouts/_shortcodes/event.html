@@ -1,16 +1,18 @@
 {{- $logo := .Get "logo" -}}
 {{- $initial := .Get "initial" -}}
 {{- $current := eq (.Get "current") "true" -}}
+{{- $url := .Get "url" -}}
+{{- $note := .Get "note" -}}
 <div class="timeline-event{{ if $current }} timeline-event--current{{ end }}">
   <div class="timeline-event-marker{{ if and (not $logo) $initial }} timeline-event-marker--initial{{ end }}">
-    {{ if $logo }}<img src="{{ $logo }}" alt="{{ .Get "company" }} logo" loading="lazy">
+    {{ if $logo }}{{ if $url }}<a href="{{ $url }}" target="_blank" rel="noopener"><img src="{{ $logo }}" alt="{{ .Get "company" }} logo" loading="lazy"></a>{{ else }}<img src="{{ $logo }}" alt="{{ .Get "company" }} logo" loading="lazy">{{ end }}
     {{ else if $initial }}<span>{{ $initial }}</span>{{ end }}
   </div>
   <div class="timeline-event-content">
     <div class="timeline-event-date">{{ .Get "date" }}{{ if $current }}<span class="timeline-live"></span>{{ end }}</div>
     <div class="timeline-event-header">
       <span class="timeline-event-role">{{ .Get "role" }}</span>
-      {{ with .Get "company" }}<span class="timeline-event-company"> · {{ . }}</span>{{ end }}
+      {{ with .Get "company" }}<span class="timeline-event-company"> · {{ if $url }}<a class="timeline-event-company-link" href="{{ $url }}" target="_blank" rel="noopener">{{ . }}</a>{{ else }}{{ . }}{{ end }}{{ with $note }} <span class="timeline-event-note">{{ . }}</span>{{ end }}</span>{{ end }}
       {{ with .Get "location" }}<span class="timeline-event-location"> · {{ . }}</span>{{ end }}
     </div>
     {{ with .Inner }}

@@ -10,8 +10,8 @@ hideMeta: true
 
 <div class="timeline">
 
-{{< event date="Mar 2026 – Present" role="Robotics Tech Lead" company="Almetra" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
-- Building Almetra's (previously Deltia) robotics venture from the ground up, side by side with our Co-founder & CTO.
+{{< event date="Mar 2026 – Present" role="Robotics Tech Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
+- Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics venture from the ground up, side by side with our Co-founder & CTO.
 - Architecting the physical-AI stack, and training and deploying generalist manipulation policies on real robots in manufacturing.
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
@@ -30,7 +30,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 </div>
 {{< /event >}}
 
-{{< event date="Oct 2024 – Feb 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra (previously Deltia)" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
+{{< event date="Oct 2024 – Feb 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" note="(previously Deltia)" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
 - Trained and deployed fine-tuned **VLMs** in production across **13+ manufacturing stations** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
 - Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
 - Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency.
