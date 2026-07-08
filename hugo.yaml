@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production
-  description: "Mayur Hulke, Robotics Lead at Almetra AI. Building the physical-intelligence layer for industrial robots."
+  description: "Mayur Hulke, Robotics Lead at Almetra (previously Deltia). Building the physical-intelligence layer for industrial robots."
   author: "Mayur Hulke"
   DateFormat: "January 2, 2006"
   defaultTheme: auto
