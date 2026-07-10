@@ -73,7 +73,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Ran **SLAM** (RTAB-Map, AMCL, ROS) alongside the kinematics and path-planning teams for navigation and mapping accuracy.
 {{< /event >}}
 
-{{< event date="Jan 2018 – Apr 2018" role="Control System Design Intern, Vertical Farming" company="LettUs Grow" location="🇬🇧 Bristol, UK" initial="L" >}}
+{{< event date="Jan 2018 – Apr 2018" role="Control System Design Intern, Vertical Farming" company="LettUs Grow" url="https://www.lettusgrow.com/" location="🇬🇧 Bristol, UK" logo="/logos/brands/lettusgrow.png" >}}
 - Designed intelligent electronic control circuits for a next-generation **vertical farming** system for micro-green production.
 - Engineered and fabricated control boards for **ultrasonic foggers, LED lighting, and environmental sensors** (humidity, temperature, moisture).
 - Collaborated closely with software interns on embedded control.
