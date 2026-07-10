@@ -40,7 +40,7 @@ params:
   # Header logo: short name + animated Rocky icon (Project Hail Mary). Acts as home button.
   label:
     text: "Amaze Amaze Amaze"
-    icon: "img/icons/rocky.gif"
+    icon: "img/icons/rocky.png"
     iconHeight: 34
 
   # Home page profile-mode hero
