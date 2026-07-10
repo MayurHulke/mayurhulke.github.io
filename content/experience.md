@@ -56,9 +56,21 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units**, setting new smart-motorway benchmarks.
 {{< /event >}}
 
-{{< event date="Jan 2018 – Feb 2019" role="Research Internships" company="Bristol Robotics Lab · YU-SCAN · LettUs Grow" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
+{{< event date="Oct 2018 – Feb 2019" role="Machine Learning Intern, MedTech" company="YU-SCAN" location="🇬🇧 Bristol, UK" initial="Y" >}}
+- Built a **deep neural network** to predict symptom severity in **multiple sclerosis** patients from sensor data on the embedded health-tech device "BEE".
+- Engineered a two-layer **SMD sensor board** in Autodesk Eagle (with custom component libraries) and a cross-platform **React Native** app on **GCP / Firebase** for sensor-data analysis.
+- Integrated sensors over **SPI, I²C, UART, and Bluetooth**, working in an Agile team.
+{{< /event >}}
+
+{{< event date="2018" role="Research Intern" company="Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
 - SLAM navigation (RTAB-Map, AMCL, ROS) and scene understanding for the **TIAGo** robot in an assisted-living studio.
-- LSTM/GBM/SVM fatigue-and-health monitoring for robotic joints (R² 0.94, AUC-ROC 0.93); Random-Forest MedTech for MS and hemiplegia patients; control systems for indoor vertical farming.
+- LSTM/GBM/SVM fatigue-and-health monitoring for robotic joints (R² 0.94, AUC-ROC 0.93).
+{{< /event >}}
+
+{{< event date="Jan 2018 – Apr 2018" role="Control System Design Intern, Vertical Farming" company="LettUs Grow" location="🇬🇧 Bristol, UK" initial="L" >}}
+- Designed intelligent electronic control circuits for a next-generation **vertical farming** system for micro-green production.
+- Engineered and fabricated control boards for **ultrasonic foggers, LED lighting, and environmental sensors** (humidity, temperature, moisture).
+- Collaborated closely with software interns on embedded control.
 {{< /event >}}
 
 </div>
