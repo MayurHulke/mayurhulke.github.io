@@ -92,8 +92,10 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 ## Fellowships
 
-- **[Technical AI Safety](https://bluedot.org/courses/technical-ai-safety)** · BlueDot Impact · fully funded
-- **[AGI Strategy](https://bluedot.org/courses/agi-strategy)** · BlueDot Impact · fully funded
+<ul class="cred-list">
+<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/technical-ai-safety" target="_blank" rel="noopener">Technical AI Safety</a></strong> · BlueDot Impact · fully funded</span></li>
+<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a></strong> · BlueDot Impact · fully funded · <span class="cred-live">ongoing</span></span></li>
+</ul>
 
 ## Publication
 
@@ -101,8 +103,10 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 ## Certifications
 
-- **[Agentic AI for Business Leaders](https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92)** · Udacity · May 2026
-- **[AI Governance, Policy, and the Public Good](https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2)** · Udacity · Feb 2024
+<ul class="cred-list">
+<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a></strong> · Udacity · May 2026</span></li>
+<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a></strong> · Udacity · Feb 2024</span></li>
+</ul>
 
 ## Recognition
 
