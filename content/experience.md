@@ -90,9 +90,19 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 </div>
 
+## Fellowships
+
+- **[Technical AI Safety](https://bluedot.org/courses/technical-ai-safety)** · BlueDot Impact · fully funded
+- **[AGI Strategy](https://bluedot.org/courses/agi-strategy)** · BlueDot Impact · fully funded
+
 ## Publication
 
 - *Customization of a transfemoral prosthetic socket to minimize discomfort for residual-limb volume change.* IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), 2023.
+
+## Certifications
+
+- **[Agentic AI for Business Leaders](https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92)** · Udacity · May 2026
+- **[AI Governance, Policy, and the Public Good](https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2)** · Udacity · Feb 2024
 
 ## Recognition
 
