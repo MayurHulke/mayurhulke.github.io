@@ -62,9 +62,15 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Integrated sensors over **SPI, I²C, UART, and Bluetooth**, working in an Agile team.
 {{< /event >}}
 
-{{< event date="2018" role="Research Intern" company="Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- SLAM navigation (RTAB-Map, AMCL, ROS) and scene understanding for the **TIAGo** robot in an assisted-living studio.
-- LSTM/GBM/SVM fatigue-and-health monitoring for robotic joints (R² 0.94, AUC-ROC 0.93).
+{{< event date="Aug 2018 – Dec 2018" role="Robotics Sensor Intern" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
+- Built a fatigue-monitoring system (a "Fitbit for robots") that evaluates complex dynamic loads on a robot's joints.
+- Fused sensing with **ML/data analytics** (LSTM/GBM/SVM; R² 0.94, AUC-ROC 0.93) to decode structural-load patterns for real-time health monitoring and long-term structural integrity of robotic joints.
+{{< /event >}}
+
+{{< event date="Mar 2018 – Sep 2018" role="Computer Vision Intern, Social Robotics" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
+- Developed object-recognition algorithms for the **TIAGo** robot at the **European Robotics League 2018 (Social Robots)**, improving human-robot interaction and task efficiency.
+- Added search, person-following, object-moving, and visitor-recognition features for assisted-living environments.
+- Ran **SLAM** (RTAB-Map, AMCL, ROS) alongside the kinematics and path-planning teams for navigation and mapping accuracy.
 {{< /event >}}
 
 {{< event date="Jan 2018 – Apr 2018" role="Control System Design Intern, Vertical Farming" company="LettUs Grow" location="🇬🇧 Bristol, UK" initial="L" >}}
