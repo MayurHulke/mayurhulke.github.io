@@ -56,7 +56,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units**, setting new smart-motorway benchmarks.
 {{< /event >}}
 
-{{< event date="Oct 2018 – Feb 2019" role="Machine Learning Intern, MedTech" company="YU-SCAN" location="🇬🇧 Bristol, UK" initial="Y" >}}
+{{< event date="Oct 2018 – Feb 2019" role="Machine Learning Intern, MedTech" company="YU-SCAN" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
 - Built a **deep neural network** to predict symptom severity in **multiple sclerosis** patients from sensor data on the embedded health-tech device "BEE".
 - Engineered a two-layer **SMD sensor board** in Autodesk Eagle (with custom component libraries) and a cross-platform **React Native** app on **GCP / Firebase** for sensor-data analysis.
 - Integrated sensors over **SPI, I²C, UART, and Bluetooth**, working in an Agile team.
