@@ -1,0 +1,7 @@
+{{- $img := .Get "img" -}}
+{{- $side := .Get "side" | default "right" -}}
+{{- $alt := .Get "alt" | default "" -}}
+<div class="beat beat--{{ $side }}">
+  <div class="beat-art"><img src="{{ (printf "/img/storyboard/%s.svg" $img) | relURL }}" alt="{{ $alt }}" loading="lazy"></div>
+  <div class="beat-text">{{ .Inner | $.Page.RenderString }}</div>
+</div>

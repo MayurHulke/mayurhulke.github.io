@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" viewBox="0 20 320 145" role="img" aria-label="Illustration: bionic legs brl">
+<line x1="40" y1="140" x2="280" y2="140" stroke="#888780" stroke-width="1.5"/>
+<line x1="40" y1="148" x2="280" y2="148" stroke="#888780" stroke-width="0.75" stroke-dasharray="8 6"/>
+<circle cx="150" cy="42" r="10" fill="none" stroke="#7F77DD" stroke-width="2"/>
+<path d="M150 52 L150 84 M150 60 L132 74 M150 60 L170 68" fill="none" stroke="#7F77DD" stroke-width="2" stroke-linecap="round"/>
+<path d="M150 84 L138 116 L134 140" fill="none" stroke="#7F77DD" stroke-width="2" stroke-linecap="round"/>
+<path d="M150 84 L168 106 L172 140" fill="none" stroke="#1D9E75" stroke-width="3" stroke-linecap="round"/>
+<circle cx="168" cy="106" r="4" fill="#1D9E75"/>
+<path d="M180 112 q10 -4 16 2" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0.6"/>
+<path d="M182 122 q10 -4 16 2" fill="none" stroke="#1D9E75" stroke-width="1.5" opacity="0.4"/>
+<text x="230" y="60" font-size="11" fill="#888780" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Bristol Robotics</text>
+<text x="230" y="74" font-size="11" fill="#888780" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">Laboratory</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" viewBox="0 20 320 145" role="img" aria-label="Illustration: teaching machines to see">
+<rect x="55" y="28" width="210" height="70" rx="8" fill="none" stroke="#7F77DD" stroke-width="1.5"/>
+<polygon points="150,52 150,76 172,64" fill="#7F77DD"/>
+<rect x="55" y="118" width="52" height="14" rx="4" fill="#AFA9EC"/>
+<rect x="111" y="118" width="80" height="14" rx="4" fill="#7F77DD"/>
+<rect x="195" y="118" width="34" height="14" rx="4" fill="#AFA9EC"/>
+<rect x="233" y="118" width="32" height="14" rx="4" fill="#534AB7"/>
+<text x="55" y="150" font-size="11" fill="#888780" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">action-by-action, over time</text>
+</svg>

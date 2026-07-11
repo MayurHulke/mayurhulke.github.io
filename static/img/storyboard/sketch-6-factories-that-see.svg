@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" viewBox="0 20 320 145" role="img" aria-label="Illustration: factories that see">
+<path d="M60 140 V90 l32 -18 v18 l32 -18 v18 l32 -18 V140 Z" fill="none" stroke="#888780" stroke-width="2" stroke-linejoin="round"/>
+<rect x="74" y="112" width="16" height="16" fill="#888780" opacity="0.4"/>
+<rect x="104" y="112" width="16" height="16" fill="#888780" opacity="0.4"/>
+<rect x="134" y="112" width="16" height="16" fill="#888780" opacity="0.4"/>
+<circle cx="215" cy="70" r="5" fill="#1D9E75"/><circle cx="245" cy="55" r="5" fill="#1D9E75"/>
+<circle cx="268" cy="80" r="5" fill="#1D9E75"/><circle cx="232" cy="100" r="5" fill="#1D9E75"/>
+<circle cx="262" cy="118" r="5" fill="#1D9E75"/>
+<line x1="215" y1="70" x2="245" y2="55" stroke="#5DCAA5" stroke-width="1"/>
+<line x1="245" y1="55" x2="268" y2="80" stroke="#5DCAA5" stroke-width="1"/>
+<line x1="215" y1="70" x2="232" y2="100" stroke="#5DCAA5" stroke-width="1"/>
+<line x1="232" y1="100" x2="262" y2="118" stroke="#5DCAA5" stroke-width="1"/>
+<line x1="268" y1="80" x2="262" y2="118" stroke="#5DCAA5" stroke-width="1"/>
+<text x="90" y="156" font-size="11" fill="#888780" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">ABB + more</text>
+<text x="240" y="146" font-size="11" fill="#1D9E75" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">60+ sites</text>
+</svg>
