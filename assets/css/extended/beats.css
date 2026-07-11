@@ -7,7 +7,9 @@
 }
 .about .beat--left { flex-direction: row-reverse; }
 .about .beat-art { flex: 0 0 32%; max-width: 300px; }
-.about .beat-art img { width: 100%; height: auto; display: block; }
+/* Cancel PaperMod's ".profile img { border-radius:50%; transform:scale(.85) }"
+   avatar rule, which would otherwise ellipse-clip the wide sketches. */
+.about .beat-art img { width: 100%; height: auto; display: block; border-radius: 0; transform: none; }
 .about .beat-text { flex: 1 1 auto; min-width: 0; }
 .about .beat-text p { margin: 0; }
 
