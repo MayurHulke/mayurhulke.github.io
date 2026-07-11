@@ -11,7 +11,7 @@ hideMeta: true
 <div class="timeline">
 
 {{< event date="Mar 2026 – Present" role="Robotics Tech Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
-- Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics venture from the ground up, side by side with our Co-founder & CTO.
+- Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, side by side with our Co-founder & CTO.
 - Architecting the physical-AI stack, and training and deploying generalist manipulation policies on real robots in manufacturing.
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
@@ -44,7 +44,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 {{< /event >}}
 
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Founded and led the venture end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
+- Founded and led the company end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
 - **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 
