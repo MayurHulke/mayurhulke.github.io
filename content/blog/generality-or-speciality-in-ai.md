@@ -2,10 +2,10 @@
 title: "Generality or Speciality in AI ?"
 date: 2024-12-16
 draft: false
+aliases: ["/generality-or-speciality-in-ai/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "If we can't deploy something useful to real world then what is the point of having this amazing AI technology at hand. This is my POV on Why I Believe AGI is the Unclear Goal (and Why Specialisation i"
-canonicalURL: "https://mayurhulke.com/generality-or-speciality-in-ai/"
 ---
 > If we can't deploy something useful to real world then what is the point of having this amazing AI technology at hand. This is my POV on Why I Believe AGI is the Unclear Goal (and Why Specialisation is the "Practical" Useful Way Forward)
 

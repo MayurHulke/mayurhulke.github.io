@@ -2,10 +2,10 @@
 title: "Aligning Text, Images & Videos is still a struggle"
 date: 2024-12-27
 draft: false
+aliases: ["/aligning-text-images-videos-is-still-a-struggle/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "AI has made extraordinary progress in multimodal learning, particularly in aligning text and images into shared embedding spaces. Models like CLIP and GPT-4V(ision) are prime examples of this success,"
-canonicalURL: "https://mayurhulke.com/aligning-text-images-videos-is-still-a-struggle/"
 ---
 AI has made extraordinary progress in **multimodal learning**, particularly in aligning **text and images** into shared embedding spaces. Models like **CLIP** and **GPT-4V(ision)** are prime examples of this success, showing how architectures can bridge the gap between vision and language.
 

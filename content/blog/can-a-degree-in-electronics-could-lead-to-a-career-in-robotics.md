@@ -2,10 +2,10 @@
 title: "Can a Degree in Electronics Could Lead To a Career in Robotics!"
 date: 2024-04-02
 draft: false
+aliases: ["/can-a-degree-in-electronics-could-lead-to-a-career-in-robotics/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "Hey there! If you're new here, my name is Mayur. I graduated from the University of Bristol in Advanced Robotics & AI, and now I'm doing my research in one of the biggest robotics labs in the UK. Toda"
-canonicalURL: "https://mayurhulke.com/can-a-degree-in-electronics-could-lead-to-a-career-in-robotics/"
 ---
 Hey there! If you're new here, my name is Mayur. I graduated from the University of Bristol in Advanced Robotics & AI, and now I'm doing my research in one of the biggest robotics labs in the UK. Today, I'm going to answer a question that comes up a lot: How important is Electronics Engineering in robotics?
 

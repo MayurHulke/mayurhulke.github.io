@@ -2,10 +2,10 @@
 title: "Action Recognition in Robotics: Why It’s Not “Solved” Yet"
 date: 2024-11-02
 draft: false
+aliases: ["/action-recognition-in-robotics-why-its-not-solved-yet/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "If you’re an aspiring robotics engineer, you’ve probably dreamed of building robots that seamlessly interact with humans, understanding their actions, anticipating their needs, and working safely side"
-canonicalURL: "https://mayurhulke.com/action-recognition-in-robotics-why-its-not-solved-yet/"
 ---
 If you’re an aspiring robotics engineer, you’ve probably dreamed of building robots that seamlessly interact with humans, understanding their actions, anticipating their needs, and working safely side-by-side. Let's talk about one critical component which is extremely essential to build such robots, and the name of that component is "Action Recognition."
 

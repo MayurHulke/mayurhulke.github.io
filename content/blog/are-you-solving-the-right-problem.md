@@ -2,10 +2,10 @@
 title: "Are You Solving the Right Problem?"
 date: 2024-12-11
 draft: false
+aliases: ["/are-you-solving-the-right-problem/"]
 ShowToc: true
 tags: ["Notes", "Engineering"]
 description: "I would like to take a moment and talk about the most important skill we, as engineers, must master which is understanding the problem before designing the solution. There’s a simple but powerful trut"
-canonicalURL: "https://mayurhulke.com/are-you-solving-the-right-problem/"
 ---
 I would like to take a moment and talk about the most important skill we, as engineers, must master which is understanding the problem before designing the solution. There’s a simple but powerful truth in problem-solving:
 

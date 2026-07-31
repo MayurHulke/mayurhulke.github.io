@@ -2,6 +2,7 @@
 title: "The Intelligence Delusion"
 date: 2025-02-23T09:15:00+00:00
 draft: false
+aliases: ["/the-intelligence-delusion/"]
 ShowToc: true
 tags: ["AI", "Intelligence", "Cognition", "Embodied Intelligence", "Robotics"]
 ---

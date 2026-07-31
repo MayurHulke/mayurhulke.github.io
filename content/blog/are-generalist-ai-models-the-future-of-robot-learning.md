@@ -2,10 +2,10 @@
 title: "Are Generalist AI Models the Future of Robot Learning?"
 date: 2025-02-13
 draft: false
+aliases: ["/are-generalist-ai-models-the-future-of-robot-learning/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "Reinforcement learning (RL) has led to impressive robot demos, but deploying these controllers in the real world remains challenging. Training a policy in simulation is one thing, making it work relia"
-canonicalURL: "https://mayurhulke.com/are-generalist-ai-models-the-future-of-robot-learning/"
 ---
 Reinforcement learning (RL) has led to impressive robot demos, but deploying these controllers in the real world remains challenging. Training a policy in simulation is one thing, making it work reliably on a physical robot is another. The hidden costs include months of fine-tuning, poor generalization across tasks, and an unpredictable trial-and-error process.
 

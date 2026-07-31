@@ -2,10 +2,10 @@
 title: "Can Humanoid Robots Really Go Unsupervised? The Gap Between VLA Hype and Reality"
 date: 2026-01-02
 draft: false
+aliases: ["/can-humanoid-robots-really-go-unsupervised-the-gap-between-vla-hype-and-reality/"]
 ShowToc: true
 tags: ["Robotics", "AI"]
 description: "Post was made on 2nd Jan 2026Who is Brett Adcock and Why Does This Prediction Matter?Brett Adcock isn't just another tech founder making bold claims on LinkedIn. He's a serial entrepreneur who previou"
-canonicalURL: "https://mayurhulke.com/can-humanoid-robots-really-go-unsupervised-the-gap-between-vla-hype-and-reality/"
 ---
 ![](/images/blog/can-humanoid-robots-really-go-unsupervised-the-gap-between-vla-hype-and-reality/663a2cc7a4.png)
 

@@ -2,6 +2,7 @@
 title: "The Broken Code Advantage"
 date: 2024-07-06
 draft: false
+aliases: ["/the-broken-code-advantage-in-the-age-of-vibe-coding/"]
 ShowToc: true
 tags: ["Career", "Debugging", "Software Engineering", "Professional Growth"]
 ---
