@@ -19,6 +19,9 @@ params:
   env: production
   description: "Mayur Hulke, Robotics Lead at Almetra (previously Deltia). Building the physical-intelligence layer for industrial robots."
   author: "Mayur Hulke"
+  # Cloudflare Web Analytics beacon token (Analytics & Logs -> Web Analytics).
+  # Empty means no beacon is emitted.
+  cloudflareAnalyticsToken: ""
   mainSections: ["blog", "posts"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto

@@ -2,3 +2,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+{{/* Cloudflare Web Analytics — privacy-friendly, no cookies, no consent banner.
+     Only emitted on production builds with a token set, so local `hugo server`
+     runs never pollute the stats. Token lives in hugo.yaml. */}}
+{{- if and hugo.IsProduction site.Params.cloudflareAnalyticsToken }}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token": "{{ site.Params.cloudflareAnalyticsToken }}"}'></script>
+{{- end }}
