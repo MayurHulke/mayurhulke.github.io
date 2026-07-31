@@ -21,7 +21,7 @@ params:
   author: "Mayur Hulke"
   # Cloudflare Web Analytics beacon token (Analytics & Logs -> Web Analytics).
   # Empty means no beacon is emitted.
-  cloudflareAnalyticsToken: ""
+  cloudflareAnalyticsToken: "36902b11a7924887b2453dce9c34d71a"
   mainSections: ["blog", "posts"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
