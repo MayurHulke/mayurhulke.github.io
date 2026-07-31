@@ -19,6 +19,7 @@ params:
   env: production
   description: "Mayur Hulke, Robotics Lead at Almetra (previously Deltia). Building the physical-intelligence layer for industrial robots."
   author: "Mayur Hulke"
+  mainSections: ["blog", "posts"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -77,6 +78,10 @@ outputs:
 
 menu:
   main:
+    - identifier: blog
+      name: Blog
+      url: /blog/
+      weight: 10
     - identifier: experience
       name: My Journey
       url: /experience/
