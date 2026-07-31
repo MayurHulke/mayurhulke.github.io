@@ -57,6 +57,8 @@ params:
     imageTitle: "Mayur Hulke"
 
   socialIcons:
+    - name: github
+      url: "https://github.com/MayurHulke"
     - name: linkedin
       url: "https://www.linkedin.com/in/mayurhulke/"
     - name: x
