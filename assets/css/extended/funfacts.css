@@ -1,3 +1,5 @@
 /* "Fun facts" list at the foot of the homepage, laid out with the .beat grid */
 .about .funfacts { margin: 0; padding-left: 1.1rem; }
 .about .funfacts li { margin: 0.3rem 0; line-height: 1.5; }
+/* Photo rather than a line sketch here, so soften the corners. */
+.about .beat--photo .beat-art img { border-radius: 10px; }

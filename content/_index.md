@@ -49,8 +49,8 @@ Right now I'm building toward that at Almetra, where I lead our collaborations w
 
 Before the robots, there was water.
 
-<div class="beat beat--left">
-<div class="beat-art"><img src="/img/in-the-pool.svg" alt="A swimmer in a pool lane" loading="lazy"></div>
+<div class="beat beat--left beat--photo">
+<div class="beat-art"><img src="/img/swimming-lane.jpg" alt="Swimming breaststroke down a competition lane" loading="lazy"></div>
 <div class="beat-text">
 <ul class="funfacts">
 <li>Swam professionally from the age of <strong>eight</strong>.</li>
