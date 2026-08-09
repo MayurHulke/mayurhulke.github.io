@@ -12,7 +12,10 @@ hideMeta: true
 
 {{< event date="Jan 2026 – Present" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
 - Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, side by side with our Co-founder & CTO.
-- Architecting the physical-AI stack, and training and deploying generalist manipulation policies on real robots in manufacturing.
+- Architecting the **perception-to-action stack**, connecting industrial video understanding to robotic planning and execution.
+- Training and deploying generalist manipulation policies on real robots in manufacturing, learned from **human demonstrations**, robot interaction data, and multimodal task context.
+- Working across **vision-language-action models**, **diffusion policies**, **world models**, and hybrid control architectures for contact-rich tasks.
+- Designing **object-centric, cross-embodiment** approaches meant to generalise across tasks, environments, and robot platforms.
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
 
@@ -30,11 +33,13 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 </div>
 {{< /event >}}
 
-{{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
-- Trained and deployed fine-tuned **VLMs** in production across **13+ manufacturing stations** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
+{{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
+- Trained and deployed fine-tuned **VLMs** in production across **60+ factory sites** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
+- Built systems to surface **operator actions, workflows, bottlenecks, process variation, and production context** from shop-floor video.
 - Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
-- Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency.
+- Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency, plus **multi-agent internal tools** supporting computer vision, robotics, data processing, and annotation workflows.
 - Prototyped **VLA** models via learning-by-demonstration, grounding human demos into action graphs.
+- This perception work became the foundation Almetra's robotics programme grew out of.
 {{< /event >}}
 
 {{< event date="Jul 2022 – Sep 2024" role="Senior Computer Vision Engineer" company="BCA UK" location="🇬🇧 UK" logo="/logos/brands/bca.jpeg" >}}
@@ -48,6 +53,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
 - Founded and led the company end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
 - **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
+- Led product development across sensing, embedded systems, machine learning, **biomechatronics**, and user testing.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
@@ -59,7 +65,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Ran real-world product trials with an above-knee amputee, evaluating performance, usability, and physiological effect.
 {{< /event >}}
 
-{{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge Computing" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
+{{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge AI" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
 - Owned a portable embedded camera system for vehicle detection, classification, and tracking across 4/6/8-lane UK and USA motorways (NVIDIA Xavier, Jetson Nano).
 - **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units**, setting new smart-motorway benchmarks.
 {{< /event >}}
