@@ -99,7 +99,12 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 <div class="timeline">
 
-{{< event date="2020" role="MSc, Advanced Robotics & Artificial Intelligence" company="University of Bristol" location="Distinction in dissertation" logo="/logos/brands/bristol.jpeg" >}}
+{{< event date="2020" role="MSc, Advanced Robotics & Artificial Intelligence" company="University of Bristol" location="First-Class · Distinction in dissertation" logo="/logos/brands/bristol.jpeg" >}}
+- **Focus:** robot learning.
+- **Thesis:** an intelligent bionic leg for lower-limb amputees, built with Paralympic athletes in mind.
+- Outside the lab, I swam competitively at **national level**.
+
+![Butterfly — national-level competition](/img/swimming.jpg)
 {{< /event >}}
 
 </div>
@@ -126,5 +131,5 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 ## Recognition
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
-- **Awards:** Young Innovators Award 2021 (UK); Santander Graduate Entrepreneur Award; Santander Acceleration Award; Best Industrial Product Design (Makeathon 2018, University of Bristol); Bristol Plus Award; 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
+- **Awards:** Young Innovators Award 2021 (UK); winner at [SETsquared](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/), the world's #1 university business incubator; Disruptive Startup Finalist (Tata Varsity); Santander Graduate Entrepreneur Award; Santander Acceleration Award; Best Industrial Product Design (Makeathon 2018, University of Bristol); Bristol Plus Award; 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
 - **Collaborations:** [Google DeepMind](https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=), [AWS](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [NVIDIA](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [MassRobotics](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), NHS, BLESMA, Help for Heroes
