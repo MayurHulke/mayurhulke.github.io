@@ -10,7 +10,7 @@ hideMeta: true
 
 <div class="timeline">
 
-{{< event date="Mar 2026 – Present" role="Robotics Tech Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
+{{< event date="Jan 2026 – Present" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
 - Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, side by side with our Co-founder & CTO.
 - Architecting the physical-AI stack, and training and deploying generalist manipulation policies on real robots in manufacturing.
 
@@ -30,7 +30,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 </div>
 {{< /event >}}
 
-{{< event date="Oct 2024 – Feb 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
+{{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision & Robotics Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
 - Trained and deployed fine-tuned **VLMs** in production across **13+ manufacturing stations** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
 - Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
 - Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency.
@@ -40,6 +40,8 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 {{< event date="Jul 2022 – Sep 2024" role="Senior Computer Vision Engineer" company="BCA UK" location="🇬🇧 UK" logo="/logos/brands/bca.jpeg" >}}
 - Built a full-stack CV system to automate car inspections, cutting inspection time from ~4 hours to under 90 minutes per vehicle.
 - Damage detection, interior classification, a **text-to-image diffusion** pipeline for rare-case augmentation, and segmentation/depth post-processing.
+- Built image and video segmentation for **virtual showroom** and digital-merchandising workflows, turning raw inspection footage into customer-facing visual assets at scale.
+- Designed and deployed the cloud computer-vision infrastructure on **AWS** that ran all of it in production.
 - Production models contributed to a **1.3% complaint rate** and higher online-purchase confidence.
 {{< /event >}}
 
@@ -49,6 +51,12 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
+{{< /event >}}
+
+{{< event date="Dec 2018 – Nov 2021" role="Research Assistant" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
+- Engineered the **sensor-fusion** system inside the prosthetic socket, tracking fit, gait, and physiological change in real time.
+- Built a **thermal-imaging and machine-learning** system to analyse the residual limb's thermal response over prolonged prosthesis use.
+- Ran real-world product trials with an above-knee amputee, evaluating performance, usability, and physiological effect.
 {{< /event >}}
 
 {{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge Computing" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
@@ -104,10 +112,13 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 <li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a></strong> · BlueDot Impact · <span class="cred-live">ongoing</span></span></li>
 <li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a></strong> · Udacity · May 2026</span></li>
 <li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a></strong> · Udacity · Feb 2024</span></li>
+<li><img class="cred-logo" src="/logos/brands/databricks.svg" alt="Databricks"><span class="cred-text"><strong>Large Language Models: Application through Production</strong> · Databricks</span></li>
+<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><strong>Building Video AI Applications at the Edge on Jetson Nano</strong> · NVIDIA Deep Learning Institute</span></li>
+<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><strong>Getting Started with AI on Jetson Nano</strong> · NVIDIA Deep Learning Institute</span></li>
 </ul>
 
 ## Recognition
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
-- **Awards:** Young Innovators Award 2021 (UK); 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
+- **Awards:** Young Innovators Award 2021 (UK); Santander Graduate Entrepreneur Award; Santander Acceleration Award; Best Industrial Product Design (Makeathon 2018, University of Bristol); Bristol Plus Award; 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
 - **Collaborations:** [Google DeepMind](https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=), [AWS](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [NVIDIA](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [MassRobotics](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), NHS, BLESMA, Help for Heroes
