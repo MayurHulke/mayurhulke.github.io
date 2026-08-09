@@ -24,7 +24,7 @@ become a single feedback loop running at the speed of physics.
 
 A few things I keep coming back to:
 
-1. **Sample efficiency.** World models earn their keep here — imagining outcomes is cheaper
+1. **Sample efficiency.** World action models earn their keep here — imagining outcomes is cheaper
    than collecting them on real hardware.
 2. **Grounding.** Vision-language-action models can map instructions to behaviour, but
    "grounding" is doing a lot of work in that sentence.

@@ -32,10 +32,10 @@ We deployed this across **60+ factory sites** for companies including **ABB**, h
 Now I'm back on the robotics side, building systems that can act on that understanding. As **Robotics Lead at [Almetra](https://www.almetra.ai/)**, I work on the **physical-intelligence layer** for real robots, especially complex manipulation tasks that need to work outside clean lab demos.
 
 {{< beat img="sketch-7-back-to-robots" side="right" alt="A robot arm on a spectrum from classical control to learned policies" >}}
-The part that still feels magical to me is robot learning: watching a robot learn a behaviour instead of hand-coding every tiny step. I've worked with classical control, like 1 kHz impedance control, and with learned approaches like **diffusion policies**, **vision-language-action models**, and **world models**. My honest view is that the best systems will probably be somewhere in the middle. Robots need learning, but they also need structure, safety, feedback, and respect for physics.
+The part that still feels magical to me is robot learning: watching a robot learn a behaviour instead of hand-coding every tiny step. I've worked with classical control, like 1 kHz impedance control, and with learned approaches like **diffusion policies**, **vision-language-action models**, and **world action models**. My honest view is that the best systems will probably be somewhere in the middle. Robots need learning, but they also need structure, safety, feedback, and respect for physics.
 {{< /beat >}}
 
-I'm especially interested in world models: the idea that real intelligence comes from understanding how the physical world behaves, not just predicting the next token. But the truth is, nobody really knows the full recipe yet. We still don't know how to deploy general-purpose robots at scale that do genuinely useful work.
+I'm especially interested in world action models: the idea that real intelligence comes from understanding how the physical world behaves, not just predicting the next token. But the truth is, nobody really knows the full recipe yet. We still don't know how to deploy general-purpose robots at scale that do genuinely useful work.
 
 That's what makes the field so exciting.
 

@@ -14,7 +14,7 @@ hideMeta: true
 - Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, side by side with our Co-founder & CTO.
 - Architecting the **perception-to-action stack**, connecting industrial video understanding to robotic planning and execution.
 - Training and deploying generalist manipulation policies on real robots in manufacturing, learned from **human demonstrations**, robot interaction data, and multimodal task context.
-- Working across **vision-language-action models**, **diffusion policies**, **world models**, and hybrid control architectures for contact-rich tasks.
+- Working across **vision-language-action models**, **diffusion policies**, **world action models**, and hybrid control architectures for contact-rich tasks.
 - Designing **object-centric, cross-embodiment** approaches meant to generalise across tasks, environments, and robot platforms.
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
