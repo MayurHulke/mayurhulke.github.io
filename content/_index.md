@@ -47,18 +47,17 @@ Right now I'm building toward that at Almetra, where I lead our collaborations w
 
 ## Fun facts
 
-Before the robots, there was water.
+I've been a student athlete my whole life. If I'm not building robots, I'm in the water.
 
 <div class="beat beat--left beat--photo">
 <div class="beat-art"><img src="/img/swimming-lane.jpg" alt="Swimming breaststroke down a competition lane" loading="lazy"></div>
 <div class="beat-text">
 <ul class="funfacts">
-<li>Swam professionally from the age of <strong>eight</strong>.</li>
-<li>Long-distance sea swims of <strong>10, 15, 20 and 30 km</strong>, in the Indian Ocean and in England, UK.</li>
+<li>Started competing at <strong>eight</strong>, and won my first gold medal the same year.</li>
+<li>Kept at it right through to finishing my Masters, picking up golds along the way, then retired from competition.</li>
 <li>Swam for my university at <strong>national level</strong>, five-plus times.</li>
-<li>Gold medals the whole way through, from age eight to masters.</li>
-<li>Recently retired from competition.</li>
-<li>Now heading down instead of across, working toward <strong>professional scuba</strong>.</li>
+<li>Long-distance sea swims of <strong>10, 15, 20 and 30 km</strong>, in the Indian Ocean and in England, UK.</li>
+<li>These days it's <strong>open water swimming</strong> and <strong>scuba</strong>, professionally.</li>
 <li>PADI certified: <strong>Open Water</strong>, <strong>Advanced Open Water</strong>, and deep and technical diving to <strong>30 m</strong>.</li>
 </ul>
 </div>
