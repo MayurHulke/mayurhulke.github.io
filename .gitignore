@@ -6,3 +6,6 @@
 # OS / editor
 .DS_Store
 *.log
+
+# Blog pulled off the site — kept locally, never pushed, never built
+/_archive/

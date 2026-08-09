@@ -22,7 +22,7 @@ params:
   # Cloudflare Web Analytics beacon token (Analytics & Logs -> Web Analytics).
   # Empty means no beacon is emitted.
   cloudflareAnalyticsToken: "36902b11a7924887b2453dce9c34d71a"
-  mainSections: ["blog", "posts"]
+  mainSections: ["posts"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -83,10 +83,6 @@ outputs:
 
 menu:
   main:
-    - identifier: blog
-      name: Blog
-      url: /blog/
-      weight: 10
     - identifier: experience
       name: My Journey
       url: /experience/
