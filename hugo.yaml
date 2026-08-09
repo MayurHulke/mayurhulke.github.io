@@ -87,10 +87,6 @@ menu:
       name: My Journey
       url: /experience/
       weight: 15
-    - identifier: notes
-      name: My Notes
-      url: "https://letstalkwithrobots.substack.com/?utm_campaign=profile_chips"
-      weight: 20
 
 markup:
   goldmark:
