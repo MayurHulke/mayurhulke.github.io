@@ -54,11 +54,12 @@ Before the robots, there was water.
 <div class="beat-text">
 <ul class="funfacts">
 <li>Swam professionally from the age of <strong>eight</strong>.</li>
-<li>Long-distance sea swims of <strong>10, 15, 20 and 30 km</strong>, in the Indian Ocean and around the UK.</li>
+<li>Long-distance sea swims of <strong>10, 15, 20 and 30 km</strong>, in the Indian Ocean and in England, UK.</li>
 <li>Swam for my university at <strong>national level</strong>, five-plus times.</li>
 <li>Gold medals the whole way through, from age eight to masters.</li>
 <li>Recently retired from competition.</li>
 <li>Now heading down instead of across, working toward <strong>professional scuba</strong>.</li>
+<li>PADI certified: <strong>Open Water</strong>, <strong>Advanced Open Water</strong>, and deep and technical diving to <strong>30 m</strong>.</li>
 </ul>
 </div>
 </div>
