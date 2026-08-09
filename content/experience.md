@@ -99,6 +99,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 *Picked up in my own time, for curiosity more than credentials.*
 
 <ul class="cred-list">
+<li><img class="cred-logo" src="/logos/brands/cambridge.png" alt="University of Cambridge"><span class="cred-text"><strong><a href="https://coursera.org/verify/specialization/JHF4402MZU0B" target="_blank" rel="noopener">The Science of Mind and Decision Making</a></strong> · University of Cambridge · 4-course specialisation · Aug 2026</span></li>
 <li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/technical-ai-safety" target="_blank" rel="noopener">Technical AI Safety</a></strong> · BlueDot Impact · fully funded</span></li>
 <li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a></strong> · BlueDot Impact · fully funded · <span class="cred-live">ongoing</span></span></li>
 <li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a></strong> · Udacity · May 2026</span></li>
