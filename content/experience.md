@@ -104,7 +104,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 - **Thesis:** an intelligent bionic leg for lower-limb amputees, built with Paralympic athletes in mind.
 - Outside the lab, I swam competitively at **national level**.
 
-![Butterfly — national-level competition](/img/swimming.jpg)
+![Butterfly at national-level competition](/img/swimming.jpg)
 {{< /event >}}
 
 </div>

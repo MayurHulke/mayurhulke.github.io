@@ -1,0 +1,61 @@
+/* ---- Variant B: four acts, one big visual each, one measure throughout ---- */
+.about .act-head {
+  display: block;
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: var(--primary);
+  margin: 2.8rem 0 0.9rem;
+}
+.about .act-head::before {
+  content: "";
+  display: block;
+  width: 34px; height: 3px;
+  background: var(--accent);
+  border-radius: 2px;
+  margin-bottom: 0.75rem;
+}
+.about h2 {
+  font-size: 1.45rem;
+  line-height: 1.25;
+  margin: 0 0 0.9rem;
+  letter-spacing: -0.015em;
+}
+/* full-measure artwork; cancels PaperMod's circular avatar rule */
+.about p > img, .about .act-art img {
+  width: 100%; max-width: 100%; height: auto;
+  display: block;
+  border-radius: 14px;
+  transform: none;
+  margin: 0 0 1.1rem;
+}
+.about .act-art--sketch img {
+  border-radius: 14px;
+  background: var(--accent-soft);
+  padding: 0.6rem 0;
+}
+.about p { max-width: 100%; margin: 0 0 0.9rem; }
+
+/* Customer logo strip inside an act */
+.about .customers {
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 0.7rem 1.3rem;
+  margin: 0.1rem 0 1.2rem;
+  padding: 0.85rem 1.05rem;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.about .customers-label {
+  font-size: 0.7em; text-transform: uppercase; letter-spacing: 0.11em;
+  color: var(--secondary); white-space: nowrap;
+}
+.about .customers-logos { display: flex; align-items: center; flex-wrap: wrap; gap: 0.9rem 1.5rem; }
+.about .customers img {
+  height: 25px; width: auto; max-width: 116px; object-fit: contain;
+  display: block; margin: 0; border-radius: 0; transform: none;
+  filter: grayscale(1); opacity: 0.72;
+  transition: filter 0.18s ease, opacity 0.18s ease;
+}
+.about .customers img:hover { filter: none; opacity: 1; }
