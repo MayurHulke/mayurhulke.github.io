@@ -59,3 +59,17 @@
   transition: filter 0.18s ease, opacity 0.18s ease;
 }
 .about .customers img:hover { filter: none; opacity: 1; }
+
+/* Call to action at the end of the story, where the reader finishes */
+.about .story-cta {
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 2.4rem 0 0.5rem;
+  padding-top: 1.8rem;
+  border-top: 1px solid var(--border);
+}
+.about .story-cta-note { font-size: 0.85em; color: var(--secondary); }
+/* PaperMod's .post-content a colour outranks .hero-btn--primary here,
+   which would paint the label the same blue as its background. */
+.about .story-cta .hero-btn--primary { color: #fff; text-decoration: none; }
+.about .story-cta .hero-btn--primary:hover { color: #fff; }

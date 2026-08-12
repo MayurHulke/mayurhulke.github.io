@@ -61,6 +61,11 @@ The part that still feels magical is robot learning: watching a robot learn a be
 
 Nobody really knows the full recipe yet. We still don't know how to deploy general-purpose robots at scale that do genuinely useful work, and that's exactly what makes it worth doing. Robots are where AI finally gets tested against reality, and the question I keep coming back to is simple: **what actually works at scale?**
 
+<div class="story-cta">
+<a class="hero-btn hero-btn--primary" href="/experience/">My Journey</a>
+<span class="story-cta-note">Every role, with dates, plus education, publication and recognition.</span>
+</div>
+
 ## Fun facts
 
 I've been a student athlete my whole life. If I'm not building robots, I'm in the water.
