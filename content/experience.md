@@ -23,7 +23,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 <div class="subprograms">
 <div class="subprogram">
-<a class="subprogram-logo-link" href="https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind"></a>
+<a class="subprogram-logo-link" href="https://deepmind.google/accelerators/robotics/" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind"></a>
 <div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Present</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Pushing VLAs beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
 </div>
 <div class="subprogram">

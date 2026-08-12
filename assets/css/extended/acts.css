@@ -42,7 +42,7 @@
   display: flex; align-items: center; flex-wrap: wrap;
   gap: 0.7rem 1.3rem;
   margin: 0.1rem 0 1.2rem;
-  padding: 0.85rem 1.05rem;
+  padding: 1.05rem 1.25rem;
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -53,7 +53,7 @@
 }
 .about .customers-logos { display: flex; align-items: center; flex-wrap: wrap; gap: 0.9rem 1.5rem; }
 .about .customers img {
-  height: 25px; width: auto; max-width: 116px; object-fit: contain;
+  height: 29px; width: auto; max-width: 132px; object-fit: contain;
   display: block; margin: 0; border-radius: 0; transform: none;
   filter: grayscale(1); opacity: 0.72;
   transition: filter 0.18s ease, opacity 0.18s ease;
@@ -64,8 +64,8 @@
 .about .story-cta {
   display: flex; align-items: center; flex-wrap: wrap;
   gap: 0.5rem 1rem;
-  margin: 2.4rem 0 0.5rem;
-  padding-top: 1.8rem;
+  margin: 3rem 0 0.5rem;
+  padding-top: 2rem;
   border-top: 1px solid var(--border);
 }
 .about .story-cta-note { font-size: 0.85em; color: var(--secondary); }
@@ -73,3 +73,59 @@
    which would paint the label the same blue as its background. */
 .about .story-cta .hero-btn--primary { color: #fff; text-decoration: none; }
 .about .story-cta .hero-btn--primary:hover { color: #fff; }
+
+/* Two photographs side by side inside an act */
+.about .photo-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+  margin: 0 0 1.1rem;
+}
+.about .photo-pair img {
+  width: 100%; height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3 / 4;
+  display: block; margin: 0;
+  border-radius: 14px; transform: none;
+}
+@media (max-width: 560px) { .about .photo-pair { grid-template-columns: 1fr; } }
+.about .photo-pair--3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 560px) { .about .photo-pair--3 { grid-template-columns: 1fr; } }
+
+/* A portrait and a landscape shot side by side. Columns are weighted to the
+   images' own aspect ratios (0.75 and 1.77) so both render at the same height
+   without either being cropped. */
+.about .photo-row { display: grid; gap: 0.6rem; margin: 0 0 1.1rem; align-items: start; }
+.about .photo-row--mixed { grid-template-columns: 0.75fr 1.77fr; }
+.about .photo-row img {
+  width: 100%; height: auto; display: block; margin: 0;
+  border-radius: 14px; transform: none;
+}
+@media (max-width: 560px) { .about .photo-row--mixed { grid-template-columns: 1fr; } }
+
+/* Looping announcement clip, standing in for a 33 MB GIF */
+.about .act-video { margin: 0 0 0.7rem; }
+.about .act-video video {
+  width: 100%; height: auto; display: block;
+  border-radius: 14px;
+}
+
+/* Mission line, set as a centred pull quote */
+.about .pullquote {
+  margin: 2.6rem auto;
+  max-width: 16ch;
+  text-align: center;
+  font-size: clamp(1.7rem, 5vw, 2.6rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--primary);
+}
+.about .pullquote::after {
+  content: "";
+  display: block;
+  width: 46px; height: 3px;
+  margin: 1.1rem auto 0;
+  border-radius: 2px;
+  background: var(--accent);
+}
