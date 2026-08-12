@@ -4,7 +4,7 @@ tagline: "Building the physical-intelligence layer for robots. 🤖"
 ---
 
 {{< beat img="sketch-1-the-spark" side="right" alt="A robot on a screen, with Rocky in the corner" >}}
-My love for robots started with movies. First *I, Robot*, then *Big Hero 6*, and later Andy Weir's *Project Hail Mary*. I read the book before the film, and yes, that little guy up in the corner is Rocky.
+My love for robots started with movies. First *I, Robot*, then *Big Hero 6*, and later Andy Weir's *Project Hail Mary*. Then I found Isaac Asimov's robot collection and read my way through it, and that shaped how I think about machines more than any film has.
 {{< /beat >}}
 
 {{< beat img="sketch-2-building-not-watching" side="left" alt="A trophy and a small wheeled robot" >}}

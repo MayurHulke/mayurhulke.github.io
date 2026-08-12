@@ -113,19 +113,17 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 
 - *Customization of a transfemoral prosthetic socket to minimize discomfort for residual-limb volume change.* IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), 2023.
 
-## Learning on the side
-
-*Picked up in my own time, for curiosity more than credentials.*
+## ☕ Just out of curiosity
 
 <ul class="cred-list">
-<li><img class="cred-logo" src="/logos/brands/cambridge.png" alt="University of Cambridge"><span class="cred-text"><strong><a href="https://coursera.org/verify/specialization/JHF4402MZU0B" target="_blank" rel="noopener">The Science of Mind and Decision Making</a></strong> · University of Cambridge · 4-course specialisation · Aug 2026</span></li>
-<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/technical-ai-safety" target="_blank" rel="noopener">Technical AI Safety</a></strong> · BlueDot Impact</span></li>
-<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><strong><a href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a></strong> · BlueDot Impact · <span class="cred-live">ongoing</span></span></li>
-<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a></strong> · Udacity · May 2026</span></li>
-<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><strong><a href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a></strong> · Udacity · Feb 2024</span></li>
-<li><img class="cred-logo" src="/logos/brands/databricks.svg" alt="Databricks"><span class="cred-text"><strong>Large Language Models: Application through Production</strong> · Databricks</span></li>
-<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><strong>Building Video AI Applications at the Edge on Jetson Nano</strong> · NVIDIA Deep Learning Institute</span></li>
-<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><strong>Getting Started with AI on Jetson Nano</strong> · NVIDIA Deep Learning Institute</span></li>
+<li><img class="cred-logo" src="/logos/brands/cambridge.png" alt="University of Cambridge"><span class="cred-text"><a class="cred-title" href="https://coursera.org/verify/specialization/JHF4402MZU0B" target="_blank" rel="noopener">The Science of Mind and Decision Making</a><span class="cred-meta">University of Cambridge · 4-course specialisation · <span class="cred-date">Aug 2026</span></span></span></li>
+<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><a class="cred-title" href="https://bluedot.org/courses/technical-ai-safety" target="_blank" rel="noopener">Technical AI Safety</a><span class="cred-meta">BlueDot Impact</span></span></li>
+<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><a class="cred-title" href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a><span class="cred-meta">BlueDot Impact<span class="cred-live">ongoing</span></span></span></li>
+<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a><span class="cred-meta">Udacity · <span class="cred-date">May 2026</span></span></span></li>
+<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a><span class="cred-meta">Udacity · <span class="cred-date">Feb 2024</span></span></span></li>
+<li><img class="cred-logo" src="/logos/brands/databricks.svg" alt="Databricks"><span class="cred-text"><span class="cred-title">Large Language Models: Application through Production</span><span class="cred-meta">Databricks</span></span></li>
+<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><span class="cred-title">Building Video AI Applications at the Edge on Jetson Nano</span><span class="cred-meta">NVIDIA Deep Learning Institute</span></span></li>
+<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><span class="cred-title">Getting Started with AI on Jetson Nano</span><span class="cred-meta">NVIDIA Deep Learning Institute</span></span></li>
 </ul>
 
 ## Recognition
