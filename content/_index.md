@@ -11,6 +11,15 @@ My love for robots came from stories, films and books all mixed together. *I, Ro
 
 At some point I stopped just watching robots on screen and started trying to build them. I got into robotics competitions pretty early and ended up winning **30+ of them at national level** 🏆. That was probably the moment I realised I'd spend my life around robots somehow.
 
+<div class="photo-grid">
+<img src="/img/robots/robot-1.jpg" alt="Cutting the chassis, sparks flying" title="Cutting the chassis, sparks flying" loading="lazy">
+<img src="/img/robots/robot-2.jpg" alt="The finished machine, flipper arm up" title="The finished machine, flipper arm up" loading="lazy">
+<img src="/img/robots/robot-3.jpg" alt="Pneumatics and wiring going in" title="Pneumatics and wiring going in" loading="lazy">
+<img src="/img/robots/robot-4.jpg" alt="Gear reduction on the drive motor" title="Gear reduction on the drive motor" loading="lazy">
+<img src="/img/robots/robot-5.jpg" alt="Drive train laid out on the base plate" title="Drive train laid out on the base plate" loading="lazy">
+<img src="/img/robots/robot-6.jpg" alt="Mid-build, in the workshop" title="Mid-build, in the workshop" loading="lazy">
+</div>
+
 <span class="act-head">Founding</span>
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
