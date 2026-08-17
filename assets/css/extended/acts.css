@@ -145,3 +145,16 @@
   border-radius: 8px; transform: none;
 }
 @media (max-width: 560px) { .about .photo-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Standout statement inside a section. Deliberately quieter than
+   .pullquote so the mission line stays the biggest moment on the page. */
+.about blockquote {
+  margin: 1.6rem 0;
+  padding: 0.15rem 0 0.15rem 1.15rem;
+  border-inline-start: 3px solid var(--accent);
+  font-size: 1.12em;
+  line-height: 1.55;
+  font-style: normal;
+  color: var(--primary);
+}
+.about blockquote p { margin: 0; }

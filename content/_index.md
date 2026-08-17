@@ -9,7 +9,7 @@ tagline: "Building the physical-intelligence layer for robots. 🤖"
 
 My love for robots came from stories, films and books all mixed together. *I, Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary*, and Isaac Asimov's robot collection, which I worked my way through. Asimov shaped how I think about machines more than any film has.
 
-At some point I stopped just watching robots on screen and started trying to build them. I got into robotics competitions pretty early and ended up winning **30+ of them at national level** 🏆. That was probably the moment I realised I'd spend my life around robots somehow.
+I stopped just watching robots on screen and started building them. I was **13**. The competitions came soon after, and once I started winning, something shifted. It went from a hobby I happened to be good at to the thing I wanted to do for the rest of my life. I ended up winning **30+ of them at national level** 🏆, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
 
 <div class="photo-grid">
 <img src="/img/robots/robot-1.jpg" alt="Cutting the chassis, sparks flying" title="Cutting the chassis, sparks flying" loading="lazy">
@@ -20,13 +20,27 @@ At some point I stopped just watching robots on screen and started trying to bui
 <img src="/img/robots/robot-6.jpg" alt="Mid-build, in the workshop" title="Mid-build, in the workshop" loading="lazy">
 </div>
 
+A robot is really three things stacked together: something mechanical that moves, electronics to drive it, and code to decide what it does. Nowhere near me taught robotics, so I worked out where I could get each piece on its own and went after them separately.
+
+I picked electronics for a simple reason. Code was free. I could learn it online, at night, on my own. Mechanics I could learn with my hands, by turning up at a workshop. Electronics was the one part that needed equipment I could never afford. An oscilloscope. A signal generator. A bench where I was allowed to break things. That kit lives inside a university, and you have to be a student to use it. So I studied the part I could not get anywhere else, and took a second degree in signals and communications alongside it.
+
+For the mechanical side I started working in garages at weekends, fixing cars and bikes. I worked for free, because what better way to learn than the real thing. You pick things up there that are not written down anywhere: how a bearing sounds before it fails, why a bolt shears where it does, how much force is actually a lot. Between the lab, the garages and whatever I could teach myself at night, I put together the degree that did not exist.
+
+The competitions were where the three came back together, and I kept entering them the whole way through.
+
+Eventually I ran out of room. I had taken what the infrastructure around me could give, and going further meant better hardware and more robots than I could get near. That is what brought me to the UK.
+
 <span class="act-head">Founding</span>
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
 
-I studied **Advanced Robotics & Artificial Intelligence** at the **University of Bristol** and spent years at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), one of the biggest robotics labs in the UK. What I wanted to build was the best intelligent bionic leg I could, for people who had lost a leg to war, to accidents, or to any other physical trauma.
+I studied **Advanced Robotics & Artificial Intelligence** at the **University of Bristol** and spent years at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), one of the biggest robotics labs in the UK. I pointed myself at AI, and robot learning in particular. Having what felt like every kind of robot under one roof meant I could finally try things that had been out of reach.
 
-Then it turned into a company. I founded **Chisel Robotics** and ran it for five years, building an **intelligent bionic leg** for people with lower-limb amputation: a socket that understands fit, gait and movement in real time, with feedback under **50 ms**. We validated it across **four NHS trials** and built performance legs for Paralympic athletes, including a **Rio Paralympic gold medallist** 🥇. It was backed by **Innovate UK**, grew out of **NHS** research partnerships, and won a place at **SETsquared**.
+What I wanted to build was the best intelligent bionic leg I could, for people who had lost a leg to war, to accidents, or to any other physical trauma.
+
+Then it turned into a company. I founded **Chisel Robotics** and ran it for five years, building an **intelligent bionic leg** for people with lower-limb amputation: a socket that understands fit, gait and movement in real time, with feedback under **50 ms**. We validated it across **four NHS trials** and built performance legs for Paralympic athletes, including a **Rio Paralympic gold medallist** 🥇. It was backed by **Innovate UK** and grew out of **NHS** research partnerships.
+
+Some of it got noticed. My MSc thesis on the leg drew more attention than I expected, and I was one of **23 people across the UK** given a **Young Innovators Award** that year. Chisel was one of three businesses taken onto [**SETsquared**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/)'s Breakthrough Bursary, and there were a couple of Santander entrepreneurship awards and a disruptive-startup finalist place along the way.
 
 That changed how I thought about robotics. The best robots don't always look like sci-fi. Sometimes they just help someone get a piece of their life back.
 
@@ -67,7 +81,7 @@ The harder part was making that hold up at scale. I ran **large-scale pre-traini
 </span>
 </div>
 
-That work helped carry Almetra from **seed stage through to its $19M Series A**, and it became the foundation the robotics programme grew out of.
+> That work helped carry Almetra from **seed stage through to its $19M Series A**, and it became the foundation the robotics programme grew out of.
 
 <span class="act-head">Physical AI</span>
 
