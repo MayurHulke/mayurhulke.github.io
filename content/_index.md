@@ -67,7 +67,7 @@ Perception has been the constant since the **TIAGo** robot at the **Bristol Robo
 
 I joined **Almetra** (previously Deltia) as a 📷 **Staff Computer Vision Engineer**, and was later promoted to 🤖 **lead robotics** and build that division from the ground up. The vision work came first, and it went to production scale. I trained **action recognition** models and a **7B vision-language model** for **spatio-temporal action segmentation**: show it a video and it breaks the work down action by action, over short and long time horizons.
 
-The harder part was making that hold up at scale. I ran **large-scale pre-training** on real production video to build a cross-customer foundation model, then **distilled** the teacher into compact **student models** small enough to run on-station. Those VLMs went into production across **hundreds of stations** and **60+ factory sites** for **ABB**, **Bosch**, **Continental**, **Thermo Fisher**, **Viessmann**, **Grundfos** and **Siemens Energy**, helping teams see patterns on the factory floor that were previously invisible.
+The harder part was making that hold up at scale. I ran **large-scale pre-training** on real production video to build a cross-customer foundation model, then **distilled** the teacher into compact **student models** small enough to run on-station. Those VLMs went into production across **hundreds of stations** and **60+ factory sites** for **ABB**, **Bosch**, **Continental**, **Thermo Fisher**, **Viessmann**, **Grundfos** and **Siemens Energy**, among others, helping teams see patterns on the factory floor that were previously invisible.
 
 <div class="customers">
 <span class="customers-label">Deployed with</span>
