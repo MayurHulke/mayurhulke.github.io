@@ -20,7 +20,7 @@ I stopped just watching robots on screen and started building them. I was **13**
 <img src="/img/robots/robot-6.jpg" alt="Mid-build, in the workshop" title="Mid-build, in the workshop" loading="lazy">
 </div>
 
-A robot is really three things stacked together: something mechanical that moves, electronics to drive it, and code to decide what it does. Nowhere near me taught robotics, so I worked out where I could get each piece on its own and went after them separately.
+A robot is really three things stacked together: something mechanical that moves, electronics to drive it, and code to decide what it does. I did not have access to a robotics degree, so I had to work out how to get each of those three another way.
 
 I picked electronics for a simple reason. Code was free. I could learn it online, at night, on my own. Mechanics I could learn with my hands, by turning up at a workshop. Electronics was the one part that needed equipment I could never afford. An oscilloscope. A signal generator. A bench where I was allowed to break things. That kit lives inside a university, and you have to be a student to use it. So I studied the part I could not get anywhere else, and took a second degree in signals and communications alongside it.
 
