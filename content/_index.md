@@ -36,11 +36,13 @@ Eventually I ran out of room. I had taken what the infrastructure around me coul
 
 I studied **Advanced Robotics & Artificial Intelligence** at the **University of Bristol** and spent years at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), one of the biggest robotics labs in the UK. I pointed myself at AI, and robot learning in particular. Having what felt like every kind of robot under one roof meant I could finally try things that had been out of reach.
 
-What I wanted to build was the best intelligent bionic leg I could, for people who had lost a leg to war, to accidents, or to any other physical trauma.
+It started as a dorm room project. I wanted to build the best intelligent bionic leg I could, for people who had lost a leg to war, to accidents, or to any other physical trauma. It grew enough that I made it my **MSc thesis**.
 
-Then it turned into a company. I founded **Chisel Robotics** and ran it for five years, building an **intelligent bionic leg** for people with lower-limb amputation: a socket that understands fit, gait and movement in real time, with feedback under **50 ms**. We validated it across **four NHS trials** and built performance legs for Paralympic athletes, including a **Rio Paralympic gold medallist** 🥇. It was backed by **Innovate UK** and grew out of **NHS** research partnerships.
+The thesis drew far more attention than I expected. People started reaching out, and it became clear the work had outgrown a degree. So I turned it into a company.
 
-Some of it got noticed. My MSc thesis on the leg drew more attention than I expected, and I was one of **23 people across the UK** given a **Young Innovators Award** that year. Chisel was one of three businesses taken onto [**SETsquared**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/)'s Breakthrough Bursary, and there were a couple of Santander entrepreneurship awards and a disruptive-startup finalist place along the way.
+I founded **Chisel Robotics** and ran it for five years, building that leg properly: a socket that understands fit, gait and movement in real time, with feedback under **50 ms**. We validated it across **four NHS trials** and built performance legs for Paralympic athletes, including a **Rio Paralympic gold medallist** 🥇. It was backed by **Innovate UK** and grew out of **NHS** research partnerships.
+
+The recognition followed. I was one of **23 people across the UK** given a **Young Innovators Award**, Chisel was one of three businesses taken onto [**SETsquared**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/)'s Breakthrough Bursary, and there were a couple of Santander entrepreneurship awards and a disruptive-startup finalist place along the way.
 
 That changed how I thought about robotics. The best robots don't always look like sci-fi. Sometimes they just help someone get a piece of their life back.
 
@@ -90,7 +92,7 @@ The harder part was making that hold up at scale. I ran **large-scale pre-traini
 <img src="/img/franka-build.jpg" alt="Working on the Franka Research 3 Duo cell" loading="lazy">
 </div>
 
-In January 2026 I was promoted to **Robotics Lead at [Almetra](https://www.almetra.ai/)** to build the robotics division from the ground up alongside our Co-founder & CTO. In practice it is a startup inside the startup: setting the research direction, choosing the stack, building the team and owning delivery. It is close to the job a founder does, on the robotics side of the company. I had done a version of it before at Chisel Robotics, which helps more than I expected.
+That move happened in January 2026. As **Robotics Lead at [Almetra](https://www.almetra.ai/)** I build the division alongside our Co-founder & CTO, and in practice it is a startup inside the startup: setting the research direction, choosing the stack, building the team and owning delivery. It is close to the job a founder does, on the robotics side of the company. I had done a version of it before at Chisel Robotics, which helps more than I expected.
 
 What I architect is the **perception-to-action stack**, turning that understanding of real manufacturing work into policies that can plan and execute physical tasks.
 
