@@ -50,9 +50,9 @@ That changed how I thought about robotics. The best robots don't always look lik
 
 Long before manufacturing, I was training and deploying computer vision at scale in places where a wrong prediction costs real money. Each time it was a different family of models.
 
-At **Q-Free** I built the perception for smart motorways: **detection, classification and multi-object tracking** of vehicles across four, six and eight-lane roads in the UK and the US, optimised to run on **NVIDIA Jetson and Xavier** at the roadside rather than in a data centre. On Xavier that held at **99.7% detection accuracy**, **93.5% mAP** and **65+ FPS**, deployed across ten roadside units.
+At **Q-Free** I built the perception for smart motorways. Not one model but several, fused into a single roadside pipeline doing **detection, classification, multi-object tracking, speed estimation and traffic-flow analysis** across four, six and eight-lane roads in the UK and the US, all of it optimised to run on **NVIDIA Jetson and Xavier** at the roadside rather than in a data centre. On Xavier that held at **99.7% detection accuracy**, **93.5% mAP** and **65+ FPS**, deployed across ten roadside units.
 
-At **BCA** I led vision for automated vehicle inspection: **damage detection**, interior classification, **segmentation and depth-based post-processing**, and a **text-to-image diffusion** pipeline that synthesised the rare damage cases real data never covered. I designed the **AWS** infrastructure that ran it in production, which cut inspection from roughly four hours to **under 90 minutes** per car and contributed to a **1.3% complaint rate**.
+At **BCA** I led vision for automated vehicle inspection, and it was the first time I trained a **domain foundation model** rather than a set of task-specific ones, in that case for vehicles: **damage detection**, interior classification, **segmentation and depth-based post-processing**, and a **text-to-image diffusion** pipeline that synthesised the rare damage cases real data never covered. I designed the **AWS** infrastructure that ran it in production, which cut inspection from roughly four hours to **under 90 minutes** per car and contributed to a **1.3% complaint rate**.
 
 Demos are easy. Systems that run every day, on real hardware, in bad weather, with nobody watching, are not. By the time I reached manufacturing I had shipped detection, tracking, segmentation and generative models into production. What came next was a genuinely different modelling problem, but the discipline of making a model survive contact with a real site was the same, and that part takes the longest to learn.
 
@@ -64,6 +64,8 @@ Demos are easy. Systems that run every day, on real hardware, in bad weather, wi
 <source src="/media/series-a.mp4" type="video/mp4">
 </video>
 </figure>
+
+I went after perception on purpose. A robot cannot act on a world it cannot read, so scene understanding is the step everything else waits on, and getting it wrong leaves even a good policy guessing.
 
 Perception has been the constant since the **TIAGo** robot at the **Bristol Robotics Laboratory**, where I wrote the object recognition and ran **SLAM**-based navigation for the European Robotics League. Manufacturing asked a harder question of it. Detection tells you what is in a frame; understanding a production line means knowing what a person is *doing*, and for how long.
 
@@ -111,7 +113,9 @@ The MassRobotics side [took me to **Boston**](https://www.linkedin.com/posts/may
 <img src="/img/event-badges.jpg" alt="Event badges from MACHINA, Google DeepMind Startup Night and RAISE Summit" loading="lazy">
 </div>
 
-The work itself is robot learning, and it is still the part that feels magical: watching a robot acquire a behaviour instead of being told every step.
+Three companies of perception work, across motorways, vehicles and factories, is what made the action side approachable.
+
+The work itself is robot learning, and it is still the part that feels magical: watching a robot acquire a behaviour instead of being told every step. Once a system can read a line reliably, the question becomes what to do with that. Can you go from pixels straight to actions in a single network, or does the answer sit somewhere in between?
 
 None of it is settled, though. General-purpose robotics is a long way off, and no single model solves every line, so I work customer by customer and test what survives contact with their process. That means pulling from frontier labs and open source alike: **manipulation policies** trained on **human demonstrations** and interaction data, **diffusion policies** for contact-rich tasks, **vision-language-action models**, **world action models**, and classical control like **high-frequency impedance control** where physics demands a guarantee rather than a learned guess. Every site has a different process and a different tolerance for failure, and most of them need handholding to get there. So far the honest answer is that the best systems sit in the middle. Robots need learning, but they also need structure, safety, feedback, and respect for physics.
 
