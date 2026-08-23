@@ -7,9 +7,9 @@ tagline: "Building the physical-intelligence layer for robots. 🤖"
 
 ![Hiro and Tadashi from Big Hero 6](/img/big-hero-six.gif)
 
-My love for robots came from stories, films and books all mixed together. *I, Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary*, and Isaac Asimov's robot collection, which I worked my way through. Asimov shaped how I think about machines more than any film has.
+My love for robots came from stories, films and books all mixed together: *I Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary*, and Isaac Asimov's robot collection, which I worked my way through. Asimov shaped how I think about machines more than any film has.
 
-I stopped just watching robots on screen and started building them. I was **13**. The competitions came soon after, and once I started winning, something shifted. It went from a hobby I happened to be good at to the thing I wanted to do for the rest of my life. I ended up winning **30+ of them at national level** 🏆, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
+Just as a hobby, I started building robots after school when I was **13**. The competitions came soon after, and once I started winning, something shifted. It went from a hobby I happened to be good at to the thing I wanted to do for the rest of my life. I ended up winning **30+ of them at national level** 🏆, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
 
 <div class="photo-grid">
 <img src="/img/robots/robot-1.jpg" alt="Cutting the chassis, sparks flying" title="Cutting the chassis, sparks flying" loading="lazy">
