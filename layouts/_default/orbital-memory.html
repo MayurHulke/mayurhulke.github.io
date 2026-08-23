@@ -1,0 +1,171 @@
+{{- define "main" }}
+<div class="orbital-memory" id="orbital-top" data-orbital-state="loading" data-orbital-chapter="destination">
+    <canvas class="om-world" id="orbital-world" aria-hidden="true"></canvas>
+
+    <div class="om-fallback" aria-hidden="true">
+        <img src="{{ "/img/research/nasa-ipex-excavator.jpg" | relURL }}" alt="">
+        <span></span>
+    </div>
+
+    <div class="om-loading" role="status" aria-live="polite">
+        <span class="om-loading__label">Forming the world</span>
+        <span class="om-loading__track"><i></i></span>
+        <span class="om-loading__value">0%</span>
+    </div>
+
+    <header class="om-nav" aria-label="Orbital Memory navigation">
+        <a class="om-brand" href="#orbital-top" aria-label="Mayur Hulke, top of Orbital Memory">
+            <span class="om-brand__mark" aria-hidden="true">MH</span>
+            <span><strong>Mayur Hulke</strong><small>Orbital Memory</small></span>
+        </a>
+        <a class="om-journey-link" href="{{ "experience/" | relURL }}">My Journey <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <aside class="om-route" aria-label="Orbital Memory chapters">
+        <div class="om-route__current"><span>01</span><i></i><b>07</b></div>
+        <ol>
+            <li data-route="destination"><a href="#destination"><span>01</span>Destination</a></li>
+            <li data-route="spark"><a href="#spark"><span>02</span>The spark</a></li>
+            <li data-route="movement"><a href="#movement"><span>03</span>Movement</a></li>
+            <li data-route="perception"><a href="#perception"><span>04</span>Perception</a></li>
+            <li data-route="embodiment"><a href="#embodiment"><span>05</span>Embodiment</a></li>
+            <li data-route="earth"><a href="#earth"><span>06</span>Earth</a></li>
+            <li data-route="beyond"><a href="#beyond"><span>07</span>Beyond</a></li>
+        </ol>
+    </aside>
+
+    <main class="om-story">
+        <section class="om-chapter om-chapter--destination" id="destination" data-chapter="destination" data-index="0" aria-labelledby="destination-title">
+            <div class="om-chapter__sticky om-chapter__sticky--hero">
+                <div class="om-copy om-copy--hero">
+                    <p class="om-eyebrow">A destination · not a claim</p>
+                    <h1 id="destination-title">Building the physical-intelligence layer for robots.</h1>
+                    <p class="om-lede">Machines that can perceive, decide and act reliably in the physical world—from Earth’s hardest worksites to infrastructure beyond it.</p>
+                </div>
+                <div class="om-horizon-note">
+                    <span>Long-term direction</span>
+                    <strong>Earth is the proving ground.<br>The Moon is the first horizon.</strong>
+                </div>
+                <div class="om-scroll-cue" aria-hidden="true"><i></i><span>Scroll to return to Earth</span></div>
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--spark" id="spark" data-chapter="spark" data-index="1" aria-labelledby="spark-title">
+            <div class="om-chapter__sticky om-chapter__sticky--spark">
+                <div class="om-copy om-copy--spark">
+                    <p class="om-eyebrow">Origin · age 13</p>
+                    <h2 id="spark-title">This story began in a workshop.</h2>
+                    <p>I started building competition robots after school, learning mechanics, electronics and code by making the machines real.</p>
+                    <p class="om-proof"><strong>30+ national-level wins</strong><span>RoboWar · Robo Soccer · Maze Solver · Mechatronics</span></p>
+                </div>
+                <p class="om-archive-note"><span>Photographic archive</span>Six machines. Sparks, steel, pneumatics and the first hard lessons in physical intelligence.</p>
+            </div>
+            <div class="om-static-media" aria-label="Childhood robotics photographic archive">
+                <img src="{{ "/img/big-hero-six.gif" | relURL }}" alt="Hiro and Tadashi building Baymax in Big Hero 6" loading="lazy">
+                <img src="{{ "/img/robots/robot-1.jpg" | relURL }}" alt="Early competition robot chassis being cut while sparks fly" loading="lazy">
+                <img src="{{ "/img/robots/robot-2.jpg" | relURL }}" alt="Completed early competition robot with a flipper arm" loading="lazy">
+                <img src="{{ "/img/robots/robot-3.jpg" | relURL }}" alt="Pneumatics and wiring being installed in a competition robot" loading="lazy">
+                <img src="{{ "/img/robots/robot-4.jpg" | relURL }}" alt="Drive motor and gear reduction for a competition robot" loading="lazy">
+                <img src="{{ "/img/robots/robot-5.jpg" | relURL }}" alt="Competition robot drive train laid out on a base plate" loading="lazy">
+                <img src="{{ "/img/robots/robot-6.jpg" | relURL }}" alt="Competition robot mid-build in the workshop" loading="lazy">
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--movement" id="movement" data-chapter="movement" data-index="2" aria-labelledby="movement-title">
+            <div class="om-chapter__sticky om-chapter__sticky--movement">
+                <div class="om-copy om-copy--movement">
+                    <p class="om-eyebrow">Movement · Chisel Robotics</p>
+                    <h2 id="movement-title">Restore movement.</h2>
+                    <p>A dorm-room bionic leg became five years of building for people who had lost a limb—and a lesson in turning research into something physical.</p>
+                    <p class="om-proof"><strong>4 NHS trials · under 50 ms feedback</strong><span>Performance legs for Paralympic athletes, including a Rio gold medallist.</span></p>
+                </div>
+            </div>
+            <div class="om-static-media om-static-media--single">
+                <img src="{{ "/img/mayur-leg.jpg" | relURL }}" alt="Mayur with the intelligent bionic leg prototype" loading="lazy">
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--perception" id="perception" data-chapter="perception" data-index="3" aria-labelledby="perception-title">
+            <div class="om-chapter__sticky om-chapter__sticky--perception">
+                <div class="om-copy om-copy--perception">
+                    <p class="om-eyebrow">Production perception</p>
+                    <h2 id="perception-title">Teach machines to see.</h2>
+                    <p>Roads, vehicles and factories forced perception to survive months of real operation—not one good demo.</p>
+                    <div class="om-evidence" aria-label="Selected production evidence">
+                        <p><strong>Roadside</strong><span>Detection, tracking, speed and traffic flow on NVIDIA edge hardware.</span></p>
+                        <p><strong>Vehicle inspection</strong><span>Approximately four hours to under 90 minutes.</span></p>
+                        <p><strong>Factory scale</strong><span>Hundreds of stations across more than 60 sites.</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="om-static-media">
+                <img src="{{ "/media/hero-poster.jpg" | relURL }}" alt="Perception programme visual" loading="lazy">
+                <img src="{{ "/media/series-a-poster.jpg" | relURL }}" alt="Almetra Series A team photograph" loading="lazy">
+                <img src="{{ "/img/mayur.png" | relURL }}" alt="Mayur working at a robotics workstation" loading="lazy">
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--embodiment" id="embodiment" data-chapter="embodiment" data-index="4" aria-labelledby="embodiment-title">
+            <div class="om-chapter__sticky om-chapter__sticky--embodiment">
+                <div class="om-copy om-copy--embodiment">
+                    <p class="om-eyebrow">From perception to action</p>
+                    <h2 id="embodiment-title">Give perception a body.</h2>
+                    <p>I built a perception-to-action stack for industrial manipulation: learning from demonstrations where it helps, classical control where physics demands guarantees.</p>
+                    <p class="om-proof"><strong>Completed customer pilot</strong><span>Franka Research 3 Duo · Universal Robots · contact-rich tasks</span><span>Google DeepMind Robotics Accelerator · MassRobotics Physical AI Fellowship</span></p>
+                </div>
+            </div>
+            <div class="om-static-media">
+                <img src="{{ "/img/franka-lab.jpg" | relURL }}" alt="Franka Research 3 Duo and Universal Robots laboratory" loading="lazy">
+                <img src="{{ "/img/franka-build.jpg" | relURL }}" alt="Mayur building the dual Franka robotic-arm cell" loading="lazy">
+                <img src="{{ "/img/deepmind-accelerator.jpg" | relURL }}" alt="Google DeepMind Robotics Accelerator cohort" loading="lazy">
+                <img src="{{ "/img/boston-booth.jpg" | relURL }}" alt="Mayur at the Physical AI Fellowship exhibition in Boston" loading="lazy">
+                <img src="{{ "/img/event-badges.jpg" | relURL }}" alt="Robotics and physical AI programme badges" loading="lazy">
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--earth" id="earth" data-chapter="earth" data-index="5" aria-labelledby="earth-title">
+            <div class="om-chapter__sticky om-chapter__sticky--earth">
+                <div class="om-copy om-copy--earth">
+                    <p class="om-eyebrow">The operating principle</p>
+                    <h2 id="earth-title">Earth is the proving ground.</h2>
+                    <p>Real customers, strict safety requirements and immediate consequences are how dependable autonomy gets built—for factories, heavy machines and difficult environments.</p>
+                    <p class="om-proof"><strong>Perceive → understand → plan → act</strong><span>The same loop connects roads, robot arms and heavy equipment.</span></p>
+                </div>
+            </div>
+            <div class="om-static-media">
+                <img src="{{ "/img/swimming.jpg" | relURL }}" alt="Mayur swimming butterfly" loading="lazy">
+                <img src="{{ "/img/swimming-lane.jpg" | relURL }}" alt="Mayur swimming in a competition lane" loading="lazy">
+                <img src="{{ "/img/diving-night.jpg" | relURL }}" alt="Night dive in open water" loading="lazy">
+                <img src="{{ "/img/diving-cave.jpg" | relURL }}" alt="Mayur surfacing with other divers inside a sea cave" loading="lazy">
+            </div>
+        </section>
+
+        <section class="om-chapter om-chapter--beyond" id="beyond" data-chapter="beyond" data-index="6" aria-labelledby="beyond-title">
+            <div class="om-chapter__sticky om-chapter__sticky--beyond">
+                <div class="om-copy om-copy--beyond">
+                    <p class="om-eyebrow">The long game</p>
+                    <h2 id="beyond-title">Build where people cannot yet safely live.</h2>
+                    <p>Before people can remain beyond Earth, machines will need to prepare landing areas, move material, assemble habitats and keep infrastructure working with limited supervision.</p>
+                    <p class="om-honesty">I am not building lunar machinery today. I am deliberately building the perception, manipulation and autonomy such machines will eventually need.</p>
+                    <a class="om-cta" href="{{ "experience/" | relURL }}">Explore the full journey <span aria-hidden="true">↗</span></a>
+                </div>
+                <p class="om-final-line">The path is long.<br>The direction is clear.</p>
+            </div>
+            <div class="om-static-media om-static-media--beyond">
+                <img src="{{ "/img/research/nasa-ipex-excavator.jpg" | relURL }}" alt="NASA lunar excavation concept" loading="lazy">
+                <img src="{{ "/img/research/nasa-armadas-lunar-construction.png" | relURL }}" alt="NASA lunar construction concept" loading="lazy">
+                <img src="{{ "/img/conference/space-conference-badge.jpg" | relURL }}" alt="" loading="lazy">
+                <img src="{{ "/img/conference/space-conference-auditorium.jpg" | relURL }}" alt="" loading="lazy">
+                <img src="{{ "/img/conference/space-conference-speaker.jpg" | relURL }}" alt="" loading="lazy">
+            </div>
+        </section>
+    </main>
+
+    <div class="om-source-note">Planetary textures and lunar construction references: NASA · external research material, not Mayur’s work.</div>
+
+    <noscript>
+        <div class="om-noscript">The complete story is shown below without its spatial layer. You can also visit <a href="{{ "experience/" | relURL }}">My Journey</a>.</div>
+    </noscript>
+</div>
+<script type="module" src="{{ "/js/orbital-memory-v0.js?v=12" | relURL }}"></script>
+{{- end }}

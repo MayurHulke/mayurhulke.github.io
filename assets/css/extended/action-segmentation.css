@@ -1,0 +1,486 @@
+/* Factory action stream to segmented timeline. This is the single signature motion
+   moment in the factory-perception chapter. */
+
+.about .action-segmentation {
+  --seg-progress: 0%;
+  --seg-part: #b44c35;
+  width: min(100%, 1000px);
+  max-width: 1000px;
+  margin: 0 auto 1.8rem;
+  padding: clamp(0.9rem, 2vw, 1.25rem);
+  overflow: hidden;
+  border: 1px solid var(--polish-line, var(--border));
+  border-radius: 16px;
+  background: var(--polish-surface, var(--entry));
+  box-shadow: var(--polish-shadow-soft, 0 12px 34px rgba(24, 67, 87, 0.08));
+}
+
+.about .action-segmentation__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+}
+
+.about .action-segmentation__kicker {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.about .action-segmentation__header h3 {
+  margin: 0;
+  color: var(--primary);
+  font-size: clamp(1.12rem, 2vw, 1.4rem);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+.about .action-segmentation__control {
+  min-width: 5.4rem;
+  min-height: 44px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  color: var(--accent);
+  background: transparent;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.about .action-segmentation__control:hover {
+  color: #fff;
+  background: var(--accent);
+}
+
+.about .action-segmentation__control:active {
+  transform: translateY(1px);
+}
+
+.about .action-segmentation__control:focus-visible,
+.about .action-segmentation__timeline-scroll:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.about .action-segmentation__stage {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  background: var(--theme);
+}
+
+.about .action-segmentation__feed-stage {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16 / 7;
+  isolation: isolate;
+  background:
+    linear-gradient(color-mix(in srgb, var(--border) 45%, transparent) 1px, transparent 1px),
+    linear-gradient(90deg, color-mix(in srgb, var(--border) 45%, transparent) 1px, transparent 1px),
+    color-mix(in srgb, var(--theme) 95%, var(--accent) 5%);
+  background-size: 44px 44px;
+}
+
+.about .action-segmentation__feed-stage::after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--theme) 6%, transparent), transparent 28%, transparent 76%, color-mix(in srgb, var(--primary) 8%, transparent));
+}
+
+.about .action-segmentation__focus-feed {
+  position: absolute;
+  z-index: 2;
+  inset: 12% 7% 9%;
+  border: 1px solid color-mix(in srgb, var(--accent) 54%, var(--border));
+  border-radius: 10px;
+  opacity: var(--feed-focus-opacity, 1);
+  background:
+    radial-gradient(circle at 50% 42%, color-mix(in srgb, var(--accent-soft) 42%, transparent), transparent 42%),
+    color-mix(in srgb, var(--theme) 88%, var(--primary) 12%);
+  box-shadow: 0 18px 45px color-mix(in srgb, var(--primary) 13%, transparent);
+  transform: scale(var(--feed-focus-scale, 1));
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+.about .action-segmentation__feed-grid {
+  position: absolute;
+  z-index: 1;
+  inset: 13% 3.5% 8%;
+  display: grid;
+  grid-template-columns: repeat(20, minmax(0, 1fr));
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+  gap: clamp(2px, 0.35vw, 5px);
+  opacity: var(--feed-grid-opacity, 0);
+  transform: scale(var(--feed-grid-scale, 1.06));
+  will-change: transform, opacity;
+}
+
+.about .action-segmentation__feed-grid > span {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--border) 78%, var(--accent) 22%);
+  border-radius: 3px;
+  background: color-mix(in srgb, var(--theme) 86%, var(--primary) 14%);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--theme) 75%, transparent);
+  transition: border-color 260ms ease, background-color 260ms ease, box-shadow 260ms ease, transform 260ms ease;
+}
+
+.about .action-segmentation__feed-grid > span::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  opacity: 0.54;
+  background: var(--seg-part);
+}
+
+.about .action-segmentation__feed-grid > span.is-selected {
+  z-index: 3;
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent-soft) 58%, var(--theme));
+  box-shadow:
+    0 0 0 2px var(--theme),
+    0 0 0 4px var(--accent),
+    0 5px 14px color-mix(in srgb, var(--accent) 28%, transparent);
+  transform: scale(1.28);
+}
+
+.about .action-segmentation__feed-scale {
+  position: absolute;
+  z-index: 5;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  min-height: 1.75rem;
+  padding: 0.38rem 0.58rem;
+  border: 1px solid color-mix(in srgb, var(--border) 74%, transparent);
+  border-radius: 6px;
+  color: var(--secondary);
+  background: color-mix(in srgb, var(--theme) 82%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-size: 0.61rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about .action-segmentation__feed {
+  position: absolute;
+  z-index: 5;
+  top: 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.75rem;
+  padding: 0.34rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.23);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 0.92);
+  background: rgba(8, 13, 17, 0.62);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  left: 0.75rem;
+  gap: 0.38rem;
+  white-space: nowrap;
+}
+
+.about .action-segmentation__feed > span {
+  width: 0.43rem;
+  height: 0.43rem;
+  border-radius: 50%;
+  background: var(--seg-part);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--seg-part) 24%, transparent);
+  animation: action-feed-live 1.35s ease-in-out infinite;
+}
+
+@keyframes action-feed-live {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+}
+
+.about .action-segmentation__model {
+  padding: clamp(0.8rem, 2vw, 1.05rem);
+}
+
+.about .action-segmentation__station {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  opacity: var(--station-detail-opacity, 0);
+  color: var(--secondary);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: opacity 240ms ease;
+}
+
+.about .action-segmentation__station strong {
+  color: var(--accent);
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
+  text-align: right;
+}
+
+@keyframes action-station-change {
+  0% {
+    opacity: 0.32;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.about .action-segmentation__model.is-changing .action-segmentation__station strong,
+.about .action-segmentation__model.is-changing .action-segmentation__timeline {
+  animation: action-station-change 420ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.about .action-segmentation__bridge {
+  display: grid;
+  grid-template-columns: auto minmax(2rem, 1fr) auto;
+  gap: 0.7rem;
+  align-items: center;
+  margin-bottom: 0.65rem;
+  color: var(--secondary);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.about .action-segmentation__bridge > span:nth-child(2) {
+  position: relative;
+  height: 1px;
+  overflow: hidden;
+  background: var(--border);
+}
+
+.about .action-segmentation__bridge > span:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: var(--seg-progress);
+  background: var(--accent);
+}
+
+.about .action-segmentation__timeline-scroll {
+  overflow-x: auto;
+  padding: 3px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border) transparent;
+}
+
+.about .action-segmentation__timeline {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--seg-columns, 1fr 1.3fr 1.8fr 1fr 2.3fr);
+  min-width: 660px;
+  min-height: 5.3rem;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--accent-soft);
+}
+
+.about .action-segmentation__playhead {
+  position: absolute;
+  z-index: 4;
+  top: 0;
+  bottom: 0;
+  left: var(--seg-progress);
+  width: 2px;
+  pointer-events: none;
+  background: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--theme) 70%, transparent);
+  transform: translateX(-1px);
+}
+
+.about .action-segmentation__playhead::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0.55rem;
+  height: 0.55rem;
+  border-radius: 50%;
+  background: var(--accent);
+  transform: translate(-50%, -34%);
+}
+
+.about .action-segmentation__segment {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: end;
+  gap: 0.14rem;
+  padding: 0.72rem 0.65rem;
+  border-inline-end: 1px solid var(--border);
+  opacity: 0.28;
+  color: var(--secondary);
+  background: var(--theme);
+  transition: opacity 260ms ease, color 260ms ease, background-color 260ms ease, box-shadow 260ms ease;
+}
+
+.about .action-segmentation__segment:last-child {
+  border-inline-end: 0;
+}
+
+.about .action-segmentation__segment::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 3px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 320ms ease;
+}
+
+.about .action-segmentation__segment.is-seen {
+  opacity: 1;
+  color: var(--primary);
+  background: color-mix(in srgb, var(--accent-soft) 62%, var(--theme));
+}
+
+.about .action-segmentation__segment.is-seen::before {
+  transform: scaleX(1);
+}
+
+.about .action-segmentation__segment.is-current {
+  color: var(--primary);
+  background: color-mix(in srgb, var(--accent) 16%, var(--theme));
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent);
+}
+
+.about .action-segmentation__segment strong {
+  overflow: hidden;
+  font-size: clamp(0.68rem, 1.6vw, 0.82rem);
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.about .action-segmentation__segment span {
+  color: var(--secondary);
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.about .action-segmentation__status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 640px) {
+  .about .action-segmentation {
+    padding: 0.75rem;
+    border-radius: 14px;
+  }
+
+  .about .action-segmentation__header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+  }
+
+  .about .action-segmentation__feed-stage {
+    aspect-ratio: 16 / 9;
+  }
+
+  .about .action-segmentation__feed {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+
+  .about .action-segmentation__bridge {
+    gap: 0.45rem;
+    font-size: 0.56rem;
+  }
+
+  .about .action-segmentation__station {
+    align-items: flex-start;
+    font-size: 0.56rem;
+  }
+
+  .about .action-segmentation__station strong {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .about .action-segmentation__header {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about .action-segmentation__control {
+    justify-self: start;
+    min-width: 5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about .action-segmentation__control,
+  .about .action-segmentation__playhead {
+    display: none;
+  }
+
+  .about .action-segmentation__feed > span {
+    animation: none;
+  }
+
+  .about .action-segmentation__segment,
+  .about .action-segmentation__segment::before,
+  .about .action-segmentation__feed-grid > span,
+  .about .action-segmentation__station {
+    transition: none;
+  }
+
+  .about .action-segmentation__model.is-changing .action-segmentation__station strong,
+  .about .action-segmentation__model.is-changing .action-segmentation__timeline {
+    animation: none;
+  }
+}

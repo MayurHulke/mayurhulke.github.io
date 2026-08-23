@@ -158,3 +158,85 @@
   color: var(--primary);
 }
 .about blockquote p { margin: 0; }
+
+/* Selected systems shipped: a compact proof strip sitting between the
+   hero and the story, in the same card/label language as .cred-list
+   and .customers so it reads as native rather than a bolted-on resume. */
+.about .systems-eyebrow {
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--secondary);
+  margin: 0 0 0.8rem;
+}
+/* Featured card: same .system-card look, just a full-width slot above
+   the 2x2 grid rather than a special/promotional treatment. */
+.about .systems-featured { margin: 0 0 0.7rem; }
+.about .systems-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.7rem;
+  margin: 0 0 2.6rem;
+}
+.about .system-card {
+  padding: 1rem 1.1rem;
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+.about .system-name {
+  display: block;
+  margin-top: 0;
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.98em;
+  margin-bottom: 0.15rem;
+}
+.about .system-attr {
+  display: block;
+  font-size: 0.74em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.about .system-card p {
+  margin: 0 0 0.6rem;
+  font-size: 0.88em;
+  line-height: 1.45;
+  color: var(--content);
+}
+.about .system-stat {
+  display: block;
+  font-size: 0.78em;
+  color: var(--secondary);
+  line-height: 1.4;
+}
+@media (max-width: 640px) {
+  .about .systems-grid { grid-template-columns: 1fr; }
+}
+
+/* Cap narrative prose to a comfortable measure. Wrapper-div media
+   (photo grids, video, logo strips, cards) is already excluded by the
+   ">p" selector; standalone markdown images render as image-only <p>
+   tags too, so explicitly opt those back out to full width. */
+.about > p, .about > blockquote {
+  max-width: 800px;
+}
+.about > p:has(> img:only-child) {
+  max-width: none;
+}
+
+/* Visible keyboard focus, matching the accent used throughout */
+.hero-btn:focus-visible,
+.social-icons a:focus-visible,
+.about a:focus-visible,
+.cred-list a:focus-visible,
+#theme-toggle:focus-visible,
+#top-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

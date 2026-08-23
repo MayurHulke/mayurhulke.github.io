@@ -1,0 +1,393 @@
+/*
+ * Original homepage polish — v0
+ *
+ * A deliberately isolated, removable layer over the established homepage.
+ * It preserves all content and routes while tightening hierarchy, measure,
+ * spacing and media treatment. Orbital Memory has its own selectors and is
+ * unaffected by this file.
+ */
+
+:root {
+  --polish-surface: rgba(255, 255, 255, 0.58);
+  --polish-surface-strong: rgba(255, 255, 255, 0.78);
+  --polish-line: rgba(44, 125, 160, 0.18);
+  --polish-shadow: 0 24px 70px rgba(24, 67, 87, 0.13);
+  --polish-shadow-soft: 0 12px 34px rgba(24, 67, 87, 0.08);
+}
+
+:root[data-theme="dark"] {
+  --polish-surface: rgba(255, 255, 255, 0.045);
+  --polish-surface-strong: rgba(255, 255, 255, 0.07);
+  --polish-line: rgba(93, 171, 204, 0.22);
+  --polish-shadow: 0 28px 76px rgba(0, 0, 0, 0.34);
+  --polish-shadow-soft: 0 14px 38px rgba(0, 0, 0, 0.22);
+}
+
+body:has(.profile) > .header {
+  position: sticky;
+  z-index: 50;
+  top: 0;
+  border-bottom: 1px solid transparent;
+  background: color-mix(in srgb, var(--theme) 84%, transparent);
+  backdrop-filter: blur(18px) saturate(130%);
+  -webkit-backdrop-filter: blur(18px) saturate(130%);
+}
+
+.main:has(.profile) {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.profile .profile_inner {
+  max-width: 1120px;
+  padding-inline: clamp(1rem, 3vw, 2rem);
+}
+
+.hero {
+  grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.98fr);
+  align-items: center;
+  gap: clamp(2.5rem, 6vw, 5rem);
+  min-height: min(720px, calc(100svh - 82px));
+  padding-block: clamp(2rem, 5vh, 4.5rem);
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-kicker {
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.025em;
+}
+
+.hero-tagline {
+  max-width: 13ch;
+  margin-bottom: 1.15rem;
+  font-size: clamp(2.65rem, 5.25vw, 4.45rem);
+  line-height: 1.01;
+  letter-spacing: -0.048em;
+  text-wrap: balance;
+}
+
+.hero-sub {
+  max-width: 54ch;
+  margin-bottom: 1.35rem;
+}
+
+.hero-sub p {
+  margin-bottom: 0.72rem;
+  font-size: clamp(1rem, 1.5vw, 1.08rem);
+  line-height: 1.62;
+  text-wrap: pretty;
+}
+
+.hero-sub p:last-child {
+  max-width: 49ch;
+  padding-top: 0.2rem;
+  color: var(--primary);
+}
+
+.hero-photo {
+  width: 100%;
+}
+
+.hero-photo img {
+  border: 1px solid var(--polish-line);
+  border-radius: 16px;
+  box-shadow: var(--polish-shadow);
+}
+
+.hero-programmes {
+  margin-block: 1.4rem 1.25rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid var(--polish-line);
+}
+
+.hero-programmes-label {
+  margin-bottom: 0.7rem;
+  font-size: 0.67rem;
+  letter-spacing: 0.12em;
+}
+
+.hero-programmes-logos {
+  gap: 1.15rem;
+  padding: 0.62rem 0.9rem;
+  border-color: var(--polish-line);
+  border-radius: 9px;
+  box-shadow: 0 8px 24px rgba(24, 67, 87, 0.05);
+}
+
+.hero-cta {
+  margin-block: 1rem 0.75rem;
+}
+
+.hero-btn {
+  min-height: 44px;
+  padding-inline: 1.4rem;
+  box-shadow: 0 8px 22px rgba(44, 125, 160, 0.16);
+}
+
+.about {
+  margin-top: clamp(1.5rem, 4vw, 3.5rem);
+  padding-top: clamp(2rem, 4vw, 3.25rem);
+  border-top-color: var(--polish-line);
+}
+
+.about > p,
+.about > blockquote,
+.about > .act-head {
+  width: min(100%, 780px);
+  max-width: 780px;
+  margin-inline: auto;
+}
+
+.about > p {
+  margin-bottom: 1.08rem;
+  font-size: clamp(1rem, 1.35vw, 1.08rem);
+  line-height: 1.76;
+  text-wrap: pretty;
+}
+
+.about .systems-eyebrow {
+  width: 100%;
+  margin-bottom: 1rem;
+  font-size: 0.74rem;
+  letter-spacing: 0.13em;
+}
+
+.about .systems-featured {
+  margin-bottom: 0.8rem;
+}
+
+.about .systems-grid {
+  gap: 0.8rem;
+  margin-bottom: clamp(3.5rem, 7vw, 5.5rem);
+}
+
+.about .system-card {
+  padding: clamp(1.15rem, 2.5vw, 1.55rem);
+  border-color: var(--polish-line);
+  border-radius: 14px;
+  background: var(--polish-surface);
+  box-shadow: var(--polish-shadow-soft);
+}
+
+.about .systems-grid .system-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.about .system-name {
+  margin-bottom: 0.25rem;
+  font-size: clamp(1rem, 1.6vw, 1.12rem);
+  letter-spacing: -0.015em;
+}
+
+.about .system-attr {
+  margin-bottom: 0.72rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.075em;
+}
+
+.about .system-card p {
+  margin-bottom: 0.85rem;
+  font-size: 0.91rem;
+  line-height: 1.58;
+  text-wrap: pretty;
+}
+
+.about .system-stat {
+  margin-top: auto;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--polish-line);
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+.about .systems-featured .system-card {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.72fr) minmax(0, 1.28fr);
+  grid-template-areas:
+    "name copy"
+    "attr stat";
+  column-gap: clamp(1.5rem, 4vw, 3.5rem);
+  align-items: start;
+}
+
+.about .systems-featured .system-name { grid-area: name; }
+.about .systems-featured .system-attr { grid-area: attr; margin-bottom: 0; }
+.about .systems-featured p { grid-area: copy; }
+.about .systems-featured .system-stat { grid-area: stat; }
+
+.about .act-head {
+  margin-top: clamp(4.25rem, 9vw, 7rem);
+  margin-bottom: 1.3rem;
+  font-size: clamp(0.92rem, 1.45vw, 1.05rem);
+  letter-spacing: 0.14em;
+}
+
+.about .act-head::before {
+  width: 44px;
+  height: 2px;
+  margin-bottom: 0.9rem;
+}
+
+.about > p:has(> img:only-child),
+.about .photo-grid,
+.about .photo-pair,
+.about .photo-row,
+.about .act-video,
+.about .customers,
+.about .autonomy-pathway,
+.about .beat {
+  width: min(100%, 1000px);
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+.about p > img,
+.about .photo-pair img,
+.about .photo-row img,
+.about .act-video video {
+  border-radius: 16px;
+  box-shadow: var(--polish-shadow-soft);
+}
+
+.about p > img {
+  margin-block: 1.25rem 1.65rem;
+}
+
+.about .photo-grid,
+.about .photo-pair,
+.about .photo-row {
+  gap: clamp(0.55rem, 1.2vw, 0.85rem);
+  margin-bottom: 1.6rem;
+}
+
+.about .photo-grid img {
+  border-radius: 10px;
+}
+
+.about .customers {
+  margin-top: 1.4rem;
+  margin-bottom: 1.7rem;
+  padding: 1.15rem 1.35rem;
+  border-color: var(--polish-line);
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(24, 67, 87, 0.05);
+}
+
+.about blockquote {
+  margin-block: 2rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--polish-line);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: 0 12px 12px 0;
+  background: var(--polish-surface);
+}
+
+.about .autonomy-pathway {
+  margin-block: 1.7rem 2rem;
+  border-color: var(--polish-line);
+  background: var(--polish-surface);
+  box-shadow: var(--polish-shadow-soft);
+}
+
+.about .pullquote {
+  margin-block: clamp(3rem, 6vw, 4.5rem) clamp(2rem, 4vw, 3rem);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .about .system-card {
+    transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+  }
+
+  .about .system-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+    box-shadow: var(--polish-shadow);
+  }
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.8rem;
+    min-height: 0;
+    padding-block: 1rem 2.5rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 720px;
+    margin-inline: auto;
+  }
+
+  .hero-photo {
+    order: -1;
+    width: min(100%, 680px);
+    margin-inline: auto;
+  }
+
+  .hero-tagline,
+  .hero-sub,
+  .hero-sub p:last-child {
+    max-width: none;
+  }
+
+  .hero-programmes-logos {
+    margin-inline: auto;
+  }
+
+  .hero-cta,
+  .hero-text .social-icons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 680px) {
+  body:has(.profile) > .header {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .profile .profile_inner {
+    padding-inline: 1rem;
+  }
+
+  .hero {
+    padding-top: 0.5rem;
+  }
+
+  .hero-tagline {
+    font-size: clamp(2.25rem, 10.5vw, 3.35rem);
+  }
+
+  .hero-programmes-logos {
+    width: 100%;
+  }
+
+  .about .systems-featured .system-card {
+    display: flex;
+  }
+
+  .about .systems-featured .system-attr {
+    margin-bottom: 0.72rem;
+  }
+
+  .about .act-head {
+    margin-top: 4.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about .system-card {
+    transition: none;
+  }
+}
+
+.about [id] {
+  scroll-margin-top: 5.5rem;
+}

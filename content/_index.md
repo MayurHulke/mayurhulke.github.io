@@ -1,15 +1,61 @@
 ---
-kicker: "Hi, I'm Mayur 👋"
 tagline: "Building the physical-intelligence layer for robots. 🤖"
+description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
+hero_sub: |
+  I started building competition robots at 13, years before I had access to formal robotics education.
+
+  What pulled me in was a childhood idea: one day, machines would go where humans could not, and help build the infrastructure that allows us to follow.
+
+  That idea still shapes the work I choose today: perception that survives real deployments, robotic arms that learn physical tasks, and autonomy for heavy machines.
+
+  **Earth is the proving ground. The long-term goal is infrastructure beyond it.**
 ---
 
-<span class="act-head">Beginnings</span>
+<h2 class="systems-eyebrow">Selected systems built & deployed</h2>
 
-![Hiro and Tadashi from Big Hero 6](/img/big-hero-six.gif)
+<div class="systems-featured">
+<div class="system-card">
+<h3 class="system-name"><span aria-hidden="true">🦾</span> Industrial robotic manipulation</h3>
+<span class="system-attr">Built & led · Almetra Robotics</span>
+<p>A perception-to-action stack for industrial manipulation across Franka Research 3 Duo and Universal Robots arms, learning from human demonstrations and robot-interaction data while combining diffusion policies with classical control for contact-rich tasks.</p>
+<span class="system-stat">Completed customer pilot · Franka Research 3 Duo · Universal Robots</span>
+</div>
+</div>
 
-My love for robots came from stories, films and books all mixed together: *I Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary*, and Isaac Asimov's robot collection, which I worked my way through. Asimov shaped how I think about machines more than any film has.
+<div class="systems-grid">
+<div class="system-card">
+<h3 class="system-name"><span aria-hidden="true">🏭</span> Factory-scale action segmentation</h3>
+<span class="system-attr">Pre-trained & distilled · Almetra</span>
+<p>Vision-language foundation models were trained for spatio-temporal action segmentation, then used as teachers for compact student models deployed on-station.</p>
+<span class="system-stat">10,000 video-hours/day captured, processed and stored · Hundreds of stations · 60+ factory sites</span>
+</div>
+<div class="system-card">
+<h3 class="system-name"><span aria-hidden="true">🛣️</span> Non-intrusive roadside perception</h3>
+<span class="system-attr">Built & deployed · Q-Free</span>
+<p>An offline, camera-based edge system that recovered traffic counts, vehicle classes, speeds and flow across multiple lanes and changing weather.</p>
+<span class="system-stat">99.7% detection accuracy · 93.5% mAP · 65+ FPS · 10 units deployed across the UK and US</span>
+</div>
+<div class="system-card">
+<h3 class="system-name"><span aria-hidden="true">🚗</span> 3D vehicle perception & inspection</h3>
+<span class="system-attr">Built & deployed · BCA</span>
+<p>A production vision stack for remote vehicle buying: scene transformation, reflection handling, 360° capture, multi-view 3D reconstruction and fine-grained cosmetic-damage detection.</p>
+<span class="system-stat">Inspection time: ~4 hours → under 90 minutes · Production complaint rate: 1.3%</span>
+</div>
+<div class="system-card">
+<h3 class="system-name"><span aria-hidden="true">🦿</span> Adaptive powered bionic leg</h3>
+<span class="system-attr">Founded & led · Chisel Robotics</span>
+<p>A fully actuated lower-limb prosthesis using multimodal sensing and machine learning to personalise gait and adapt to changes in the user and walking surface.</p>
+<span class="system-stat">Under 50 ms closed-loop feedback · 4 NHS trials · Performance legs for a Rio Paralympic gold medallist <span aria-hidden="true">🥇</span></span>
+</div>
+</div>
 
-Just as a hobby, I started building robots after school when I was **13**. The competitions came soon after, and once I started winning, something shifted. It went from a hobby I happened to be good at to the thing I wanted to do for the rest of my life. I ended up winning **30+ of them at national level** 🏆, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
+<h2 class="act-head" id="origins">Beginnings <span aria-hidden="true">🛠️</span></h2>
+
+![Baymax hugging Hiro in Big Hero 6](/img/baymax-hug.webp)
+
+I got into robotics mainly through movies and books: *I, Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary* and, especially, Isaac Asimov's robot stories.
+
+I started building robots after school, just as a hobby. Once I began entering competitions, it became the thing I wanted to keep doing: **30+ wins** 🏆, including national-level events, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
 
 <div class="photo-grid">
 <img src="/img/robots/robot-1.jpg" alt="Cutting the chassis, sparks flying" title="Cutting the chassis, sparks flying" loading="lazy">
@@ -20,54 +66,113 @@ Just as a hobby, I started building robots after school when I was **13**. The c
 <img src="/img/robots/robot-6.jpg" alt="Mid-build, in the workshop" title="Mid-build, in the workshop" loading="lazy">
 </div>
 
-A robot is really three things stacked together: something mechanical that moves, electronics to drive it, and code to decide what it does. I did not have access to a robotics degree, so I had to work out how to get each of those three another way.
+The way I saw it, a robot was three things stacked together: mechanics, electronics and code. There was no robotics degree available to me, so I assembled an informal one. I learned code through free online courses, mechanics through books and a summer spent fixing cars and bikes with local garage owners, and electronics through the university lab attached to my degree in electronics and communications.
 
-I picked electronics for a simple reason. Code was free, and I could learn it online at night. Mechanics I was not sure where to learn, so it mostly started with books, and MIT and other open courses on Coursera, YouTube and wherever else I could find them. The one part I could not get around was the equipment, and having access to a university electronics lab was a big enabler, since setting one up yourself is expensive, and you have to be enrolled to use one. I studied that, and took a second degree in signals and communications alongside it.
+To take that interest further, I moved to the UK.
 
-Later, over summer breaks, I took on a side gig with local garage owners, fixing cars and bikes. I did it for free, because what better way to learn than the real thing. You learn things there that are not written down anywhere: how a bearing sounds before it fails, why a bolt shears where it does, how much force is actually a lot. Between the lab, the garages and whatever else I taught myself, I put together the degree that did not exist.
-
-The competitions were where the three came back together, and I kept entering them the whole way through.
-
-Eventually I ran out of room. I had taken what the infrastructure around me could give, and going further meant better hardware and more robots than I could get near. That is what brought me to the UK.
-
-<span class="act-head">Founder</span>
+<h2 class="act-head" id="chisel">Founding Chisel Robotics <span aria-hidden="true">🦿</span></h2>
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
 
-I studied **Advanced Robotics & Artificial Intelligence** at the **University of Bristol** and spent years at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), one of the biggest robotics labs in the UK. I pointed myself at AI, and robot learning in particular. Having what felt like every kind of robot under one roof meant I could finally try things that had been out of reach.
+I studied **Advanced Robotics & Artificial Intelligence** at the **University of Bristol** and spent several years at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), focusing on AI and robot learning.
 
-It started as a dorm room project. I wanted to build the best intelligent bionic leg I could, for people who had lost a leg to war, to accidents, or to any other physical trauma. It grew enough that I made it my **MSc thesis**.
+It started as a dorm-room project: an intelligent bionic leg for people who had lost a limb through war, accidents or other physical trauma. It became my MSc thesis, drew more interest than I expected and eventually became a company.
 
-The thesis drew far more attention than I expected. People started reaching out, and it became clear the work had outgrown a degree. So I turned it into a company.
+> **The person should not continually adapt to a static machine. The machine should learn to adapt to the person.**
 
-I founded **Chisel Robotics** and ran it for five years, building that leg properly: a socket that understands fit, gait and movement in real time, with feedback under **50 ms**. We validated it across **four NHS trials** and built performance legs for Paralympic athletes, including a **Rio Paralympic gold medallist** 🥇. It was backed by **Innovate UK** and grew out of **NHS** research partnerships.
+The leg was fully actuated. Its control stack combined multimodal sensor data, machine learning and real-time feedback to personalise gait and adjust assistance to the surface underfoot. Human bodies do not remain fixed. Weight, strength and gait can change, so the goal was an adaptive system that could keep learning from the person wearing it.
 
-The recognition followed. I was one of **23 people across the UK** given a **Young Innovators Award**, Chisel was one of three businesses taken onto [**SETsquared**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/)'s Breakthrough Bursary, and there were a couple of Santander entrepreneurship awards and a disruptive-startup finalist place along the way.
+The NHS trials were both evaluation and data collection. They helped us study how the user, machine and environment changed together, and gave the adaptive controller real-world data rather than only laboratory assumptions.
 
-<span class="act-head">Production</span>
+The ambition was to make this capability more accessible than premium powered systems, not simply to build a sophisticated prototype.
 
-After closing that chapter as a startup founder in the medical sector, I went after perception on purpose, this time in production rather than research. A robot cannot act on a world it cannot read, so scene understanding is the step everything else waits on, and getting it wrong leaves even a good policy guessing.
+I founded **Chisel Robotics** and led its development for five years, backed by **Innovate UK** and grown out of **NHS** research partnerships.
 
-I had already had a taste of it at the **Bristol Robotics Laboratory**, writing object recognition and running **SLAM**-based navigation for the **TIAGo** robot in the European Robotics League. What came next was the same problem for real, and each job put a different family of models somewhere a wrong prediction cost real money.
+Along the way, the work received a **Young Innovators Award**, one of 23 given across the UK, and a place on [**SETsquared's Breakthrough Bursary**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/).
 
-At **Q-Free** I built the perception for smart motorways. Not one model but several, fused into a single roadside pipeline doing **detection, classification, multi-object tracking, speed estimation and traffic-flow analysis** across four, six and eight-lane roads in the UK and the US, all of it optimised to run on **NVIDIA Jetson and Xavier** at the roadside rather than in a data centre. On Xavier that held at **99.7% detection accuracy**, **93.5% mAP** and **65+ FPS**, deployed across ten roadside units.
+<h2 class="act-head" id="perception">Production perception</h2>
 
-At **BCA** I led vision for automated vehicle inspection, and it was the first time I trained a **domain foundation model** rather than a set of task-specific ones, in that case for vehicles: **damage detection**, interior classification, **segmentation and depth-based post-processing**, and a **text-to-image diffusion** pipeline that synthesised the rare damage cases real data never covered. I designed the **AWS** infrastructure that ran it in production, which cut inspection from roughly four hours to **under 90 minutes** per car and contributed to a **1.3% complaint rate**.
+While Chisel continued, my day-to-day engineering work moved from medical robotics into production perception.
 
-Demos are easy. Systems that run every day, on real hardware, in bad weather, with nobody watching, are not. By the time I reached manufacturing I had shipped detection, tracking, segmentation and generative models into production, and it still asked a harder question of all of it: detection tells you what is in a frame, but understanding a production line means knowing what a person is *doing*, and for how long. That is a genuinely different modelling problem, but the discipline of making a model survive contact with a real site was the same, and that part takes the longest to learn.
+At the **Bristol Robotics Laboratory**, I had worked on object recognition and **SLAM**-based navigation for the **TIAGo** robot in the European Robotics League. The next roles put similar ideas under commercial constraints, where errors carried operational cost.
 
-<span class="act-head">Foundation Model</span>
+Q-Free hired me directly from university to explore a non-intrusive alternative to conventional traffic monitoring. Traditional classification sites often use [**piezoelectric axle sensors and inductive loops**](https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-collection.cfm) cut into the pavement. They are mature and accurate, but installing or maintaining them requires roadworks and lane closures.
 
-<figure class="act-video">
-<video autoplay loop muted playsinline preload="metadata" poster="/media/series-a-poster.jpg" aria-label="Almetra raises its Series A">
-<source src="/media/series-a.webm" type="video/webm">
-<source src="/media/series-a.mp4" type="video/mp4">
-</video>
+The question was whether a camera and roughly **£1,000 of edge hardware** could recover the useful traffic information without digging into the road. I built an offline roadside pipeline for vehicle detection, classification, tracking, lane localisation, speed estimation and traffic-flow analysis, running locally on **NVIDIA Jetson Nano and Xavier** rather than depending on a data centre.
+
+One camera had to cover two, four or eight lanes and continue working through rain, cloud, glare and changing light. The resulting system was deployed in the **UK and US**. For me, it was an early lesson in a core autonomy constraint: perception has to work locally, continuously and affordably in an uncontrolled physical environment.
+
+During COVID, [**BCA moved its vehicle sales online**](https://www.bca.co.uk/news/latest-update-from-bca-ragrding-covid-19-20200408/). Buyers could no longer rely on walking around a car before making a decision, so each vehicle's digital representation had to carry much more of the trust once created in person.
+
+I worked on the production vision behind that experience, processing **millions of vehicle images**. The work included scene understanding and generative image transformation: standardising or replacing backgrounds and ground planes, handling difficult reflections, and producing consistent exterior views. For more immersive inspection, I explored interior **360° capture** and multi-view **3D reconstruction** using photogrammetry, **NeRFs** and **3D Gaussian splatting**.
+
+The same stack also had to understand vehicle condition. Models detected and segmented fine cosmetic damage across exterior bodywork and interior surfaces, including seats and steering wheels, reducing inspection work that had previously taken hours. I also used text-to-image diffusion to generate rare training cases, with the production systems running on **AWS**.
+
+Although the application was vehicle retail, the work developed a capability robotics depends on: turning incomplete, reflective and inconsistent visual observations into a structured, trustworthy representation of a physical asset. Before a machine can plan or act, it has to understand what is actually in front of it.
+
+<h2 class="act-head">Factory-scale perception</h2>
+
+<figure class="action-segmentation" data-action-segmentation aria-labelledby="action-segmentation-title">
+<figcaption class="action-segmentation__header">
+<div>
+<span class="action-segmentation__kicker">Illustrative example · Factory streams at scale</span>
+<h3 id="action-segmentation-title">From one live feed to hundreds of action timelines.</h3>
+</div>
+<button class="action-segmentation__control" type="button" data-action-control aria-controls="action-segmentation-stage">Play</button>
+</figcaption>
+
+<div class="action-segmentation__stage" id="action-segmentation-stage">
+<div class="action-segmentation__feed-stage" role="img" aria-label="An illustration of one live factory feed zooming out into a wall of many live feeds, then sampling different stations">
+<div class="action-segmentation__feed-grid" data-feed-grid aria-hidden="true"></div>
+<div class="action-segmentation__focus-feed" data-focus-feed aria-hidden="true"></div>
+<span class="action-segmentation__feed"><span aria-hidden="true"></span> Live factory feed</span>
+<span class="action-segmentation__feed-scale" data-feed-scale aria-hidden="true">One live feed</span>
+</div>
+
+<div class="action-segmentation__model">
+<div class="action-segmentation__station" data-station-context>
+<span>Selected stream</span>
+<strong><span data-station-id>Station 014</span><span aria-hidden="true"> · </span><span data-station-task>Assembly</span></strong>
+</div>
+
+<div class="action-segmentation__bridge" aria-hidden="true">
+<span>Continuous frames</span>
+<span></span>
+<span>Action boundaries</span>
+</div>
+
+<div class="action-segmentation__timeline-scroll" data-action-timeline tabindex="0" role="img" aria-label="An illustrative assembly-station timeline dividing continuous factory video into five variable-length actions">
+<div class="action-segmentation__timeline">
+<span class="action-segmentation__playhead" aria-hidden="true"></span>
+<div class="action-segmentation__segment" data-action-segment data-start="0" data-end="0.14"><strong>Pick red part</strong><span>seconds</span></div>
+<div class="action-segmentation__segment" data-action-segment data-start="0.14" data-end="0.32"><strong>Insert component</strong><span>seconds</span></div>
+<div class="action-segmentation__segment" data-action-segment data-start="0.32" data-end="0.57"><strong>Assemble</strong><span>variable</span></div>
+<div class="action-segmentation__segment" data-action-segment data-start="0.57" data-end="0.70"><strong>Pull lever</strong><span>seconds</span></div>
+<div class="action-segmentation__segment" data-action-segment data-start="0.70" data-end="1"><strong>Wait for material</strong><span>minutes</span></div>
+</div>
+</div>
+
+</div>
+</div>
+
+<span class="action-segmentation__status" data-action-status aria-live="polite">Ready to play illustrative action segmentation.</span>
 </figure>
 
-I carried that discipline into **Almetra** (previously Deltia), joining as a 📷 **Staff Computer Vision Engineer**, and was later promoted to 🤖 **lead robotics** and build that division from the ground up. The vision work came first, and it went to production scale. I trained **action recognition** models and a **7B vision-language model** for **spatio-temporal action segmentation**: show it a video and it breaks the work down action by action, over short and long time horizons.
+My Q-Free and BCA work had largely used task-specific perception models. Almetra had a similar starting point: train a separate **YOLO model for each production station**. That works for one camera and one task. It is not sustainable when a single customer can have hundreds of stations, each with different products, tools, layouts and workflows.
 
-The harder part was making that hold up at scale. I ran **large-scale pre-training** on real production video to build a cross-customer foundation model, then **distilled** the teacher into compact **student models** small enough to run on-station. Those VLMs went into production across **hundreds of stations** and **60+ factory sites** for **ABB**, **Bosch**, **Continental**, **Thermo Fisher**, **Viessmann**, **Grundfos** and **Siemens Energy**, among others, helping teams see patterns on the factory floor that were previously invisible.
+Almetra hired me as a 📷 **Staff Computer Vision Engineer** to work on a different question: could a foundation model take raw production video and return a structured timeline of the work?
+
+The output needed to be more than objects detected frame by frame. It had to identify actions such as picking up a red part, inserting a component, pulling a lever, assembling a sub-part or waiting for material, then mark when each action began and ended. Some actions lasted two seconds. Others continued for one, two or five minutes.
+
+This was **spatio-temporal action segmentation** on long, untrimmed video. A person might perform 10, 20 or 50 actions to complete one product, mixed with pauses, occlusion, rework and movements unrelated to the task. The model had to understand both the individual actions and how they formed a complete workflow.
+
+A model does not inherently know a customer's **standard operating procedure**, or whether a step adds value to the product. Those meanings had to be grounded in process documentation, station context, production outcomes and a customer-specific action vocabulary. Human work is not performed like a script: operators pause, reach for tools differently, repeat steps, improvise, correct mistakes and develop personal habits. The difficult part was separating acceptable variation from rework, waiting, activity unrelated to the task and genuine SOP deviation, without forcing every unfamiliar motion into the nearest known action.
+
+Across customer deployments, **10,000 hours of video were captured, processed and stored every day**. I ran **large-scale pre-training** to build cross-customer **vision-language foundation models**, then used them as teachers for models tailored to individual deployments.
+
+I distilled those teachers into compact **student models** small enough to run on-station. Their action timelines made cycle times, waiting, rework and bottlenecks measurable. Instead of relying only on occasional pen-and-paper time studies, production teams could examine work continuously across many lines and use that evidence to improve individual stations.
+
+The same data helped identify which actions were worth automating. Frequency, cycle time and bottleneck cost provided a better starting point than choosing tasks simply because a robot could perform them.
 
 <div class="customers">
 <span class="customers-label">Deployed with</span>
@@ -81,62 +186,90 @@ The harder part was making that hold up at scale. I ran **large-scale pre-traini
 </span>
 </div>
 
-> That work helped carry Almetra from **seed stage through to its $19M Series A**, and it became the foundation the robotics programme grew out of.
+> Almetra grew from seed stage to a [**$19M Series A**](https://www.almetra.ai/blog/series-a-announcement-19m) during this period. The perception work helped scale the product and contributed to that growth. It also created the data and operational understanding for a robotics programme.
 
-<span class="act-head">Physical AI</span>
+<h2 class="act-head" id="manipulation">From perception to action</h2>
 
-<div class="photo-row photo-row--mixed">
-<img src="/img/franka-lab.jpg" alt="Our Franka Research 3 Duo and Universal Robots cell at Almetra" loading="lazy">
-<img src="/img/franka-build.jpg" alt="Working on the Franka Research 3 Duo cell" loading="lazy">
+![Working on the Franka Research 3 Duo cell at Almetra](/img/franka-build.jpg)
+
+Building on that foundation, I moved into the **Robotics Lead role at [Almetra](https://www.almetra.ai/)** in January 2026. I was given the opportunity to build the robotics division from the ground up alongside Almetra's co-founder and CTO, drawing on what I had learned at Chisel Robotics.
+
+I led work on the **perception-to-action stack**, running pilots on production lines with a robot in the loop. We completed one customer pilot; the work remains confidential.
+
+<div class="autonomy-pathway autonomy-pathway--almetra" role="group" aria-labelledby="autonomy-pathway-title">
+<div class="autonomy-pathway__header">
+<div>
+<span class="autonomy-pathway__kicker">Almetra · vision to robotics</span>
+<h3 id="autonomy-pathway-title">From perception to physical action</h3>
+</div>
+<p class="autonomy-pathway__summary">Factory perception showed which work steps mattered operationally. The robotics programme used that evidence to choose where demonstration learning and robot control might create real value.</p>
+</div>
+<ol class="autonomy-pathway__steps">
+<li class="autonomy-pathway__step"><span class="autonomy-pathway__number">01</span><span class="autonomy-pathway__label">Perceive</span><span class="autonomy-pathway__detail">Capture continuous, camera-only video of human work across production stations.</span></li>
+<li class="autonomy-pathway__step"><span class="autonomy-pathway__number">02</span><span class="autonomy-pathway__label">Understand</span><span class="autonomy-pathway__detail">Temporally segment messy video into semantic work-step tokens: what happened, when and for how long.</span></li>
+<li class="autonomy-pathway__step"><span class="autonomy-pathway__number">03</span><span class="autonomy-pathway__label">Plan</span><span class="autonomy-pathway__detail">Prioritise valuable actions using unit economics, then turn selected demonstrations into robot skill plans.</span></li>
+<li class="autonomy-pathway__step"><span class="autonomy-pathway__number">04</span><span class="autonomy-pathway__label">Act</span><span class="autonomy-pathway__detail">Execute on the Franka Research 3 Duo and UR16e, combining learned policies with classical control.</span></li>
+</ol>
 </div>
 
-That move happened in January 2026. As **Robotics Lead at [Almetra](https://www.almetra.ai/)** I build the division alongside our Co-founder & CTO, and in practice it is a startup inside the startup: setting the research direction, choosing the stack, building the team and owning delivery. It is close to the job a founder does, on the robotics side of the company. I had done a version of it before at Chisel Robotics, which helps more than I expected.
+General-purpose robotics is still a long way off, so I worked customer by customer: learning from human demonstrations, using diffusion policies for contact-rich tasks and retaining classical control where predictability mattered. The useful systems usually combined learning with structure and safety.
 
-What I architect is the **perception-to-action stack**, turning that understanding of real manufacturing work into policies that can plan and execute physical tasks.
+After years of research and prototypes, I am less interested in whether a robot can perform a task once and more interested in what lets it repeat that task across customers, hardware, operators, edge cases and months of production. Manufacturing makes the question concrete: a system either improves the work enough to justify its cost, or it does not.
 
-Two programmes took that work further. Google DeepMind selected **15 early-stage companies from 10 European countries** for the inaugural cohort of its [**Gemini Robotics Accelerator**](https://deepmind.google/accelerators/robotics/), running June to September 2026. **MassRobotics** took **9 startups** into the 2026 [**Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/) with **AWS** and **NVIDIA**. I lead the technical work on both.
+<p class="pullquote">What does it take for robotics to work at scale?</p>
 
-Through the accelerator I have had the chance to run the **Gemini Robotics** family on our own hardware: **Gemini Robotics-ER** for embodied reasoning and planning, the **vision-language-action** model for control, and the **on-device** model for the cases where latency or a dropped network makes a round trip to the cloud unsafe.
+That gap, from a one-off result to a dependable deployment, is the problem I am most curious about.
+
+<h2 class="act-head">Selected accelerator programmes</h2>
+
+Two accelerator programmes helped us test the work beyond our own lab. Through Google DeepMind's [**Gemini Robotics Accelerator**](https://deepmind.google/accelerators/robotics/), I ran the Gemini Robotics family on our hardware, from **Gemini Robotics-ER** for planning to an **on-device model** for lower-latency control.
 
 ![At the Google DeepMind Accelerator, alongside the Head of Robotics at Google DeepMind](/img/deepmind-accelerator.jpg)
 
-Working directly with the robotics teams at **Google DeepMind**, **AWS**, **NVIDIA** and **MassRobotics** was never about the badge. The point was getting pilots onto real production lines, at customers I already knew from the vision side: same sites, same processes, same people on the floor, now with a robot in the loop. One of those pilots has now run through to completion, with a customer I am not able to name.
-
-The MassRobotics side [took me to **Boston**](https://www.linkedin.com/posts/mayurhulke_hosting-the-second-cohort-of-the-physical-activity-7467688506698473472-Uk7T), touring the incubator and representing the company at the **Robotics Summit & Expo**.
+The 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), supported by **AWS** and **NVIDIA**, took the work to Boston and the **Robotics Summit & Expo**. I led our technical participation in both programmes.
 
 <div class="photo-pair">
 <img src="/img/boston-booth.jpg" alt="At our stand during the Physical AI Fellowship, Robotics Summit and Expo, Boston" loading="lazy">
 <img src="/img/event-badges.jpg" alt="Event badges from MACHINA, Google DeepMind Startup Night and RAISE Summit" loading="lazy">
 </div>
 
-Three companies of perception work, across motorways, vehicles and factories, is what made the action side approachable.
+<h2 class="act-head" id="long-game">The long game <span aria-hidden="true">🌕</span></h2>
 
-The work itself is robot learning, and it is still the part that feels magical: watching a robot acquire a behaviour instead of being told every step. Once a system can read a line reliably, the question becomes what to do with that. Can you go from pixels straight to actions in a single network, or does the answer sit somewhere in between?
+This is the bit where I tend to nerd out.
 
-None of it is settled, though. General-purpose robotics is a long way off, and no single model solves every line, so I work customer by customer and test what survives contact with their process. That means pulling from frontier labs and open source alike: **manipulation policies** trained on **human demonstrations** and interaction data, **diffusion policies** for contact-rich tasks, **vision-language-action models**, **world action models**, and classical control like **high-frequency impedance control** where physics demands a guarantee rather than a learned guess. Every customer runs a little differently, with their own tolerance for failure, and most of them need handholding to get there. So far the honest answer is that the best systems sit in the middle. Robots need learning, but they also need structure, safety, feedback, and respect for physics.
+Ever since I was a kid, I have kept coming back to the same question: if people are going to live on the Moon one day, who builds everything before they get there?
 
-I chose manufacturing because the economics are legible. A line has a known cost per hour and a known cycle time, so a robot either pays for itself in the customer's own numbers or it does not. No market forecast required, which is a rare luxury in robotics and the reason I would rather prove this on a production line than in a demo video.
+Someone, or more likely some machine, will have to prepare landing areas, move regolith, build roads and protective berms, assemble habitats, connect power and communications, and fix things when they break. It is hard to imagine astronauts doing all of that in pressure suits, one careful shift at a time. I suspect a lot of it will be done by excavators, haulers, mobile robots and robotic arms that can keep working when no crew is around.
 
-A demo proves a robot can do a thing once, on a good day, with someone watching. Production means it runs for months on a line that does not stop for a dropped frame or a slow policy. That recipe has not been written yet, and closing that gap is the work I care about.
+It sounds a little like science fiction, but these are already serious engineering problems. NASA's [Moon to Mars Architecture](https://www.nasa.gov/moontomarsarchitecture-components/) includes autonomous systems designed to assist crews and operate during uncrewed periods. Its [lunar-technology programme](https://www.nasa.gov/lunar-surface-technology/) includes robotic excavation, regolith transport, structural assembly and autonomous construction. [ESA has also studied lunar construction](https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/3D_printing_our_way_to_the_Moon) using 3D printing and material found on the lunar surface.
 
-<p class="pullquote">What actually works at scale?</p>
+I wish I could say I was building interplanetary robots today. Unfortunately, we are still a long way from that. For now, the useful problems in front of us are the best testbeds we have. I am working on the practical building blocks those future machines may eventually need: perception, manipulation and autonomy that still work when the environment gets messy.
 
-If it does not hold at scale, it does not matter. That is why I do this on real production lines rather than in a lab.
+That is why I am drawn to real-world robotics, whether it is a factory system, an industrial arm or a heavy-duty mobile machine. Production perception asks whether a machine can understand what people and equipment are doing. Industrial manipulation asks whether a robotic arm can grasp, assemble and recover when things do not go perfectly. Heavy-machine autonomy asks whether a vehicle can move, excavate and transport material through a large, unstructured site.
 
-## Fun facts
+These problems matter now. They come with real customers, measurable economics and immediate consequences when something fails. They are also a pretty good place to learn what dependable autonomy actually takes.
 
-I've been a student athlete my whole life. If I'm not building robots, I'm in the water.
+Motorways, vehicle inspection, factory video, industrial robot arms and heavy machinery can look like a slightly random career from the outside. In my head, they have always been versions of the same puzzle: how do you help a machine understand the physical world, make a useful decision and then do something reliably?
 
-<div class="beat beat--left beat--photo">
-<div class="beat-art"><img src="/img/swimming-lane.jpg" alt="Swimming breaststroke down a competition lane" loading="lazy"></div>
-<div class="beat-text">
-<ul class="funfacts">
-<li>Started competing at <strong>eight</strong>, and somehow won a gold that first year 🥇.</li>
-<li>Kept at it until I finished my Masters, picking up a few more along the way, then retired.</li>
-<li>Swam for my university at <strong>national level</strong> a handful of times.</li>
-<li>Long sea swims of <strong>10, 15, 20 and 30 km</strong> 🏊, in the Indian Ocean and off England.</li>
-<li>These days it's open water swimming 🌊 and scuba 🤿, and I'm working toward the professional side of diving.</li>
-<li>PADI certified to <strong>30 m</strong>: Open Water, Advanced Open Water, and deep and technical diving.</li>
-</ul>
+I would love to spend my career getting better at that puzzle and, one day, help build the machines that prepare the first bits of infrastructure before people arrive on the Moon. It is a very long game, but honestly, that is part of the fun.
+
+<h2 class="act-head">Outside robotics <span aria-hidden="true">🌊</span></h2>
+
+I've been a student-athlete my whole life, and I really enjoy swimming.
+
+<div class="outside-story">
+<figure class="outside-story__swim">
+<img src="/img/swimming-lane.jpg" alt="Swimming breaststroke down a competition lane" loading="lazy">
+</figure>
+<div class="outside-story__side">
+<div class="outside-story__notes">
+<p>I started competing at <strong>eight</strong> and continued through school, my Bachelor's and Master's, representing my universities and winning multiple championships.</p>
+<p>I also completed <strong>10, 15, 20 and 30 km</strong> sea swims in the Indian Ocean and off the English coast.</p>
+<p>These days, I mostly swim in open water and scuba dive. Diving has also sparked a real interest in deep-ocean exploration. I am PADI certified to <strong>30 m</strong> and working towards professional diving qualifications.</p>
+</div>
+<div class="outside-story__dives">
+<img src="/img/diving-night.jpg" alt="Night dive with a group, torches lighting the reef" loading="lazy">
+<img src="/img/diving-cave.jpg" alt="Surfacing inside a sea cave with fellow divers" loading="lazy">
+</div>
 </div>
 </div>

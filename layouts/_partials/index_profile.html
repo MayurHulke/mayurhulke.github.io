@@ -6,19 +6,27 @@
             <div class="hero-text">
                 {{- with $.Params.kicker }}<p class="hero-kicker">{{ . }}</p>{{- end }}
                 {{- with $.Params.tagline }}<h1 class="hero-tagline">{{ . }}</h1>{{- end }}
-                {{- with $.Params.hero_sub }}<p class="hero-sub">{{ . | markdownify }}</p>{{- end }}
+                {{- with $.Params.hero_sub }}<div class="hero-sub">{{ . | markdownify }}</div>{{- end }}
 
-                <div class="hero-collab">
-                    <span class="hero-collab-label">In collaboration with</span>
-                    {{- $accel := "https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=" }}
-                    {{- $gemini := "https://deepmind.google/models/gemini-robotics/accelerator/" }}
-                    {{- $fellow := "https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" }}
-                    <div class="hero-collab-logos">
-                        <a href="{{ $gemini }}" target="_blank" rel="noopener" aria-label="Google"><img src="{{ "/logos/brands/google-g.webp" | relURL }}" alt="Google"></a>
-                        <a href="{{ $accel }}" target="_blank" rel="noopener" aria-label="Google DeepMind"><img src="{{ "/logos/brands/deepmind.svg" | relURL }}" alt="Google DeepMind"></a>
-                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="AWS"><img src="{{ "/logos/brands/aws.png" | relURL }}" alt="AWS"></a>
-                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="NVIDIA"><img src="{{ "/logos/brands/nvidia.svg" | relURL }}" alt="NVIDIA"></a>
-                        <a href="{{ $fellow }}" target="_blank" rel="noopener" aria-label="MassRobotics"><img class="sq" src="{{ "/logos/brands/massrobotics.jpeg" | relURL }}" alt="MassRobotics"></a>
+                {{- $fellowship := "https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" }}
+                <div class="hero-programmes">
+                    <span class="hero-programmes-label">Selected robotics programmes</span>
+                    <div class="hero-programmes-logos">
+                        <a href="https://startup.google.com/" target="_blank" rel="noopener noreferrer" aria-label="Google for Startups">
+                            <img src="{{ "/logos/brands/google-g.webp" | relURL }}" alt="" loading="lazy">
+                        </a>
+                        <a href="https://deepmind.google/accelerators/robotics/" target="_blank" rel="noopener noreferrer" aria-label="Google DeepMind Gemini Robotics Accelerator">
+                            <img src="{{ "/logos/brands/deepmind.svg" | relURL }}" alt="" loading="lazy">
+                        </a>
+                        <a href="{{ $fellowship }}" target="_blank" rel="noopener noreferrer" aria-label="MassRobotics Physical AI Fellowship">
+                            <img class="sq" src="{{ "/logos/brands/massrobotics.jpeg" | relURL }}" alt="" loading="lazy">
+                        </a>
+                        <a href="{{ $fellowship }}" target="_blank" rel="noopener noreferrer" aria-label="AWS · Physical AI Fellowship">
+                            <img src="{{ "/logos/brands/aws.png" | relURL }}" alt="" loading="lazy">
+                        </a>
+                        <a href="{{ $fellowship }}" target="_blank" rel="noopener noreferrer" aria-label="NVIDIA · Physical AI Fellowship">
+                            <img src="{{ "/logos/brands/nvidia.svg" | relURL }}" alt="" loading="lazy">
+                        </a>
                     </div>
                 </div>
 
@@ -61,6 +69,7 @@
             </div>
             {{- end }}
         </section>
+
 
         {{- if $.Content }}
         <section class="about">
