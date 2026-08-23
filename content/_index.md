@@ -239,6 +239,11 @@ When I first heard about NASA's [**Artemis programme**](https://www.nasa.gov/fea
 
 And if we are going back, the question that keeps pulling me towards robotics is: who builds everything before the crews arrive?
 
+<div class="photo-pair space-conference-photos">
+<img src="/img/space-conference/ukseds-2024-badge.jpg" alt="UKSEDS National Student Space Conference 2024 programme and Mayur Hulke attendee badge" width="865" height="1080" loading="lazy" decoding="async">
+<img src="/img/space-conference/ukseds-2024-auditorium.jpg" alt="Audience inside the University of Bristol auditorium during the UKSEDS National Student Space Conference 2024" width="868" height="1080" loading="lazy" decoding="async">
+</div>
+
 Someone, or more likely some machine, will have to prepare landing areas, move regolith, build roads and protective berms, assemble habitats, connect power and communications, and fix things when they break. It is hard to imagine astronauts doing all of that in pressure suits, one careful shift at a time. I suspect a lot of it will be done by excavators, haulers, mobile robots and robotic arms that can keep working when no crew is around.
 
 It sounds a little like science fiction, but these are already serious engineering problems. NASA's [Moon to Mars Architecture](https://www.nasa.gov/moontomarsarchitecture-components/) includes autonomous systems designed to assist crews and operate during uncrewed periods. Its [lunar-technology programme](https://www.nasa.gov/lunar-surface-technology/) includes robotic excavation, regolith transport, structural assembly and autonomous construction. [ESA has also studied lunar construction](https://www.esa.int/Enabling_Support/Preparing_for_the_Future/Discovery_and_Preparation/3D_printing_our_way_to_the_Moon) using 3D printing and material found on the lunar surface.
