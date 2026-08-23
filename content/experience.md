@@ -10,7 +10,7 @@ hideMeta: true
 
 <div class="timeline">
 
-{{< event date="Jan 2026 – Present" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" current="true" logo="/logos/brands/almetra.svg" >}}
+{{< event date="Jan 2026 – Aug 2026" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
 - Building [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, side by side with our Co-founder & CTO.
 - Architecting the **perception-to-action stack**, connecting industrial video understanding to robotic planning and execution.
 - Training and deploying generalist manipulation policies on real robots in manufacturing, learned from **human demonstrations**, robot interaction data, and multimodal task context.
@@ -19,7 +19,7 @@ hideMeta: true
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
 
-In this role, Almetra (previously Deltia) was selected for two programs I lead the technical work on:
+In this role, Almetra (previously Deltia) was selected for two programs I led the technical work on:
 
 <div class="subprograms">
 <div class="subprogram">
