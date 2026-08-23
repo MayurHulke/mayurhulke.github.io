@@ -47,8 +47,8 @@ body:has(.profile) > .header {
   grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.98fr);
   align-items: center;
   gap: clamp(2.5rem, 6vw, 5rem);
-  min-height: min(720px, calc(100svh - 82px));
-  padding-block: clamp(2rem, 5vh, 4.5rem);
+  min-height: auto;
+  padding-block: clamp(1.5rem, 3vh, 2.75rem);
 }
 
 .hero-text {
@@ -129,8 +129,8 @@ body:has(.profile) > .header {
 }
 
 .about {
-  margin-top: clamp(1.5rem, 4vw, 3.5rem);
-  padding-top: clamp(2rem, 4vw, 3.25rem);
+  margin-top: clamp(0.75rem, 1.5vw, 1.25rem);
+  padding-top: clamp(1.25rem, 2vw, 1.75rem);
   border-top-color: var(--polish-line);
 }
 
@@ -162,7 +162,7 @@ body:has(.profile) > .header {
 
 .about .systems-grid {
   gap: 0.8rem;
-  margin-bottom: clamp(3.5rem, 7vw, 5.5rem);
+  margin-bottom: clamp(2.25rem, 3vw, 3rem);
 }
 
 .about .system-card {
@@ -222,7 +222,7 @@ body:has(.profile) > .header {
 .about .systems-featured .system-stat { grid-area: stat; }
 
 .about .act-head {
-  margin-top: clamp(4.25rem, 9vw, 7rem);
+  margin-top: clamp(2.75rem, 4vw, 4rem);
   margin-bottom: 1.3rem;
   font-size: clamp(0.92rem, 1.45vw, 1.05rem);
   letter-spacing: 0.14em;
@@ -378,7 +378,7 @@ body:has(.profile) > .header {
   }
 
   .about .act-head {
-    margin-top: 4.5rem;
+    margin-top: 3.25rem;
   }
 }
 
