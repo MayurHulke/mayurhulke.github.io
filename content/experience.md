@@ -122,8 +122,6 @@ In this role, Almetra (previously Deltia) was selected for two programs I lead t
 <li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a><span class="cred-meta">Udacity · <span class="cred-date">May 2026</span></span></span></li>
 <li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a><span class="cred-meta">Udacity · <span class="cred-date">Feb 2024</span></span></span></li>
 <li><img class="cred-logo" src="/logos/brands/databricks.svg" alt="Databricks"><span class="cred-text"><span class="cred-title">Large Language Models: Application through Production</span><span class="cred-meta">Databricks</span></span></li>
-<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><span class="cred-title">Building Video AI Applications at the Edge on Jetson Nano</span><span class="cred-meta">NVIDIA Deep Learning Institute</span></span></li>
-<li><img class="cred-logo" src="/logos/brands/nvidia.svg" alt="NVIDIA"><span class="cred-text"><span class="cred-title">Getting Started with AI on Jetson Nano</span><span class="cred-meta">NVIDIA Deep Learning Institute</span></span></li>
 </ul>
 
 ## Recognition
