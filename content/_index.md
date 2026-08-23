@@ -30,7 +30,7 @@ The competitions were where the three came back together, and I kept entering th
 
 Eventually I ran out of room. I had taken what the infrastructure around me could give, and going further meant better hardware and more robots than I could get near. That is what brought me to the UK.
 
-<span class="act-head">Founding</span>
+<span class="act-head">Founder</span>
 
 ![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
 
@@ -44,19 +44,19 @@ I founded **Chisel Robotics** and ran it for five years, building that leg prope
 
 The recognition followed. I was one of **23 people across the UK** given a **Young Innovators Award**, Chisel was one of three businesses taken onto [**SETsquared**](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/)'s Breakthrough Bursary, and there were a couple of Santander entrepreneurship awards and a disruptive-startup finalist place along the way.
 
-That changed how I thought about robotics. The best robots don't always look like sci-fi. Sometimes they just help someone get a piece of their life back.
-
 <span class="act-head">Production</span>
 
-Long before manufacturing, I was training and deploying computer vision at scale in places where a wrong prediction costs real money. Each time it was a different family of models.
+After closing that chapter as a startup founder in the medical sector, I went after perception on purpose, this time in production rather than research. A robot cannot act on a world it cannot read, so scene understanding is the step everything else waits on, and getting it wrong leaves even a good policy guessing.
+
+I had already had a taste of it at the **Bristol Robotics Laboratory**, writing object recognition and running **SLAM**-based navigation for the **TIAGo** robot in the European Robotics League. What came next was the same problem for real, and each job put a different family of models somewhere a wrong prediction cost real money.
 
 At **Q-Free** I built the perception for smart motorways. Not one model but several, fused into a single roadside pipeline doing **detection, classification, multi-object tracking, speed estimation and traffic-flow analysis** across four, six and eight-lane roads in the UK and the US, all of it optimised to run on **NVIDIA Jetson and Xavier** at the roadside rather than in a data centre. On Xavier that held at **99.7% detection accuracy**, **93.5% mAP** and **65+ FPS**, deployed across ten roadside units.
 
 At **BCA** I led vision for automated vehicle inspection, and it was the first time I trained a **domain foundation model** rather than a set of task-specific ones, in that case for vehicles: **damage detection**, interior classification, **segmentation and depth-based post-processing**, and a **text-to-image diffusion** pipeline that synthesised the rare damage cases real data never covered. I designed the **AWS** infrastructure that ran it in production, which cut inspection from roughly four hours to **under 90 minutes** per car and contributed to a **1.3% complaint rate**.
 
-Demos are easy. Systems that run every day, on real hardware, in bad weather, with nobody watching, are not. By the time I reached manufacturing I had shipped detection, tracking, segmentation and generative models into production. What came next was a genuinely different modelling problem, but the discipline of making a model survive contact with a real site was the same, and that part takes the longest to learn.
+Demos are easy. Systems that run every day, on real hardware, in bad weather, with nobody watching, are not. By the time I reached manufacturing I had shipped detection, tracking, segmentation and generative models into production. Manufacturing asked a harder question of it: detection tells you what is in a frame, but understanding a production line means knowing what a person is *doing*, and for how long. That is a genuinely different modelling problem, but the discipline of making a model survive contact with a real site was the same, and that part takes the longest to learn.
 
-<span class="act-head">Perception</span>
+<span class="act-head">Foundation Model</span>
 
 <figure class="act-video">
 <video autoplay loop muted playsinline preload="metadata" poster="/media/series-a-poster.jpg" aria-label="Almetra raises its Series A">
@@ -65,11 +65,7 @@ Demos are easy. Systems that run every day, on real hardware, in bad weather, wi
 </video>
 </figure>
 
-I went after perception on purpose. A robot cannot act on a world it cannot read, so scene understanding is the step everything else waits on, and getting it wrong leaves even a good policy guessing.
-
-Perception has been the constant since the **TIAGo** robot at the **Bristol Robotics Laboratory**, where I wrote the object recognition and ran **SLAM**-based navigation for the European Robotics League. Manufacturing asked a harder question of it. Detection tells you what is in a frame; understanding a production line means knowing what a person is *doing*, and for how long.
-
-I joined **Almetra** (previously Deltia) as a 📷 **Staff Computer Vision Engineer**, and was later promoted to 🤖 **lead robotics** and build that division from the ground up. The vision work came first, and it went to production scale. I trained **action recognition** models and a **7B vision-language model** for **spatio-temporal action segmentation**: show it a video and it breaks the work down action by action, over short and long time horizons.
+I carried that discipline into **Almetra** (previously Deltia), joining as a 📷 **Staff Computer Vision Engineer**, and was later promoted to 🤖 **lead robotics** and build that division from the ground up. The vision work came first, and it went to production scale. I trained **action recognition** models and a **7B vision-language model** for **spatio-temporal action segmentation**: show it a video and it breaks the work down action by action, over short and long time horizons.
 
 The harder part was making that hold up at scale. I ran **large-scale pre-training** on real production video to build a cross-customer foundation model, then **distilled** the teacher into compact **student models** small enough to run on-station. Those VLMs went into production across **hundreds of stations** and **60+ factory sites** for **ABB**, **Bosch**, **Continental**, **Thermo Fisher**, **Viessmann**, **Grundfos** and **Siemens Energy**, among others, helping teams see patterns on the factory floor that were previously invisible.
 
