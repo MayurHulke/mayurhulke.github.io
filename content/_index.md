@@ -3,7 +3,7 @@ tagline: "Building the physical-intelligence layer for robots. 🤖"
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
-<h2 class="systems-eyebrow">Selected systems built & deployed</h2>
+<h2 class="systems-eyebrow">So far, I've deployed</h2>
 
 <div class="systems-featured">
 <div class="system-card">
