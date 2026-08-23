@@ -233,7 +233,11 @@ Through the 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobot
 
 This is the bit where I tend to nerd out.
 
-Ever since I was a kid, I have kept coming back to the same question: if people are going to live on the Moon one day, who builds everything before they get there?
+Ever since I was a kid, I have been fascinated by whether we will ever become a species that lives beyond one planet. We had already reached the Moon, and it genuinely bothered me that no one had [returned to the surface since Apollo 17](https://www.nasa.gov/mission/apollo-17/). Blame the films and books, but I always hoped we would.
+
+When I first heard about NASA's [**Artemis programme**](https://www.nasa.gov/feature/artemis-/), that old hope came back. The goal of returning astronauts to the Moon and working towards a long-term presence made the whole thing feel possible again. One way or another, I truly believe we will get back out there.
+
+And if we are going back, the question that keeps pulling me towards robotics is: who builds everything before the crews arrive?
 
 Someone, or more likely some machine, will have to prepare landing areas, move regolith, build roads and protective berms, assemble habitats, connect power and communications, and fix things when they break. It is hard to imagine astronauts doing all of that in pressure suits, one careful shift at a time. I suspect a lot of it will be done by excavators, haulers, mobile robots and robotic arms that can keep working when no crew is around.
 
