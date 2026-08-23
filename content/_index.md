@@ -160,7 +160,9 @@ Although the application was vehicle retail, the work developed a capability rob
 
 My Q-Free and BCA work had largely used task-specific perception models. Almetra had a similar starting point: train a separate **YOLO model for each production station**. That works for one camera and one task. It is not sustainable when a single customer can have hundreds of stations, each with different products, tools, layouts and workflows.
 
-Almetra hired me as a 📷 **Staff Computer Vision Engineer** to work on a different question: could a foundation model take raw production video and return a structured timeline of the work?
+Almetra hired me as a 📷 **Staff Computer Vision Engineer** to explore a different question.
+
+> **Could a foundation model take raw production video and return a structured timeline of the work?**
 
 The output needed to be more than objects detected frame by frame. It had to identify actions such as picking up a red part, inserting a component, pulling a lever, assembling a sub-part or waiting for material, then mark when each action began and ended. Some actions lasted two seconds. Others continued for one, two or five minutes.
 
