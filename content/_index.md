@@ -216,11 +216,13 @@ That gap, from a one-off result to a dependable deployment, is the problem I am 
 
 <h2 class="act-head">Selected accelerator programmes</h2>
 
-Two accelerator programmes helped us test the work beyond our own lab. Through Google DeepMind's [**Gemini Robotics Accelerator**](https://deepmind.google/accelerators/robotics/), I ran the Gemini Robotics family on our hardware, from **Gemini Robotics-ER** for planning to an **on-device model** for lower-latency control.
+Two accelerator programmes helped us test the work beyond our own lab. As Robotics Lead at Almetra, I led the technical collaboration across both programmes.
+
+Through Google DeepMind's [**Gemini Robotics Accelerator**](https://deepmind.google/accelerators/robotics/), I collaborated with the Google DeepMind robotics team and ran the Gemini Robotics family on our hardware, from **Gemini Robotics-ER** for planning to an **on-device model** for lower-latency control.
 
 ![At the Google DeepMind Accelerator, alongside the Head of Robotics at Google DeepMind](/img/deepmind-accelerator.jpg)
 
-The 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), supported by **AWS** and **NVIDIA**, took the work to Boston and the **Robotics Summit & Expo**. I led our technical participation in both programmes.
+Through the 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), I worked with the **AWS** and **NVIDIA** robotics teams. The programme took our work to Boston and the **Robotics Summit & Expo**.
 
 <div class="photo-pair">
 <img src="/img/boston-booth.jpg" alt="At our stand during the Physical AI Fellowship, Robotics Summit and Expo, Boston" loading="lazy">

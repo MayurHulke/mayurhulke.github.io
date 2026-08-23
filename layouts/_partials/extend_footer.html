@@ -8,11 +8,6 @@
     if (n.nodeType === 3) link.removeChild(n);
   });
 
-  // Below ~480px the reserved wordmark width was
-  // wide enough to push "My Journey" onto its own line in the header.
-  // Icon-only mobile logo instead: skip the wordmark, keep just the character.
-  if (window.matchMedia('(max-width: 480px)').matches) return;
-
   var wrap = document.createElement('span');
   wrap.className = 'logo-typing';
   var txt = document.createElement('span');

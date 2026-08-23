@@ -34,3 +34,43 @@
 @media (prefers-reduced-motion: reduce) {
   .logo-caret { animation: none; }
 }
+
+/* Keep the complete Groot signature visible on phones without forcing the
+   navigation onto a second row. */
+@media (max-width: 480px) {
+  .header-nav {
+    flex-wrap: nowrap;
+    column-gap: 0.5rem;
+  }
+
+  .logo {
+    min-width: 0;
+    flex-wrap: nowrap;
+    column-gap: 0.35rem;
+  }
+
+  .logo a {
+    flex-shrink: 0;
+    column-gap: 0.25rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.045em;
+  }
+
+  .logo a img[aria-label="logo"] {
+    height: 30px;
+    margin-right: 0;
+  }
+
+  .logo-typing {
+    min-width: 6.3ch;
+  }
+
+  .logo-switches {
+    flex-wrap: nowrap;
+    gap: 0.1rem;
+  }
+
+  .menu {
+    flex-shrink: 0;
+  }
+}
