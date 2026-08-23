@@ -1,14 +1,6 @@
 ---
 tagline: "Building the physical-intelligence layer for robots. 🤖"
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
-hero_sub: |
-  I started building competition robots at 13, years before I had access to formal robotics education.
-
-  What pulled me in was a childhood idea: one day, machines would go where humans could not, and help build the infrastructure that allows us to follow.
-
-  That idea still shapes the work I choose today: perception that survives real deployments, robotic arms that learn physical tasks, and autonomy for heavy machines.
-
-  **Earth is the proving ground. The long-term goal is infrastructure beyond it.**
 ---
 
 <h2 class="systems-eyebrow">Selected systems built & deployed</h2>
