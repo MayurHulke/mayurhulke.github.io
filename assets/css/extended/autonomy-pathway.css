@@ -1,0 +1,220 @@
+/* Production perception-to-action pathway. Kept independent from the archived
+   journey prototype so the homepage component always ships with its styles. */
+
+.about .autonomy-pathway {
+  margin: 1.35rem auto 1.5rem;
+  padding: clamp(1rem, 2vw, 1.35rem);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--accent-soft);
+}
+
+.about .autonomy-pathway__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+}
+
+.about .autonomy-pathway__kicker {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--accent);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.about .autonomy-pathway h3 {
+  margin: 0;
+  color: var(--primary);
+  font-size: clamp(1.1rem, 2vw, 1.35rem);
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.about .autonomy-pathway__summary {
+  max-width: 28ch;
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: right;
+}
+
+.about .autonomy-pathway__steps {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--border);
+}
+
+.about .autonomy-pathway__step {
+  --flow-step: 0;
+  position: relative;
+  min-width: 0;
+  margin: 0;
+  padding: 0.9rem;
+  background: var(--theme);
+}
+
+.about .autonomy-pathway__step:nth-child(2) { --flow-step: 1; }
+.about .autonomy-pathway__step:nth-child(3) { --flow-step: 2; }
+.about .autonomy-pathway__step:nth-child(4) { --flow-step: 3; }
+
+.about .autonomy-pathway__step::before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 2px;
+  opacity: 0;
+  background: linear-gradient(90deg, transparent, var(--accent) 24%, var(--accent) 76%, transparent);
+  transform: scaleX(0.15);
+}
+
+.about .autonomy-pathway__step:not(:last-child)::after {
+  content: "→";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: -0.52rem;
+  width: 1rem;
+  color: var(--accent);
+  background: var(--theme);
+  font-size: 0.78rem;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.about .autonomy-pathway__number,
+.about .autonomy-pathway__label,
+.about .autonomy-pathway__detail {
+  display: block;
+}
+
+.about .autonomy-pathway__number {
+  margin-bottom: 0.55rem;
+  color: var(--accent);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.about .autonomy-pathway__label {
+  margin-bottom: 0.3rem;
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.about .autonomy-pathway__detail {
+  color: var(--secondary);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step,
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step::before,
+.about .autonomy-pathway.is-flowing .autonomy-pathway__number,
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step:not(:last-child)::after {
+  animation-duration: 8s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: calc(var(--flow-step) * 2s);
+}
+
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step {
+  animation-name: pathway-step-focus;
+}
+
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step::before {
+  animation-name: pathway-signal;
+}
+
+.about .autonomy-pathway.is-flowing .autonomy-pathway__number {
+  animation-name: pathway-number-focus;
+}
+
+.about .autonomy-pathway.is-flowing .autonomy-pathway__step:not(:last-child)::after {
+  animation-name: pathway-arrow-pulse;
+  animation-delay: calc((var(--flow-step) * 2s) + 1.15s);
+}
+
+@keyframes pathway-step-focus {
+  0%, 4%, 24%, 100% { background: var(--theme); }
+  8%, 18% { background: var(--accent-soft); }
+}
+
+@keyframes pathway-signal {
+  0%, 4%, 24%, 100% { opacity: 0; transform: scaleX(0.15); }
+  8%, 18% { opacity: 1; transform: scaleX(1); }
+}
+
+@keyframes pathway-number-focus {
+  0%, 4%, 24%, 100% { color: var(--accent); transform: translateY(0); }
+  8%, 18% { color: var(--accent-strong); transform: translateY(-1px); }
+}
+
+@keyframes pathway-arrow-pulse {
+  0%, 3%, 17%, 100% { color: var(--accent); transform: translateY(-50%) scale(1); }
+  7%, 12% { color: var(--accent-strong); transform: translateY(-50%) scale(1.22); }
+}
+
+@media (max-width: 720px) {
+  .about .autonomy-pathway__header {
+    display: block;
+  }
+
+  .about .autonomy-pathway__summary {
+    max-width: none;
+    margin-top: 0.5rem;
+    text-align: left;
+  }
+
+  .about .autonomy-pathway__steps {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .about .autonomy-pathway__step:nth-child(2)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .about .autonomy-pathway {
+    padding: 0.8rem;
+  }
+
+  .about .autonomy-pathway__steps {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .about .autonomy-pathway__step {
+    padding: 0.8rem;
+  }
+
+  .about .autonomy-pathway__step:not(:last-child)::after {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about .autonomy-pathway.is-flowing .autonomy-pathway__step,
+  .about .autonomy-pathway.is-flowing .autonomy-pathway__step::before,
+  .about .autonomy-pathway.is-flowing .autonomy-pathway__number,
+  .about .autonomy-pathway.is-flowing .autonomy-pathway__step:not(:last-child)::after {
+    animation: none;
+  }
+}
