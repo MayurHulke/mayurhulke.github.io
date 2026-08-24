@@ -47,6 +47,20 @@
 })();
 </script>
 
+{{/* Load Instagram's embed script only when a native Reel is present. */}}
+<script>
+(function () {
+  if (!document.querySelector('.instagram-reel-embed .instagram-media')) return;
+  if (document.querySelector('script[data-instagram-embed]')) return;
+
+  var script = document.createElement('script');
+  script.async = true;
+  script.src = 'https://www.instagram.com/embed.js';
+  script.dataset.instagramEmbed = 'true';
+  document.body.appendChild(script);
+})();
+</script>
+
 {{/* Run the Almetra operating-loop signal only while the diagram is visible. */}}
 <script>
 (function () {

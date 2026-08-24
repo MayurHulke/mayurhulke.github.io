@@ -92,6 +92,29 @@
 .about .photo-pair--3 { grid-template-columns: repeat(3, 1fr); }
 @media (max-width: 560px) { .about .photo-pair--3 { grid-template-columns: 1fr; } }
 
+/* Native Instagram Reel, kept within the reading column. */
+.about .instagram-reel-embed {
+  width: min(100%, 540px);
+  margin: 1.5rem auto 2rem;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.about .instagram-reel-embed .instagram-media {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: 540px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box;
+}
+.about .instagram-reel-embed iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
 /* A portrait and a landscape shot side by side. Columns are weighted to the
    images' own aspect ratios (0.75 and 1.77) so both render at the same height
    without either being cropped. */
