@@ -1,15 +1,17 @@
-/* Every robot I have worked on, linked to one shared "hive" intelligence. */
+/* Every machine I have worked on, linked to one shared "hive" brain. A script plays
+   the story: one machine learns, the brain takes it in, every other machine gets it. */
 .robot-network { margin: 8px 0 36px; }
 .robot-network svg { width: 100%; height: auto; overflow: visible; }
-.rn-bot { fill: none; stroke: var(--primary); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.rn-bot { fill: none; stroke: var(--primary); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round;
+  transition: stroke .35s ease, filter .35s ease; }
 .rn-bot .rn-fill { fill: var(--primary); stroke: none; }
+.rn-bot.is-learning { stroke: var(--accent); filter: drop-shadow(0 0 6px var(--accent)); }
+.rn-bot.is-learning .rn-fill { fill: var(--accent); }
+.rn-bot.is-learned { stroke: var(--accent); }
 .rn-label { fill: var(--secondary); font-size: 14px; letter-spacing: .02em; }
-.rn-link { fill: none; stroke: var(--accent); stroke-opacity: .35; stroke-width: 1.4; stroke-dasharray: 3 4; }
-.rn-hub { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
-.rn-hub-core { fill: var(--accent); animation: rn-breathe 2.6s ease-in-out infinite; transform-origin: 350px 200px; }
-.rn-pulse { fill: var(--accent); }
-@keyframes rn-breathe { 50% { opacity: .45; transform: scale(.8); } }
-@media (prefers-reduced-motion: reduce) {
-  .rn-pulse { display: none; }
-  .rn-hub-core { animation: none; }
-}
+.rn-link { fill: none; stroke: var(--accent); stroke-opacity: .3; stroke-width: 1.4; stroke-dasharray: 3 4; }
+.rn-hub { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; transition: filter .3s ease, fill .3s ease; }
+.rn-hub.is-thinking { fill: var(--accent); filter: drop-shadow(0 0 10px var(--accent)); }
+.rn-hub-core { fill: var(--accent); }
+.rn-spark { fill: var(--accent); filter: drop-shadow(0 0 4px var(--accent)); }
+.rn-caption { text-align: center; color: var(--secondary); font-size: 15px; margin-top: 10px; }
