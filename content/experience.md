@@ -10,6 +10,11 @@ hideMeta: true
 
 <div class="timeline">
 
+{{< event date="Aug 2026 – Present" role="Staff Autonomy Engineer" company="Hive Autonomy" url="https://hiveautonomy.no/" location="🇬🇧 London, UK" logo="/logos/brands/hive.svg" current="true" >}}
+- Working on autonomy for heavy industrial machines.
+- Building the data and ML platform that turns recordings from the machines into searchable, labelled training data: automatic activity segmentation, multi-camera review and the pipelines around them.
+{{< /event >}}
+
 {{< event date="Jan 2026 – Aug 2026" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
 - Built [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, alongside Almetra's co-founder and CTO.
 - Architected the **perception-to-action stack**, connecting industrial video understanding to robotic planning and execution.
