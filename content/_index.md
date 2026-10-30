@@ -1,5 +1,5 @@
 ---
-kicker: "Mayur Hulke · Staff Autonomy Engineer at Hive Autonomy"
+kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE"
 tagline: "From a robot that works once to robots that work every day. 🤖"
 hero_sub: "Perception, manipulation and autonomy for factories and heavy machines: deployed with customers, not just demoed."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
@@ -260,7 +260,7 @@ It sounds a little like science fiction, but these are already serious engineeri
 
 I wish I could say I was building interplanetary robots today. Unfortunately, we are still a long way from that. For now, the useful problems in front of us are the best testbeds we have. I am working on the practical building blocks those future machines may eventually need: perception, manipulation and autonomy that still work when the environment gets messy.
 
-That is why I am drawn to real-world robotics, whether it is a factory system, an industrial arm or a heavy-duty mobile machine. Production perception asks whether a machine can understand what people and equipment are doing. Industrial manipulation asks whether a robotic arm can grasp, assemble and recover when things do not go perfectly. Heavy-machine autonomy asks whether a vehicle can move, excavate and transport material through a large, unstructured site. That last one is what I work on now, at **Hive Autonomy**.
+That is why I am drawn to real-world robotics, whether it is a factory system, an industrial arm or a heavy-duty mobile machine. Production perception asks whether a machine can understand what people and equipment are doing. Industrial manipulation asks whether a robotic arm can grasp, assemble and recover when things do not go perfectly. Heavy-machine autonomy asks whether a vehicle can move, excavate and transport material through a large, unstructured site. That last one is what I work on now, at **HIVE**: taking heavy industrial machines from teleoperation toward supervised autonomy.
 
 These problems matter now. They come with real customers, measurable economics and immediate consequences when something fails. They are also a pretty good place to learn what dependable autonomy actually takes.
 
