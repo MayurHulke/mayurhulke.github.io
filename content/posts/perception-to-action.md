@@ -1,7 +1,7 @@
 ---
+draft: true
 title: "Perception → Decision → Action"
 date: 2026-06-01
-draft: false
 tags: ["embodied-ai", "manipulation", "robotics"]
 summary: "Why the hardest part of physical AI isn't seeing the world — it's closing the loop back to action."
 ---

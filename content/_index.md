@@ -1,5 +1,7 @@
 ---
-tagline: "Building the physical-intelligence layer for robots. 🤖"
+kicker: "Mayur Hulke · Robotics & autonomy engineer"
+tagline: "From a robot that works once to robots that work every day. 🤖"
+hero_sub: "Perception, manipulation and autonomy for factories and heavy machines: deployed with customers, not just demoed."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
@@ -18,7 +20,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🏭</span> Factory-scale action segmentation</h3>
 <span class="system-attr">Pre-trained & distilled · Almetra</span>
-<p>Vision-language foundation models were trained for spatio-temporal action segmentation, then used as teachers for compact student models deployed on-station.</p>
+<p>I pre-trained vision-language foundation models for spatio-temporal action segmentation, then distilled them into compact student models that run on-station.</p>
 <span class="system-stat">10,000 video-hours/day captured, processed and stored · Hundreds of stations · 60+ factory sites</span>
 </div>
 <div class="system-card">
@@ -88,7 +90,7 @@ While Chisel continued, my day-to-day engineering work moved from medical roboti
 
 At the **Bristol Robotics Laboratory**, I had worked on object recognition and **SLAM**-based navigation for the **TIAGo** robot in the European Robotics League. The next roles put similar ideas under commercial constraints, where errors carried operational cost.
 
-Q-Free hired me directly from university to explore a non-intrusive alternative to conventional traffic monitoring. Traditional classification sites often use [**piezoelectric axle sensors and inductive loops**](https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-collection.cfm) cut into the pavement. They are mature and accurate, but installing or maintaining them requires roadworks and lane closures.
+Q-Free hired me while I was still at university to explore a non-intrusive alternative to conventional traffic monitoring. Traditional classification sites often use [**piezoelectric axle sensors and inductive loops**](https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-collection.cfm) cut into the pavement. They are mature and accurate, but installing or maintaining them requires roadworks and lane closures.
 
 The question was whether a camera and roughly **£1,000 of edge hardware** could recover the useful traffic information without digging into the road. I built an offline roadside pipeline for vehicle detection, classification, tracking, lane localisation, speed estimation and traffic-flow analysis, running locally on **NVIDIA Jetson Nano and Xavier** rather than depending on a data centre.
 

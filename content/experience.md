@@ -51,7 +51,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I led th
 
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
 - Founded and led the company end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
-- **92%** real-time activity classification (mAP > 97.8%); validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
+- **92%** real-time activity classification; validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
 - Led product development across sensing, embedded systems, machine learning, **biomechatronics**, and user testing.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 
@@ -66,7 +66,7 @@ In this role, Almetra (previously Deltia) was selected for two programs I led th
 
 {{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge AI" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
 - Owned a portable embedded camera system for vehicle detection, classification, and tracking across 4/6/8-lane UK and USA motorways (NVIDIA Xavier, Jetson Nano).
-- **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units**, setting new smart-motorway benchmarks.
+- **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units** in the UK and US.
 {{< /event >}}
 
 {{< event date="Oct 2018 – Feb 2019" role="Machine Learning Intern, MedTech" company="YU-SCAN" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
@@ -112,19 +112,8 @@ In this role, Almetra (previously Deltia) was selected for two programs I led th
 
 - *Customization of a transfemoral prosthetic socket to minimize discomfort for residual-limb volume change.* IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), 2023.
 
-## ☕ Just out of curiosity
-
-<ul class="cred-list">
-<li><img class="cred-logo" src="/logos/brands/cambridge.png" alt="University of Cambridge"><span class="cred-text"><a class="cred-title" href="https://coursera.org/verify/specialization/JHF4402MZU0B" target="_blank" rel="noopener">The Science of Mind and Decision Making</a><span class="cred-meta">University of Cambridge · 4-course specialisation · <span class="cred-date">Aug 2026</span></span></span></li>
-<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><a class="cred-title" href="https://bluedot.org/courses/technical-ai-safety" target="_blank" rel="noopener">Technical AI Safety</a><span class="cred-meta">BlueDot Impact</span></span></li>
-<li><img class="cred-logo" src="/logos/brands/bluedot.png" alt="BlueDot Impact"><span class="cred-text"><a class="cred-title" href="https://bluedot.org/courses/agi-strategy" target="_blank" rel="noopener">AGI Strategy</a><span class="cred-meta">BlueDot Impact<span class="cred-live">ongoing</span></span></span></li>
-<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/1fab7994-4c79-11f1-81f0-4bf4dcc72c92" target="_blank" rel="noopener">Agentic AI for Business Leaders</a><span class="cred-meta">Udacity · <span class="cred-date">May 2026</span></span></span></li>
-<li><img class="cred-logo" src="/logos/brands/udacity.png" alt="Udacity"><span class="cred-text"><a class="cred-title" href="https://www.udacity.com/certificate/e/65661cda-d478-11ee-bf37-6b637926c6b2" target="_blank" rel="noopener">AI Governance, Policy, and the Public Good</a><span class="cred-meta">Udacity · <span class="cred-date">Feb 2024</span></span></span></li>
-<li><img class="cred-logo" src="/logos/brands/databricks.svg" alt="Databricks"><span class="cred-text"><span class="cred-title">Large Language Models: Application through Production</span><span class="cred-meta">Databricks</span></span></li>
-</ul>
-
 ## Recognition
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
-- **Awards:** Young Innovators Award 2021 (UK); winner at [SETsquared](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/), the world's #1 university business incubator; Disruptive Startup Finalist (Tata Varsity); Santander Graduate Entrepreneur Award; Santander Acceleration Award; Best Industrial Product Design (Makeathon 2018, University of Bristol); Bristol Plus Award; 13 Gold, 3 Silver, 1 Bronze in national robotics competitions; UWE Start-Up and Impact & Innovation Scholarships
+- **Awards:** Young Innovators Award 2021 (one of 23 across the UK); [SETsquared Breakthrough Bursary](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/); Santander Graduate Entrepreneur Award; Disruptive Startup Finalist (Tata Varsity)
 - **Collaborations:** [Google DeepMind](https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=), [AWS](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [NVIDIA](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [MassRobotics](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), NHS, BLESMA, Help for Heroes
