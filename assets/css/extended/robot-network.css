@@ -1,0 +1,15 @@
+/* Every robot I have worked on, linked to one shared "hive" intelligence. */
+.robot-network { margin: 8px 0 36px; }
+.robot-network svg { width: 100%; height: auto; overflow: visible; }
+.rn-bot { fill: none; stroke: var(--primary); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.rn-bot .rn-fill { fill: var(--primary); stroke: none; }
+.rn-label { fill: var(--secondary); font-size: 14px; letter-spacing: .02em; }
+.rn-link { fill: none; stroke: var(--accent); stroke-opacity: .35; stroke-width: 1.4; stroke-dasharray: 3 4; }
+.rn-hub { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 2; }
+.rn-hub-core { fill: var(--accent); animation: rn-breathe 2.6s ease-in-out infinite; transform-origin: 350px 200px; }
+.rn-pulse { fill: var(--accent); }
+@keyframes rn-breathe { 50% { opacity: .45; transform: scale(.8); } }
+@media (prefers-reduced-motion: reduce) {
+  .rn-pulse { display: none; }
+  .rn-hub-core { animation: none; }
+}
