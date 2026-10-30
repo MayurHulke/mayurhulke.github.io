@@ -1,7 +1,7 @@
 ---
 kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE"
-tagline: "From a robot that works once to robots that work every day. 🤖"
-hero_sub: "Perception, manipulation and autonomy for factories and heavy machines: deployed with customers, not just demoed."
+tagline: "Robots that work every day. 🤖"
+hero_sub: "Deployed, not just demoed."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
