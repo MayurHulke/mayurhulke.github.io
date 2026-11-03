@@ -413,3 +413,31 @@
   btn.addEventListener('click', function () { setTimeout(sync, 0); });
 })();
 </script>
+
+{{/* Scroll reveal: home cards and story rows, and each chapter on the story page. */}}
+{{- if or .IsHome (eq .Layout "story") }}
+<script src="{{ "vendor/gsap/gsap.min.js" | relURL }}"></script>
+<script src="{{ "vendor/gsap/ScrollTrigger.min.js" | relURL }}"></script>
+<script>
+(function () {
+  if (!window.gsap || !window.ScrollTrigger) return;
+  gsap.registerPlugin(ScrollTrigger);
+  var targets = '.about .system-card, .about .story-teaser li, .about .story-cta, ' +
+    '.story-page .about > .act-head, .story-page .about > p, .story-page .about > blockquote, ' +
+    '.story-page .about > .photo-grid, .story-page .about > .photo-pair, .story-page .about > figure, ' +
+    '.story-page .about > div';
+  var mm = gsap.matchMedia();
+  // Reduced motion: leave everything where it is.
+  mm.add('(prefers-reduced-motion: no-preference)', function () {
+    gsap.set(targets, { autoAlpha: 0, y: 28 });
+    ScrollTrigger.batch(targets, {
+      start: 'top 92%',
+      once: true,
+      onEnter: function (batch) {
+        gsap.to(batch, { autoAlpha: 1, y: 0, duration: 0.7, ease: 'power3.out', stagger: 0.08, overwrite: true });
+      }
+    });
+  });
+})();
+</script>
+{{- end }}
