@@ -35,3 +35,4 @@
 @media (max-width: 600px) {
   .about .story-teaser a { flex-direction: column; gap: 0.2rem; }
 }
+.about .story-contact { text-align: center; color: var(--secondary); margin-top: 1.5rem; }

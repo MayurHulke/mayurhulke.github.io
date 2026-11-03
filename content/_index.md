@@ -5,7 +5,7 @@ hero_sub: "Teaching heavy machines to learn from real work, at HIVE."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
-<figure class="robot-network" data-robot-network aria-label="Machines I have worked on, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
+<figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
 <path id="rn-l0" class="rn-link" d="M350 182C350 141 200 141 200 100"/><path id="rn-l1" class="rn-link" d="M350 182C350 141 350 141 350 100"/><path id="rn-l2" class="rn-link" d="M350 182C350 141 500 141 500 100"/><path id="rn-l3" class="rn-link" d="M350 218C350 252 125 252 125 286"/><path id="rn-l4" class="rn-link" d="M350 218C350 252 275 252 275 286"/><path id="rn-l5" class="rn-link" d="M350 218C350 252 425 252 425 286"/><path id="rn-l6" class="rn-link" d="M350 218C350 252 575 252 575 286"/>
 <polygon class="rn-hub" points="365.6,209.0 350.0,218.0 334.4,209.0 334.4,191.0 350.0,182.0 365.6,191.0"/><polygon class="rn-hub-core" points="356.9,204.0 350.0,208.0 343.1,204.0 343.1,196.0 350.0,192.0 356.9,196.0"/>
@@ -54,23 +54,25 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 })();
 </script>
 
-<h2 class="systems-eyebrow">So far, I've deployed</h2>
+<h2 class="systems-eyebrow">Now</h2>
 
 <div class="systems-featured">
 <div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🦾</span> Industrial robotic manipulation</h3>
-<span class="system-attr">Built & led · Almetra Robotics</span>
-<p>A perception-to-action stack for industrial manipulation across Franka Research 3 Duo and Universal Robots arms, learning from human demonstrations and robot-interaction data while combining diffusion policies with classical control for contact-rich tasks.</p>
-<span class="system-stat">Completed customer pilot · Franka Research 3 Duo · Universal Robots</span>
+<h3 class="system-name"><span aria-hidden="true">🚜</span> Learned autonomy for heavy machines</h3>
+<span class="system-attr">Staff Autonomy Engineer · <a href="https://hiveautonomy.no/">HIVE</a></span>
+<p>HIVE retrofits the machines customers already own, from forklifts to wheel loaders, so they work under human supervision instead of a driver in the cab. I lead the learned-autonomy work: vision-language-action models, the data pipelines behind them, and one shared intelligence that learns from real work across machines and sites.</p>
+<span class="system-stat">Operating in the field, not in demo mode · 40+ people across London, Norway and the US</span>
 </div>
 </div>
 
+<h2 class="systems-eyebrow">So far, I've deployed</h2>
+
 <div class="systems-grid">
 <div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🏭</span> Factory-scale action segmentation</h3>
-<span class="system-attr">Pre-trained & distilled · Almetra</span>
-<p>I pre-trained vision-language foundation models for spatio-temporal action segmentation, then distilled them into compact student models that run on-station.</p>
-<span class="system-stat">10,000 video-hours/day captured, processed and stored · Hundreds of stations · 60+ factory sites</span>
+<h3 class="system-name"><span aria-hidden="true">🏭</span> Factory perception to robot action</h3>
+<span class="system-attr">Robotics Lead · Almetra, seed to scale-up</span>
+<p>Pre-trained vision-language models that turn factory video into timelines of the work, distilled to run on-station. Then built the robotics team that used that data to put Franka and UR arms on production lines.</p>
+<span class="system-stat">60+ factory sites · 10,000 video-hours/day · Customer pilot with a robot in the loop · Grew to 40 people</span>
 </div>
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🛣️</span> Non-intrusive roadside perception</h3>
@@ -82,7 +84,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <h3 class="system-name"><span aria-hidden="true">🚗</span> 3D vehicle perception & inspection</h3>
 <span class="system-attr">Built & deployed · BCA</span>
 <p>A production vision stack for remote vehicle buying: scene transformation, reflection handling, 360° capture, multi-view 3D reconstruction and fine-grained cosmetic-damage detection.</p>
-<span class="system-stat">Inspection time: ~4 hours → under 90 minutes · Production complaint rate: 1.3%</span>
+<span class="system-stat">Inspection time: ~4 hours → under 90 minutes · Millions of vehicle images</span>
 </div>
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🦿</span> Adaptive powered bionic leg</h3>
@@ -103,3 +105,5 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 </ol>
 
 <div class="story-cta"><a class="story-cta__link" href="/story/">Read my story →</a></div>
+
+<p class="story-contact">Working on learned autonomy for heavy machines? <a href="https://www.linkedin.com/in/mayurhulke/">Message me on LinkedIn</a>.</p>
