@@ -86,6 +86,10 @@ outputs:
 
 menu:
   main:
+    - identifier: story
+      name: My Story
+      url: /story/
+      weight: 10
     - identifier: experience
       name: My Journey
       url: /experience/

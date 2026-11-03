@@ -1,0 +1,13 @@
+{{- define "main" }}
+<div class="profile story-page">
+    <div class="profile_inner">
+        <header class="story-head">
+            <h1 class="hero-tagline">{{ .Title }}</h1>
+            {{- with .Description }}<p class="hero-sub">{{ . }}</p>{{- end }}
+        </header>
+        <section class="about">
+            {{ .Content }}
+        </section>
+    </div>
+</div>
+{{- end }}
