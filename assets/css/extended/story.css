@@ -42,3 +42,10 @@
   color: var(--primary);
   margin-bottom: 2rem;
 }
+.hero-proof {
+  max-width: 52ch;
+  margin: 0 0 1.1rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--secondary);
+}

@@ -7,6 +7,7 @@
                 {{- with $.Params.kicker }}<p class="hero-kicker">{{ . }}</p>{{- end }}
                 {{- with $.Params.tagline }}<h1 class="hero-tagline">{{ . }}</h1>{{- end }}
                 {{- with $.Params.hero_sub }}<div class="hero-sub">{{ . | markdownify }}</div>{{- end }}
+                {{- with $.Params.hero_proof }}<p class="hero-proof">{{ . }}</p>{{- end }}
 
                 {{- $fellowship := "https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" }}
                 <div class="hero-programmes">

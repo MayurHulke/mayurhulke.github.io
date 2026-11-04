@@ -90,6 +90,10 @@ menu:
       name: My Story
       url: /story/
       weight: 10
+    - identifier: writing
+      name: Writing
+      url: /posts/
+      weight: 20
     - identifier: experience
       name: My Journey
       url: /experience/

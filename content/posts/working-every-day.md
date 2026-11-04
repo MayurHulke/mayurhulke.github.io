@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "The demo is the easy part"
 date: 2026-11-02
 tags: ["robotics", "autonomy", "deployment"]
