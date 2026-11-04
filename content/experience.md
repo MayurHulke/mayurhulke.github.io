@@ -6,6 +6,7 @@ ShowWordCount: false
 ShowToc: false
 ShowBreadCrumbs: false
 hideMeta: true
+description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff Autonomy Engineer at HIVE."
 ---
 
 <div class="timeline">
@@ -22,24 +23,24 @@ hideMeta: true
 - Trained manipulation policies from **human demonstrations** and robot interaction data, combining **diffusion policies** and classical control for contact-rich tasks.
 - Designed **object-centric, cross-embodiment** approaches meant to generalise across tasks, environments, and robot platforms.
 
-![Our Franka Research 3 Duo and Universal Robots cell at Almetra (previously Deltia)](/img/franka-lab.jpg)
+![Our Franka Research 3 Duo and Universal Robots cell at Almetra](/img/franka-lab.jpg)
 
-In this role, Almetra (previously Deltia) was selected for two programs I led the technical work on:
+In this role, I led the technical work for two programmes Almetra was selected for:
 
 <div class="subprograms">
 <div class="subprogram">
 <a class="subprogram-logo-link" href="https://deepmind.google/accelerators/robotics/" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind"></a>
-<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Aug 2026</span><span class="subprogram-desc">Working with the Google DeepMind robotics team to build a physical-intelligence layer that generalises across embodiments, on Franka Research 3 Duo and Universal Robots arms. Pushing VLAs beyond teleoperation data toward video-to-action models and learning from egocentric video.</span></div>
+<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Aug 2026</span><span class="subprogram-desc">With the Google DeepMind robotics team: running Gemini Robotics models on our Franka and UR arms, and pushing VLAs beyond teleoperation data toward learning from video.</span></div>
 </div>
 <div class="subprogram">
 <a class="subprogram-logo-link" href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="subprogram-logo sq" src="/logos/brands/massrobotics.jpeg" alt="Physical AI Fellowship"></a>
-<div><span class="subprogram-name">MassRobotics Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Aug 2026</span><span class="subprogram-desc">Working directly with the Amazon Robotics and NVIDIA teams on the sim-to-real pipeline. Taking the physical-intelligence stack to real robots: cross-embodiment manipulation policies trained in simulation and transferred to hardware on the NVIDIA Isaac platform, with diffusion policies for contact-rich control and edge-optimised deployment for the factory floor.</span><span class="subprogram-powered"><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/aws.png" alt="AWS"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></a></span></div>
+<div><span class="subprogram-name">MassRobotics Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Aug 2026</span><span class="subprogram-desc">With the AWS and NVIDIA robotics teams: manipulation policies trained in simulation on NVIDIA Isaac and transferred to real robots.</span><span class="subprogram-powered"><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/aws.png" alt="AWS"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></a></span></div>
 </div>
 </div>
 {{< /event >}}
 
 {{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
-- Trained and deployed fine-tuned **VLMs** in production across **60+ factory sites** for customers including **ABB, Thermo Fisher, Grundfos, and Bosch**, running multi-step action segmentation on live video to recognise activity from short to long horizon at fine granularity.
+- Trained and deployed fine-tuned **VLMs** in production across **60+ factory sites**, segmenting live video into actions, from seconds-long steps to whole workflows.
 - Built systems to surface **operator actions, workflows, bottlenecks, process variation, and production context** from shop-floor video.
 - Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
 - Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency, plus **multi-agent internal tools** supporting computer vision, robotics, data processing, and annotation workflows.
@@ -56,12 +57,10 @@ In this role, Almetra (previously Deltia) was selected for two programs I led th
 {{< /event >}}
 
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Founded and led the company end to end, developing an intelligent bionic leg, including performance legs for Paralympic amputees, that understands fit, gait, and movement in real time, with real-time feedback (**<50 ms**), a custom sensor interface, and integrated thermal imaging for soft-tissue analysis.
+- Founded and led the company end to end, alongside my MSc: an intelligent bionic leg that tracks fit, gait and movement in real time (**<50 ms** feedback), with a custom sensor interface and thermal imaging for soft-tissue analysis.
 - **92%** real-time activity classification; validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
 - Led product development across sensing, embedded systems, machine learning, **biomechatronics**, and user testing.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
-
-![With the intelligent bionic leg prototype](/img/mayur-leg.jpg)
 {{< /event >}}
 
 {{< event date="Dec 2018 – Nov 2021" role="Research Assistant" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
@@ -122,4 +121,3 @@ In this role, Almetra (previously Deltia) was selected for two programs I led th
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
 - **Awards:** Young Innovators Award 2021 (one of 23 across the UK); [SETsquared Breakthrough Bursary](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/); Santander Graduate Entrepreneur Award; Disruptive Startup Finalist (Tata Varsity)
-- **Collaborations:** [Google DeepMind](https://blog.google/topics/google-europe/powering-the-future-of-robotics-in-europe/?utm_source=linkedin&utm_medium=social&utm_campaign=&utm_content=), [AWS](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [NVIDIA](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), [MassRobotics](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), NHS, BLESMA, Help for Heroes

@@ -60,24 +60,24 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🚜</span> Learned autonomy for heavy machines</h3>
 <span class="system-attr">Staff Autonomy Engineer · <a href="https://hiveautonomy.no/">HIVE</a></span>
-<p>HIVE retrofits the machines customers already own, from forklifts to wheel loaders, so they work under human supervision instead of a driver in the cab. I lead the learned-autonomy work: vision-language-action models, the data pipelines behind them, and one shared intelligence that learns from real work across machines and sites.</p>
-<span class="system-stat">Operating in the field, not in demo mode · 40+ people across London, Norway and the US</span>
+<p>Retrofitting the machines customers already own, from forklifts to wheel loaders, with one shared intelligence that learns from real work.</p>
+<span class="system-stat">Operating in the field · 40+ people across London, Norway and the US</span>
 </div>
 </div>
 
-<h2 class="systems-eyebrow">So far, I've deployed</h2>
+<h2 class="systems-eyebrow">Before HIVE</h2>
 
 <div class="systems-grid">
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🏭</span> Factory perception to robot action</h3>
-<span class="system-attr">Robotics Lead · Almetra, seed to scale-up</span>
-<p>Pre-trained vision-language models that turn factory video into timelines of the work, distilled to run on-station. Then built the robotics team that used that data to put Franka and UR arms on production lines.</p>
-<span class="system-stat">60+ factory sites · 10,000 video-hours/day · Customer pilot with a robot in the loop · Grew to 40 people</span>
+<span class="system-attr">Robotics Lead · Almetra</span>
+<p>Pre-trained vision-language models that turn factory video into timelines of the work, distilled to run on-station. Then built the robotics team and ran a customer pilot with Franka and UR arms.</p>
+<span class="system-stat">60+ factory sites · 10,000 video-hours/day · Seed to scale-up, 40 people</span>
 </div>
 <div class="system-card">
 <h3 class="system-name"><span aria-hidden="true">🛣️</span> Non-intrusive roadside perception</h3>
 <span class="system-attr">Built & deployed · Q-Free</span>
-<p>An offline, camera-based edge system that recovered traffic counts, vehicle classes, speeds and flow across multiple lanes and changing weather.</p>
+<p>An offline, camera-based edge system that recovered traffic counts, vehicle classes, speeds and flow across 4, 6 or 8 lanes and changing weather.</p>
 <span class="system-stat">99.7% detection accuracy · 93.5% mAP · 65+ FPS · 10 units deployed across the UK and US</span>
 </div>
 <div class="system-card">
@@ -99,9 +99,9 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <ol class="story-teaser">
 <li><a href="/story/#origins"><strong>Beginnings</strong><span>Competition robots after school, 30+ wins.</span></a></li>
 <li><a href="/story/#chisel"><strong>Chisel Robotics</strong><span>A bionic leg that learns from the person wearing it.</span></a></li>
-<li><a href="/story/#perception"><strong>Production perception</strong><span>Roadside cameras and vehicle inspection, deployed.</span></a></li>
-<li><a href="/story/#manipulation"><strong>Perception to action</strong><span>Robot arms on factory lines, DeepMind and MassRobotics.</span></a></li>
-<li><a href="/story/#hive"><strong>Now: HIVE</strong><span>One shared brain for heavy machines, in the field.</span></a></li>
+<li><a href="/story/#perception"><strong>Production perception</strong><span>Roadside cameras and vehicle inspection.</span></a></li>
+<li><a href="/story/#manipulation"><strong>Perception to action</strong><span>From factory video to robot arms.</span></a></li>
+<li><a href="/story/#hive"><strong>Now: HIVE</strong><span>One shared brain for heavy machines.</span></a></li>
 <li><a href="/story/#long-game"><strong>The long game</strong><span>Machines that build before people arrive. 🌕</span></a></li>
 </ol>
 
