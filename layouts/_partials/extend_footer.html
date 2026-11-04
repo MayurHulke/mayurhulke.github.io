@@ -426,6 +426,7 @@
     '.story-page .about > .act-head, .story-page .about > p, .story-page .about > blockquote, ' +
     '.story-page .about > .photo-grid, .story-page .about > .photo-pair, .story-page .about > figure, ' +
     '.story-page .about > div';
+  if (!document.querySelector(targets)) return;
   var mm = gsap.matchMedia();
   // Reduced motion: leave everything where it is.
   mm.add('(prefers-reduced-motion: no-preference)', function () {

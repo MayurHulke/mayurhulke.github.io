@@ -1,0 +1,56 @@
+/* Scroll-told figures in posts. Final state is the default, so the page reads fine without JS. */
+.post-anim {
+  --pa-good: var(--accent, #2c7da0);
+  --pa-bad: #d1495b;
+  margin: 2.2rem 0;
+  padding: 1.1rem 1.2rem 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: var(--entry);
+}
+.post-anim svg { display: block; width: 100%; height: auto; overflow: visible; }
+.post-anim figcaption {
+  margin-top: 0.6rem;
+  font-size: 0.92rem;
+  color: var(--secondary);
+  text-align: center;
+}
+.post-anim .pa-kicker {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--secondary);
+}
+.post-anim text { fill: var(--secondary); font-size: 13px; font-family: inherit; }
+.post-anim text.pa-strong { fill: var(--primary); font-weight: 600; }
+.post-anim .pa-axis { stroke: var(--border); stroke-width: 1.5; }
+.post-anim .pa-day { fill: var(--pa-good); }
+.post-anim .pa-day.is-bad { fill: var(--pa-bad); }
+.post-anim .pa-day.is-demo { fill: var(--primary); }
+.post-anim .pa-person { fill: none; stroke: var(--primary); stroke-width: 2.5; stroke-dasharray: 5 5; }
+.post-anim .pa-tuned { fill: none; stroke: var(--pa-bad); stroke-width: 2.5; }
+.post-anim .pa-adapt { fill: none; stroke: var(--pa-good); stroke-width: 3; }
+.post-anim .pa-gap { fill: var(--pa-bad); opacity: 0.14; }
+.post-anim .pa-road { fill: var(--theme); stroke: var(--border); }
+.post-anim .pa-lane { stroke: var(--border); stroke-width: 2; stroke-dasharray: 14 12; }
+.post-anim .pa-car { fill: var(--secondary); opacity: 0.55; }
+.post-anim .pa-box { fill: none; stroke: var(--pa-good); stroke-width: 2; }
+.post-anim .pa-rain line { stroke: var(--secondary); stroke-width: 1.2; opacity: 0.6; }
+.post-anim .pa-night { fill: #0b1320; }
+.post-anim .pa-cell { fill: var(--pa-good); }
+.post-anim .pa-cell.is-miss { fill: var(--pa-bad); }
+.post-anim .pa-bar { fill: var(--secondary); opacity: 0.35; }
+.post-anim .pa-bar.is-pick { fill: var(--pa-good); opacity: 1; }
+.post-anim .pa-tag { font-size: 12px; }
+.post-anim .pa-tag.is-pick { fill: var(--pa-good); font-weight: 600; }
+.post-content ul.pa-checklist { list-style: none; padding-left: 0; }
+.post-content ul.pa-checklist li { position: relative; padding-left: 1.8rem; }
+.post-content ul.pa-checklist li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent, #2c7da0);
+  font-weight: 700;
+}
