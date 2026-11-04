@@ -1,8 +1,7 @@
 ---
 kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE"
 tagline: "One brain. Every machine. 🤖"
-hero_sub: "Every heavy machine still needs a person in the cab. I'm teaching them to learn from real work and share what they learn, at HIVE."
-hero_proof: "Shipped to 60+ factory sites and roadside units in the UK and US · Google DeepMind Robotics Accelerator · MassRobotics Physical AI Fellowship"
+hero_sub: "AI had its ChatGPT moment. Machines haven't yet.<br>I'm working out the recipe for robots that work at scale."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
