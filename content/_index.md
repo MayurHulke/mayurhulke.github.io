@@ -101,6 +101,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <li><a href="/story/#chisel"><strong>Chisel Robotics</strong><span>A bionic leg that learns from the person wearing it.</span></a></li>
 <li><a href="/story/#perception"><strong>Production perception</strong><span>Roadside cameras and vehicle inspection, deployed.</span></a></li>
 <li><a href="/story/#manipulation"><strong>Perception to action</strong><span>Robot arms on factory lines, DeepMind and MassRobotics.</span></a></li>
+<li><a href="/story/#hive"><strong>Now: HIVE</strong><span>One shared brain for heavy machines, in the field.</span></a></li>
 <li><a href="/story/#long-game"><strong>The long game</strong><span>Machines that build before people arrive. 🌕</span></a></li>
 </ol>
 

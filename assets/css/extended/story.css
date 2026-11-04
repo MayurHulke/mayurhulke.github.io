@@ -36,3 +36,9 @@
   .about .story-teaser a { flex-direction: column; gap: 0.2rem; }
 }
 .about .story-contact { text-align: center; color: var(--secondary); margin-top: 1.5rem; }
+.story-page .about > .story-lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
