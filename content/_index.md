@@ -1,7 +1,7 @@
 ---
 kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE"
-tagline: "One brain. Every machine. 🤖"
-hero_sub: "AI had its ChatGPT moment. Machines haven't yet.<br>I'm working out the recipe for robots that work at scale."
+tagline: "Robots haven't had their ChatGPT moment. Yet. 🤖"
+hero_sub: "I'm working out the recipe that makes them work at scale."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
