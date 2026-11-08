@@ -232,3 +232,9 @@ body:has(.profile) {
   max-width: 780px;
   margin-inline: auto;
 }
+.profile .about .story-next {
+  text-align: center;
+  margin: 1.8rem auto 0.3rem;
+  font-size: 1.02rem;
+}
+.profile .about .story-next span { color: var(--secondary); margin: 0 0.4rem; }

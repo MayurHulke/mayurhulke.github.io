@@ -87,11 +87,11 @@ outputs:
 menu:
   main:
     - identifier: story
-      name: My Story
+      name: Story
       url: /story/
       weight: 10
     - identifier: experience
-      name: My Journey
+      name: CV
       url: /experience/
       weight: 15
 

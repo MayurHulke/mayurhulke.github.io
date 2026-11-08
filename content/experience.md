@@ -1,5 +1,5 @@
 ---
-title: "My Journey"
+title: "CV"
 url: "/experience/"
 ShowReadingTime: false
 ShowWordCount: false

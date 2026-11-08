@@ -1,7 +1,6 @@
 ---
-kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE, London"
+kicker: "Mayur Hulke"
 tagline: "Scaling robot learning across machines."
-hero_sub: "Making what one machine learns carry to the next."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
@@ -11,7 +10,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">Now</h2>
 
-<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on.</p>
+<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side from London: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
@@ -65,7 +64,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <h2 class="systems-eyebrow">Before HIVE</h2>
 
 <ul class="snapshot">
-<li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. Led the technical work for the Google DeepMind and MassRobotics (AWS, NVIDIA) programmes.</li>
+<li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. The DeepMind, AWS and NVIDIA programmes above were this chapter.</li>
 <li><strong>BCA.</strong> Computer vision for remote car inspection: about four hours per car down to under 90 minutes.</li>
 <li><strong>Q-Free.</strong> A roadside camera on an NVIDIA Jetson that counts, classifies and times traffic across up to eight lanes. Ten units in the UK and US.</li>
 <li><strong>Chisel Robotics, my own company.</strong> A bionic leg that learns the person wearing it. Five years, four NHS trials, and performance legs for a Rio Paralympic gold medallist.</li>
@@ -76,11 +75,11 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <p>I swam at national level from the age of eight and only recently retired. Sea swims up to 30 km, scuba to 30 m. And I have never had a fizzy drink in my life.</p>
 
 <div class="photo-pair photo-pair--3 snapshot-photos">
-<img src="/img/franka-build.jpg" alt="Working on the Franka Research 3 Duo cell at Almetra" loading="lazy">
+<img src="/img/boston-booth.jpg" alt="At our stand at the Robotics Summit and Expo in Boston, during the Physical AI Fellowship" loading="lazy">
 <img src="/img/mayur-leg.jpg" alt="With the intelligent bionic leg prototype" loading="lazy">
 <img src="/img/swimming.jpg" alt="Butterfly at a national-level competition" loading="lazy">
 </div>
 
-<div class="story-cta"><a class="story-cta__link" href="/story/">Read the story →</a><a class="hero-btn" href="/experience/">Full CV</a></div>
+<p class="story-next"><a href="/story/">Read the story →</a> <span aria-hidden="true">·</span> <a href="/experience/">See the CV →</a></p>
 
 <p class="story-contact">Working on learned autonomy for heavy machines? <a href="https://www.linkedin.com/in/mayurhulke/">Message me on LinkedIn</a>.</p>

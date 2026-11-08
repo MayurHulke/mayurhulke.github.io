@@ -1,5 +1,5 @@
 ---
-title: "My Story"
+title: "Story"
 layout: story
 description: "From competition robots in a workshop to heavy-machine autonomy at HIVE."
 ShowToc: false
