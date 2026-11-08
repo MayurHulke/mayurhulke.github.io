@@ -75,9 +75,12 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <p>I swam at national level from the age of eight and only recently retired. Sea swims up to 30 km, scuba to 30 m. And I have never had a fizzy drink in my life.</p>
 
 <div class="photo-pair photo-pair--3 snapshot-photos">
-<img src="/img/boston-booth.jpg" alt="At our stand at the Robotics Summit and Expo in Boston, during the Physical AI Fellowship" loading="lazy">
+<img src="/img/robots/robot-2.jpg" alt="One of my competition robots, flipper arm up" loading="lazy">
 <img src="/img/mayur-leg.jpg" alt="With the intelligent bionic leg prototype" loading="lazy">
+<img src="/img/boston-booth.jpg" alt="At our stand at the Robotics Summit and Expo in Boston, during the Physical AI Fellowship" loading="lazy">
+<img src="/img/space-conference/ukseds-2024-badge.jpg" alt="Programme and badge from the UKSEDS National Student Space Conference 2024" loading="lazy">
 <img src="/img/swimming.jpg" alt="Butterfly at a national-level competition" loading="lazy">
+<img src="/img/diving-night.jpg" alt="Night dive with a group, torches lighting the reef" loading="lazy">
 </div>
 
 <p class="story-next"><a href="/story/">Read the story →</a> <span aria-hidden="true">·</span> <a href="/experience/">See the CV →</a></p>
