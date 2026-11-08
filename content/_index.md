@@ -6,7 +6,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">In short</h2>
 
-<p class="snapshot-lead">I built my first robot at 14 because films and Asimov's stories made it look possible, and kept going until the competition wins passed thirty 🏆. The hobby took me to Bristol for a master's in robotics, then to founding Chisel Robotics: a bionic leg that learns the person wearing it, four NHS trials, a Young Innovators Award (one of 23 in the UK that year) 🥇 and, somehow, BBC Radio 4. Since then it has been eight years of making robots and computer vision work for real, from factory robot arms to the wheel loaders I work on now. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
+<p class="snapshot-lead">I built my first robot at 14 because films and Asimov's stories made it look possible, and kept going until the competition wins passed thirty 🏆. The hobby took me to Bristol for a master's in robotics, then to founding Chisel Robotics: a bionic leg that learns the person wearing it, four NHS trials and a Young Innovators Award (one of 23 in the UK that year) 🥇. Since then it has been eight years of making robots and computer vision work for real, from factory robot arms to the wheel loaders I work on now. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
 
 <h2 class="systems-eyebrow">Now</h2>
 
