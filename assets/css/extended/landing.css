@@ -199,3 +199,36 @@ body:has(.profile) {
 
 .post-content a, .post-single .post-content a { color: var(--accent); text-decoration-color: var(--accent-soft); }
 .post-content a:hover { color: var(--accent-strong); }
+
+/* ---- SNAPSHOT (home page: short bio, "one line each" list, photo row) ---- */
+.about .systems-eyebrow { margin: 1.8rem 0 0.7rem; }
+.about .snapshot-lead { font-size: 1.15rem; max-width: 800px; }
+.about .snapshot {
+  list-style: none;
+  margin: 0 0 1.2rem;
+  padding: 0;
+  display: grid;
+  gap: 0.6rem;
+  max-width: 800px;
+}
+.about .snapshot li {
+  padding: 0.15rem 0 0.15rem 1rem;
+  border-left: 3px solid var(--accent);
+  line-height: 1.55;
+  color: var(--content);
+}
+.about .snapshot li strong { color: var(--primary); }
+.about .snapshot-photos { margin: 1.4rem 0 1.8rem; }
+.about .snapshot-photos img { aspect-ratio: 4 / 3; }
+.about .story-cta { justify-content: center; gap: 0.8rem; }
+/* Same centred reading column that original-polish-v0.css gives .about > p,
+   so the labels, list and contact line sit under the paragraphs, not at
+   the left edge. The .profile prefix outranks that file's rules. */
+.profile .about .systems-eyebrow,
+.profile .about .snapshot,
+.profile .about .snapshot-lead,
+.profile .about .story-contact {
+  width: min(100%, 780px);
+  max-width: 780px;
+  margin-inline: auto;
+}

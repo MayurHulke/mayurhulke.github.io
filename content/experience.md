@@ -12,89 +12,54 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 <div class="timeline">
 
 {{< event date="Sep 2026 – Present" role="Staff Autonomy Engineer" company="HIVE" url="https://hiveautonomy.no/" location="🇬🇧 London, UK" logo="/logos/brands/hive.svg" current="true" >}}
-- Leading the technical direction and development of **learned autonomy** at HIVE, taking heavy industrial machines from **teleoperation toward supervised autonomy**.
-- Hands-on across **vision-language-action models**, data pipelines and training infrastructure, connecting robot learning research with real-world operations.
-- Building toward shared intelligence that learns from real work and transfers across machines, sites and tasks.
+- Lead the learned-autonomy work, taking retrofitted heavy machines (forklifts, wheel loaders, haulers) from teleoperation towards supervised autonomy.
+- Hands-on across **vision-language-action models**, the data pipelines and the training infrastructure behind them.
+- Building one shared intelligence that learns from real work and carries across machines, sites and tasks.
 {{< /event >}}
 
 {{< event date="Jan 2026 – Aug 2026" role="Robotics Lead" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
-- Built [Almetra](https://www.almetra.ai/)'s (previously Deltia) robotics team from the ground up, alongside Almetra's co-founder and CTO.
-- Architected the **perception-to-action stack**, connecting industrial video understanding to robotic planning and execution.
-- Trained manipulation policies from **human demonstrations** and robot interaction data, combining **diffusion policies** and classical control for contact-rich tasks.
-- Designed **object-centric, cross-embodiment** approaches meant to generalise across tasks, environments, and robot platforms.
+- Built Almetra's robotics team from the ground up with the co-founder and CTO, and ran a customer pilot on a production line with a robot in the loop.
+- Designed the **perception-to-action stack**: factory video understanding feeding robot planning and execution on Franka Research 3 and UR16e arms.
+- Trained manipulation policies from human demonstrations and robot data: **diffusion policies** for contact-rich tasks, classical control where predictability mattered.
+- Led the technical work for two programmes: [Google DeepMind's Gemini Robotics Accelerator](https://deepmind.google/accelerators/robotics/) (Jun–Aug 2026: running the Gemini Robotics models on our arms, and pushing VLAs beyond teleoperation data towards learning from video) and the [MassRobotics Physical AI Fellowship](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/) with AWS and NVIDIA (Apr–Aug 2026: policies trained in NVIDIA Isaac and transferred to real robots).
 
 ![Our Franka Research 3 Duo and Universal Robots cell at Almetra](/img/franka-lab.jpg)
-
-In this role, I led the technical work for two programmes Almetra was selected for:
-
-<div class="subprograms">
-<div class="subprogram">
-<a class="subprogram-logo-link" href="https://deepmind.google/accelerators/robotics/" target="_blank" rel="noopener"><img class="subprogram-logo" src="/logos/deepmind.svg" alt="Google DeepMind"></a>
-<div><span class="subprogram-name">Google DeepMind · Gemini Robotics Accelerator</span><span class="subprogram-date">Jun 2026 – Aug 2026</span><span class="subprogram-desc">With the Google DeepMind robotics team: running Gemini Robotics models on our Franka and UR arms, and pushing VLAs beyond teleoperation data toward learning from video.</span></div>
-</div>
-<div class="subprogram">
-<a class="subprogram-logo-link" href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="subprogram-logo sq" src="/logos/brands/massrobotics.jpeg" alt="Physical AI Fellowship"></a>
-<div><span class="subprogram-name">MassRobotics Physical AI Fellowship</span><span class="subprogram-date">Apr 2026 – Aug 2026</span><span class="subprogram-desc">With the AWS and NVIDIA robotics teams: manipulation policies trained in simulation on NVIDIA Isaac and transferred to real robots.</span><span class="subprogram-powered"><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/aws.png" alt="AWS"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img src="/logos/brands/nvidia.svg" alt="NVIDIA"></a><a href="https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/" target="_blank" rel="noopener"><img class="sq" src="/logos/brands/massrobotics.jpeg" alt="MassRobotics"></a></span></div>
-</div>
-</div>
 {{< /event >}}
 
 {{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
-- Trained and deployed fine-tuned **VLMs** in production across **60+ factory sites**, segmenting live video into actions, from seconds-long steps to whole workflows.
-- Built systems to surface **operator actions, workflows, bottlenecks, process variation, and production context** from shop-floor video.
-- Trained a **cross-customer foundational VLM** for manufacturing that understands production processes, then distilled compact **student models** from the teacher for efficient on-station deployment.
-- Built on-device **LLM agents** that read cycle time-series to flag anomalies and summarise efficiency, plus **multi-agent internal tools** supporting computer vision, robotics, data processing, and annotation workflows.
-- Prototyped **VLA** models via learning-by-demonstration, grounding human demos into action graphs.
-- This perception work became the foundation Almetra's robotics programme grew out of.
+- Fine-tuned and deployed **vision-language models** across **60+ factory sites**, turning live video into timelines of operator actions, from seconds-long steps to whole workflows.
+- Pre-trained a cross-customer manufacturing VLM, then distilled it into compact **student models** that run on-station.
+- Built on-device **LLM agents** that read cycle-time series to flag anomalies, plus internal multi-agent tools for annotation and data processing.
+- Prototyped **VLA models** from human demonstrations; this is where Almetra's robotics programme started.
 {{< /event >}}
 
 {{< event date="Jul 2022 – Sep 2024" role="Senior Computer Vision Engineer" company="BCA UK" location="🇬🇧 UK" logo="/logos/brands/bca.jpeg" >}}
-- Built a full-stack CV system to automate car inspections, cutting inspection time from ~4 hours to under 90 minutes per vehicle.
-- Damage detection, interior classification, a **text-to-image diffusion** pipeline for rare-case augmentation, and segmentation/depth post-processing.
-- Built image and video segmentation for **virtual showroom** and digital-merchandising workflows, turning raw inspection footage into customer-facing visual assets at scale.
-- Designed and deployed the cloud computer-vision infrastructure on **AWS** that ran all of it in production.
-- Production models contributed to a **1.3% complaint rate** and higher online-purchase confidence.
+- Built the computer-vision system that automates car inspection, cutting it from about **4 hours to under 90 minutes** per vehicle.
+- Damage detection and interior classification, a **text-to-image diffusion** pipeline for rare cases, and multi-view **3D reconstruction** (photogrammetry, NeRFs, Gaussian splatting) for 360° views.
+- Designed and ran the **AWS** infrastructure it all lived on in production; the models contributed to a **1.3% complaint rate**.
 {{< /event >}}
 
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Founded and led the company end to end, alongside my MSc: an intelligent bionic leg that tracks fit, gait and movement in real time (**<50 ms** feedback), with a custom sensor interface and thermal imaging for soft-tissue analysis.
-- **92%** real-time activity classification; validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medalist**.
-- Led product development across sensing, embedded systems, machine learning, **biomechatronics**, and user testing.
+- Founded and led the company alongside my MSc: an intelligent bionic leg that tracks fit, gait and movement in real time (**<50 ms** feedback), with a custom sensor interface and thermal imaging for soft-tissue analysis.
+- **92%** real-time activity classification; validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medallist**.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 {{< /event >}}
 
 {{< event date="Dec 2018 – Nov 2021" role="Research Assistant" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
-- Engineered the **sensor-fusion** system inside the prosthetic socket, tracking fit, gait, and physiological change in real time.
-- Built a **thermal-imaging and machine-learning** system to analyse the residual limb's thermal response over prolonged prosthesis use.
-- Ran real-world product trials with an above-knee amputee, evaluating performance, usability, and physiological effect.
+- **Sensor fusion** inside the prosthetic socket, tracking fit, gait and physiological change in real time.
+- **Thermal imaging and machine learning** to analyse the residual limb over long prosthesis use, with real-world trials with an above-knee amputee.
 {{< /event >}}
 
 {{< event date="Nov 2018 – Jun 2022" role="Deep Learning Algorithm Engineer, Edge AI" company="Q-Free" location="🇬🇧 UK" logo="/logos/brands/qfree.png" >}}
-- Owned a portable embedded camera system for vehicle detection, classification, and tracking across 4/6/8-lane UK and USA motorways (NVIDIA Xavier, Jetson Nano).
-- **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on NVIDIA Xavier. Deployed across **10 units** in the UK and US.
+- Owned a portable roadside camera system for vehicle detection, classification and tracking across 4, 6 and 8-lane motorways, on NVIDIA Xavier and Jetson Nano.
+- **≥99.7% detection accuracy, 93.5% mAP, ≥65 FPS** on Xavier. **10 units** deployed in the UK and US.
 {{< /event >}}
 
-{{< event date="Oct 2018 – Feb 2019" role="Machine Learning Intern, MedTech" company="YU-SCAN" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
-- Built a **deep neural network** to predict symptom severity in **multiple sclerosis** patients from sensor data on the embedded health-tech device "BEE".
-- Engineered a two-layer **SMD sensor board** in Autodesk Eagle (with custom component libraries) and a cross-platform **React Native** app on **GCP / Firebase** for sensor-data analysis.
-- Integrated sensors over **SPI, I²C, UART, and Bluetooth**, working in an Agile team.
-{{< /event >}}
-
-{{< event date="Aug 2018 – Dec 2018" role="Robotics Sensor Intern" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
-- Built a fatigue-monitoring system (a "Fitbit for robots") that evaluates complex dynamic loads on a robot's joints.
-- Fused sensing with **ML/data analytics** (LSTM/GBM/SVM; R² 0.94, AUC-ROC 0.93) to decode structural-load patterns for real-time health monitoring and long-term structural integrity of robotic joints.
-{{< /event >}}
-
-{{< event date="Mar 2018 – Sep 2018" role="Computer Vision Intern, Social Robotics" company="Bristol Robotics Laboratory" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
-- Developed object-recognition algorithms for the **TIAGo** robot at the **European Robotics League 2018 (Social Robots)**, improving human-robot interaction and task efficiency.
-- Added search, person-following, object-moving, and visitor-recognition features for assisted-living environments.
-- Ran **SLAM** (RTAB-Map, AMCL, ROS) alongside the kinematics and path-planning teams for navigation and mapping accuracy.
-{{< /event >}}
-
-{{< event date="Jan 2018 – Apr 2018" role="Control System Design Intern, Vertical Farming" company="LettUs Grow" url="https://www.lettusgrow.com/" location="🇬🇧 Bristol, UK" logo="/logos/brands/lettusgrow.png" >}}
-- Designed intelligent electronic control circuits for a next-generation **vertical farming** system for micro-green production.
-- Engineered and fabricated control boards for **ultrasonic foggers, LED lighting, and environmental sensors** (humidity, temperature, moisture).
-- Collaborated closely with software interns on embedded control.
+{{< event date="Jan 2018 – Feb 2019" role="Internships" location="🇬🇧 Bristol, UK" logo="/logos/brands/brl.jpg" >}}
+- **YU-SCAN**, MedTech: a neural network predicting multiple-sclerosis symptom severity from a wearable's sensors, plus the sensor board and app around it.
+- **Bristol Robotics Laboratory**, sensors: a "Fitbit for robots" that monitors load and fatigue in robot joints (LSTM/GBM/SVM, R² 0.94).
+- **Bristol Robotics Laboratory**, social robotics: object recognition, person-following and SLAM (RTAB-Map, AMCL, ROS) on the TIAGo robot at the European Robotics League 2018.
+- **LettUs Grow**, vertical farming: control boards for ultrasonic foggers, LED lighting and environmental sensors.
 {{< /event >}}
 
 </div>

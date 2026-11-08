@@ -1,9 +1,17 @@
 ---
-kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE"
-tagline: "Robots haven't had their ChatGPT moment. Yet. 🤖"
-hero_sub: "I'm working out the recipe that makes them work at scale."
+kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE, London"
+tagline: "I make robots that keep working after the demo."
+hero_sub: "Eight years of computer vision and robotics in production, from a bionic leg to factory robot cells to wheel loaders."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
+
+<h2 class="systems-eyebrow">In short</h2>
+
+<p class="snapshot-lead">Road infrastructure, automotive, medical devices, manufacturing, and now heavy machines. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
+
+<h2 class="systems-eyebrow">Now</h2>
+
+<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: the vision-language-action models, the data and training behind them, and one shared intelligence that carries across machines, sites and tasks.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
@@ -54,57 +62,25 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 })();
 </script>
 
-<h2 class="systems-eyebrow">Now</h2>
+<h2 class="systems-eyebrow">Before that, one line each</h2>
 
-<div class="systems-featured">
-<div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🚜</span> Learned autonomy for heavy machines</h3>
-<span class="system-attr">Staff Autonomy Engineer · <a href="https://hiveautonomy.no/">HIVE</a></span>
-<p>Retrofitting the machines customers already own, from forklifts to wheel loaders, with one shared intelligence that learns from real work.</p>
-<span class="system-stat">Operating in the field · 40+ people across London, Norway and the US</span>
-</div>
-</div>
+<ul class="snapshot">
+<li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. Led the technical work for the Google DeepMind and MassRobotics (AWS, NVIDIA) programmes.</li>
+<li><strong>BCA.</strong> Computer vision for remote car inspection: about four hours per car down to under 90 minutes.</li>
+<li><strong>Q-Free.</strong> A roadside camera on an NVIDIA Jetson that counts, classifies and times traffic across up to eight lanes. Ten units in the UK and US.</li>
+<li><strong>Chisel Robotics, my own company.</strong> A bionic leg that learns the person wearing it. Five years, four NHS trials, and performance legs for a Rio Paralympic gold medallist.</li>
+</ul>
 
-<h2 class="systems-eyebrow">Before HIVE</h2>
+<h2 class="systems-eyebrow">Off the clock</h2>
 
-<div class="systems-grid">
-<div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🏭</span> Factory perception to robot action</h3>
-<span class="system-attr">Robotics Lead · Almetra</span>
-<p>Pre-trained vision-language models that turn factory video into timelines of the work, distilled to run on-station. Then built the robotics team and ran a customer pilot with Franka and UR arms.</p>
-<span class="system-stat">60+ factory sites · 10,000 video-hours/day · Seed to scale-up, 40 people</span>
-</div>
-<div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🛣️</span> Non-intrusive roadside perception</h3>
-<span class="system-attr">Built & deployed · Q-Free</span>
-<p>An offline, camera-based edge system that recovered traffic counts, vehicle classes, speeds and flow across 4, 6 or 8 lanes and changing weather.</p>
-<span class="system-stat">99.7% detection accuracy · 93.5% mAP · 65+ FPS · 10 units deployed across the UK and US</span>
-</div>
-<div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🚗</span> 3D vehicle perception & inspection</h3>
-<span class="system-attr">Built & deployed · BCA</span>
-<p>A production vision stack for remote vehicle buying: scene transformation, reflection handling, 360° capture, multi-view 3D reconstruction and fine-grained cosmetic-damage detection.</p>
-<span class="system-stat">Inspection time: ~4 hours → under 90 minutes · Millions of vehicle images</span>
-</div>
-<div class="system-card">
-<h3 class="system-name"><span aria-hidden="true">🦿</span> Adaptive powered bionic leg</h3>
-<span class="system-attr">Founded & led · Chisel Robotics</span>
-<p>A fully actuated lower-limb prosthesis using multimodal sensing and machine learning to personalise gait and adapt to changes in the user and walking surface.</p>
-<span class="system-stat">Under 50 ms closed-loop feedback · 4 NHS trials · Performance legs for a Rio Paralympic gold medallist <span aria-hidden="true">🥇</span></span>
-</div>
+<p>I swam at national level from the age of eight and only recently retired. Sea swims up to 30 km, scuba to 30 m. And I have never had a fizzy drink in my life.</p>
+
+<div class="photo-pair photo-pair--3 snapshot-photos">
+<img src="/img/franka-build.jpg" alt="Working on the Franka Research 3 Duo cell at Almetra" loading="lazy">
+<img src="/img/mayur-leg.jpg" alt="With the intelligent bionic leg prototype" loading="lazy">
+<img src="/img/swimming.jpg" alt="Butterfly at a national-level competition" loading="lazy">
 </div>
 
-<h2 class="systems-eyebrow">The longer story</h2>
-
-<ol class="story-teaser">
-<li><a href="/story/#origins"><strong>Beginnings</strong><span>Competition robots after school, 30+ wins.</span></a></li>
-<li><a href="/story/#chisel"><strong>Chisel Robotics</strong><span>A bionic leg that learns from the person wearing it.</span></a></li>
-<li><a href="/story/#perception"><strong>Production perception</strong><span>Roadside cameras and vehicle inspection.</span></a></li>
-<li><a href="/story/#manipulation"><strong>Perception to action</strong><span>From factory video to robot arms.</span></a></li>
-<li><a href="/story/#hive"><strong>Now: HIVE</strong><span>One shared brain for heavy machines.</span></a></li>
-<li><a href="/story/#long-game"><strong>The long game</strong><span>Machines that build before people arrive. 🌕</span></a></li>
-</ol>
-
-<div class="story-cta"><a class="story-cta__link" href="/story/">Read my story →</a></div>
+<div class="story-cta"><a class="story-cta__link" href="/story/">Read the story →</a><a class="hero-btn" href="/experience/">Full CV</a></div>
 
 <p class="story-contact">Working on learned autonomy for heavy machines? <a href="https://www.linkedin.com/in/mayurhulke/">Message me on LinkedIn</a>.</p>
