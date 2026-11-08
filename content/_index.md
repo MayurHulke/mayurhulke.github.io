@@ -1,17 +1,17 @@
 ---
 kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE, London"
 tagline: "Scaling robot learning across machines."
-hero_sub: "Building robots since I was 14, shipping them for the last eight years: a bionic leg, factory arms, and now wheel loaders."
+hero_sub: "Making what one machine learns carry to the next."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
 <h2 class="systems-eyebrow">In short</h2>
 
-<p class="snapshot-lead">Road infrastructure, automotive, medical devices, manufacturing, and now heavy machines. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
+<p class="snapshot-lead">I built my first robot at 14 because films and Asimov's stories made it look possible, and kept going until the competition wins passed thirty. The hobby took me to Bristol for a master's in robotics, then into eight years of making robots and computer vision work for real, from a bionic leg to factory robot arms to the wheel loaders I work on now. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
 
 <h2 class="systems-eyebrow">Now</h2>
 
-<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making what one machine learns carry to the next is still an open problem, and it is the one I work on.</p>
+<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">

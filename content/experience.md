@@ -22,8 +22,6 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 - Designed the **perception-to-action stack**: factory video understanding feeding robot planning and execution on Franka Research 3 and UR16e arms.
 - Trained manipulation policies from human demonstrations and robot data: **diffusion policies** for contact-rich tasks, classical control where predictability mattered.
 - Led the technical work for two programmes: [Google DeepMind's Gemini Robotics Accelerator](https://deepmind.google/accelerators/robotics/) (Jun–Aug 2026: running the Gemini Robotics models on our arms, and pushing VLAs beyond teleoperation data towards learning from video) and the [MassRobotics Physical AI Fellowship](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/) with AWS and NVIDIA (Apr–Aug 2026: policies trained in NVIDIA Isaac and transferred to real robots).
-
-![Our Franka Research 3 Duo and Universal Robots cell at Almetra](/img/franka-lab.jpg)
 {{< /event >}}
 
 {{< event date="Oct 2024 – Jan 2026" role="Staff Computer Vision Engineer" company="Almetra" url="https://www.almetra.ai/" location="🇩🇪 Berlin, Germany" logo="/logos/brands/almetra.svg" >}}
