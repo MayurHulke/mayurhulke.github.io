@@ -1,7 +1,7 @@
 ---
 kicker: "Mayur Hulke · Staff Autonomy Engineer at HIVE, London"
-tagline: "I make robots that keep working after the demo."
-hero_sub: "Eight years of computer vision and robotics in production, from a bionic leg to factory robot cells to wheel loaders."
+tagline: "Scaling robot learning across machines."
+hero_sub: "Building robots since I was 14, shipping them for the last eight years: a bionic leg, factory arms, and now wheel loaders."
 description: "Mayur Hulke is a robotics and autonomy engineer working across perception, manipulation and heavy-machine autonomy."
 ---
 
@@ -11,7 +11,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">Now</h2>
 
-<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: the vision-language-action models, the data and training behind them, and one shared intelligence that carries across machines, sites and tasks.</p>
+<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making what one machine learns carry to the next is still an open problem, and it is the one I work on.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
@@ -62,7 +62,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 })();
 </script>
 
-<h2 class="systems-eyebrow">Before that, one line each</h2>
+<h2 class="systems-eyebrow">Before HIVE</h2>
 
 <ul class="snapshot">
 <li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. Led the technical work for the Google DeepMind and MassRobotics (AWS, NVIDIA) programmes.</li>

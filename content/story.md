@@ -13,7 +13,7 @@ ShowToc: false
 
 No robotics degree was available to me, so I put one together myself. A robot, as I saw it, was three things stacked together: mechanics, electronics and code. I learned code from free online courses, mechanics from books and a summer fixing cars and bikes with local garage owners, and electronics in the university lab attached to my degree in electronics and communications.
 
-The spark came from films and books: *I, Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary* and, above all, Isaac Asimov's robot stories. I built robots after school as a hobby, then started entering competitions and kept going: **30+ wins**, including national-level events, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
+The spark came from films and books: *I, Robot*, *Big Hero 6*, Andy Weir's *Project Hail Mary* and, above all, Isaac Asimov's robot stories. I built my first robot at 14, after school and as a hobby, then started entering competitions and kept going: **30+ wins**, including national-level events, across RoboWar, Robo Soccer, Maze Solver, Call of Duty, coding championships and mechatronics design.
 
 <div class="photo-grid">
 <img src="/img/robots/robot-1.jpg" alt="Cutting the chassis, sparks flying" title="Cutting the chassis, sparks flying" loading="lazy">
