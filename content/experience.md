@@ -69,7 +69,8 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 {{< event date="2020" role="MSc, Advanced Robotics & Artificial Intelligence" company="University of Bristol" location="First-Class · Distinction in dissertation" logo="/logos/brands/bristol.jpeg" >}}
 - **Focus:** robot learning.
 - **Thesis:** an intelligent bionic leg for lower-limb amputees, built with Paralympic athletes in mind.
-- Outside the lab, I swam competitively at **national level**.
+- Before Bristol: two bachelor's degrees in parallel, in Electronics and in Signals & Systems.
+- Outside the lab, I swam competitively at **national level**, five national championships in all.
 
 ![Butterfly at national-level competition](/img/swimming.jpg)
 {{< /event >}}

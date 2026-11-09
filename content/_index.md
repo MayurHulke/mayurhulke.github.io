@@ -10,7 +10,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">Now</h2>
 
-<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side from London: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on.</p>
+<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side from London: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on: every new machine should learn faster than the last, days down to hours, thousands of training videos down to one or two.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
@@ -72,7 +72,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">Off the clock</h2>
 
-<p>I swam at national level from the age of eight and only recently retired. Sea swims up to 30 km, scuba to 30 m. And I have never had a fizzy drink in my life 🥤.</p>
+<p>Swimmer first: five national championships from the age of eight, 47 km across the Indian Ocean at 12, and only recently retired. Now working towards Divemaster in scuba, shooting and editing short films, and <a href="https://www.youtube.com/@LetsTalkWithRobots">talking about robots on YouTube</a>. And I have never had a fizzy drink in my life 🥤.</p>
 
 <div class="photo-pair photo-pair--3 snapshot-photos">
 <img src="/img/robots/robot-1.jpg" alt="Cutting a robot chassis in the workshop, sparks flying" loading="lazy">
