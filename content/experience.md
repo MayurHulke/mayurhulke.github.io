@@ -70,7 +70,7 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 - **Focus:** robot learning.
 - **Thesis:** an intelligent bionic leg for lower-limb amputees, built with Paralympic athletes in mind.
 - Before Bristol: two bachelor's degrees in parallel, in Electronics and in Signals & Systems.
-- Outside the lab, I swam competitively at **national level**, five national championships in all.
+- Outside the lab, I swam competitively at **national level**.
 
 ![Butterfly at national-level competition](/img/swimming.jpg)
 {{< /event >}}

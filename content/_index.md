@@ -72,7 +72,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">Off the clock</h2>
 
-<p>Swimmer first: five national championships from the age of eight, 47 km across the Indian Ocean at 12, and only recently retired. Now working towards Divemaster in scuba, shooting and editing short films, and <a href="https://www.youtube.com/@LetsTalkWithRobots">talking about robots on YouTube</a>. And I have never had a fizzy drink in my life 🥤.</p>
+<p>Swimmer first: five national championships from the age of eight, 47 km across the Indian Ocean at 12, and only recently retired. Now working towards Divemaster in scuba, shooting and editing short films, and <a href="https://www.youtube.com/@LetsTalkWithRobots">talking about robots on YouTube</a>.</p>
 
 <div class="photo-pair photo-pair--3 snapshot-photos">
 <img src="/img/robots/robot-1.jpg" alt="Cutting a robot chassis in the workshop, sparks flying" loading="lazy">

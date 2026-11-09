@@ -195,7 +195,6 @@ I've been a student-athlete my whole life, and I really enjoy swimming.
 <p>I started competing at <strong>eight</strong> and continued through school, my Bachelor's and Master's, representing my universities and winning <strong>five national championships</strong>. I only recently retired.</p>
 <p>I also completed <strong>10, 15, 20 and 30 km</strong> sea swims off the English coast and in the Indian Ocean, and at 12 I swam <strong>47 km</strong> across the Indian Ocean.</p>
 <p>These days, I mostly swim in open water and scuba dive. Diving has sparked a real interest in deep-ocean exploration. I am PADI certified to <strong>30 m</strong> and working towards Divemaster. When I am not in the water, I shoot and edit short films.</p>
-<p>And one that surprises people: I have never had a fizzy drink in my life. Not one.</p>
 </div>
 <div class="outside-story__dives">
 <img src="/img/diving-night.jpg" alt="Night dive with a group, torches lighting the reef" loading="lazy">
