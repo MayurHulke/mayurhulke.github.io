@@ -290,9 +290,6 @@ body:has(.profile) > .header {
 
 .about .autonomy-pathway {
   margin-block: 1.7rem 2rem;
-  border-color: var(--polish-line);
-  background: var(--polish-surface);
-  box-shadow: var(--polish-shadow-soft);
 }
 
 .about .pullquote {

@@ -210,7 +210,6 @@
   border-radius: 50%;
   background: var(--seg-part);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--seg-part) 24%, transparent);
-  animation: action-feed-live 1.35s ease-in-out infinite;
 }
 
 @keyframes action-feed-live {
@@ -398,7 +397,7 @@
 
 .about .action-segmentation__segment span {
   color: var(--secondary);
-  font-size: 0.58rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
