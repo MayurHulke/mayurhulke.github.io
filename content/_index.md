@@ -75,12 +75,12 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <p>Swimmer first: five national championships from the age of eight, 47 km across the Indian Ocean at 12, and only recently retired. Now working towards Divemaster in scuba, shooting and editing short films, and <a href="https://www.youtube.com/@LetsTalkWithRobots">talking about robots on YouTube</a>.</p>
 
 <div class="photo-pair photo-pair--3 snapshot-photos">
-<img src="/img/robots/robot-1.jpg" alt="Cutting a robot chassis in the workshop, sparks flying" loading="lazy">
-<img src="/img/robots/robot-2.jpg" alt="One of my competition robots, flipper arm up" loading="lazy">
-<img src="/img/mayur-leg.jpg" alt="With the intelligent bionic leg prototype" loading="lazy">
-<img src="/img/boston-booth.jpg" alt="At our stand at the Robotics Summit and Expo in Boston, during the Physical AI Fellowship" loading="lazy">
-<img src="/img/space-conference/ukseds-2024-badge.jpg" alt="Programme and badge from the UKSEDS National Student Space Conference 2024" loading="lazy">
-<img src="/img/swimming.jpg" alt="Butterfly at a national-level competition" loading="lazy">
+<img src="/img/home/robot-1.jpg" alt="Cutting a robot chassis in the workshop, sparks flying" loading="lazy">
+<img src="/img/home/robot-2.jpg" alt="One of my competition robots, flipper arm up" loading="lazy">
+<img src="/img/home/bionic-leg.jpg" alt="With the intelligent bionic leg prototype" loading="lazy">
+<img src="/img/home/boston-stand.jpg" alt="At our stand at the Robotics Summit and Expo in Boston, during the Physical AI Fellowship" loading="lazy">
+<img src="/img/home/space-conference.jpg" alt="Programme and badge from the UKSEDS National Student Space Conference 2024" loading="lazy">
+<img src="/img/home/butterfly.jpg" alt="Butterfly at a national-level competition" loading="lazy">
 </div>
 
 <p class="story-next"><a href="/story/">Read the story →</a> <span aria-hidden="true">·</span> <a href="/experience/">See the CV →</a></p>
