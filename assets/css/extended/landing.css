@@ -23,7 +23,6 @@ body:has(.profile) {
     var(--theme);
   background-attachment: fixed;
   background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, auto;
-  animation: ocean-drift 32s ease-in-out infinite alternate;
 }
 
 @keyframes ocean-drift {
@@ -213,7 +212,7 @@ body:has(.profile) {
 }
 .about .snapshot li {
   padding: 0.15rem 0 0.15rem 1rem;
-  border-left: 3px solid var(--accent);
+  border-left: 1px solid var(--border);
   line-height: 1.55;
   color: var(--content);
 }
@@ -228,10 +227,11 @@ body:has(.profile) {
 .profile .about .snapshot,
 .profile .about .snapshot-lead,
 .profile .about .story-contact {
-  width: min(100%, 780px);
-  max-width: 780px;
+  width: min(100%, 65ch);
+  max-width: 65ch;
   margin-inline: auto;
 }
+.about p, .about li { text-wrap: pretty; }
 .profile .about .story-next {
   text-align: center;
   margin: 1.8rem auto 0.3rem;

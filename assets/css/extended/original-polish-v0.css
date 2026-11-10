@@ -106,7 +106,7 @@ body:has(.profile) > .header {
 
 .hero-programmes-label {
   margin-bottom: 0.7rem;
-  font-size: 0.67rem;
+  font-size: 0.74rem;
   letter-spacing: 0.12em;
 }
 
@@ -137,8 +137,8 @@ body:has(.profile) > .header {
 .about > p,
 .about > blockquote,
 .about > .act-head {
-  width: min(100%, 780px);
-  max-width: 780px;
+  width: min(100%, 65ch);
+  max-width: 65ch;
   margin-inline: auto;
 }
 
@@ -152,7 +152,7 @@ body:has(.profile) > .header {
 .about .systems-eyebrow {
   width: 100%;
   margin-bottom: 1rem;
-  font-size: 0.74rem;
+  font-size: 0.78rem;
   letter-spacing: 0.13em;
 }
 

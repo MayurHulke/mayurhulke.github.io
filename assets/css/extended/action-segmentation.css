@@ -27,7 +27,7 @@
   display: block;
   margin-bottom: 0.25rem;
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -175,7 +175,7 @@
   background: color-mix(in srgb, var(--theme) 82%, transparent);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  font-size: 0.61rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -195,7 +195,7 @@
   background: rgba(8, 13, 17, 0.62);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-  font-size: 0.65rem;
+  font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.07em;
   text-transform: uppercase;
@@ -235,7 +235,7 @@
   margin-bottom: 0.5rem;
   opacity: var(--station-detail-opacity, 0);
   color: var(--secondary);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -244,7 +244,7 @@
 
 .about .action-segmentation__station strong {
   color: var(--accent);
-  font-size: 0.68rem;
+  font-size: 0.74rem;
   letter-spacing: 0.07em;
   text-align: right;
 }
@@ -272,7 +272,7 @@
   align-items: center;
   margin-bottom: 0.65rem;
   color: var(--secondary);
-  font-size: 0.62rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
