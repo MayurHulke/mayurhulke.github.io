@@ -137,8 +137,8 @@ body:has(.profile) > .header {
 .about > p,
 .about > blockquote,
 .about > .act-head {
-  width: min(100%, 65ch);
-  max-width: 65ch;
+  width: min(100%, 600px);
+  max-width: 600px;
   margin-inline: auto;
 }
 

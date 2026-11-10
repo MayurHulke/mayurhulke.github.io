@@ -227,11 +227,11 @@ body:has(.profile) {
 .profile .about .snapshot,
 .profile .about .snapshot-lead,
 .profile .about .story-contact {
-  width: min(100%, 65ch);
-  max-width: 65ch;
+  width: min(100%, 600px);
+  max-width: 600px;
   margin-inline: auto;
 }
-.about p, .about li { text-wrap: pretty; }
+.about p, .about li, .post-content p, .post-content li { text-wrap: pretty; }
 .profile .about .story-next {
   text-align: center;
   margin: 1.8rem auto 0.3rem;
