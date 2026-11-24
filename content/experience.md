@@ -79,9 +79,9 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 
 ## Publication
 
-- *Customization of a transfemoral prosthetic socket to minimize discomfort for residual-limb volume change.* IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM), 2023.
+- *Investigation into the Customization of a Transfemoral Prosthetic Socket to Minimize Discomfort for Residual Limb Volume Change.* M. Hulke, A. Jafari, A. Etoundi. IEEE International Conference on System Science and Engineering (ICSSE), 2023. [doi:10.1109/ICSSE58758.2023.10227215](https://doi.org/10.1109/ICSSE58758.2023.10227215)
 
 ## Recognition
 
 - **Press:** BBC Radio 4, Business Leader, Business Live, Business West, Leading Healthcare, Engineering in Business
-- **Awards:** Young Innovators Award 2021 (one of 23 across the UK); [SETsquared Breakthrough Bursary](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/); Santander Graduate Entrepreneur Award; Disruptive Startup Finalist (Tata Varsity)
+- **Awards:** Innovate UK Young Innovators Award 2021 (Chisel Robotics); [SETsquared Breakthrough Bursary](https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/); Santander Graduate Entrepreneur Award; Disruptive Startup Finalist (Tata Varsity)
