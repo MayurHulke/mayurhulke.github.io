@@ -6,11 +6,15 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <h2 class="systems-eyebrow">In short</h2>
 
-<p class="snapshot-lead">I built my first robot at 14 because films and Asimov's stories made it look possible, and kept going until the competition wins passed thirty 🏆. The hobby took me to Bristol for a master's in robotics, then to founding Chisel Robotics: a bionic leg that learns the person wearing it, four NHS trials and a Young Innovators Award (one of 23 in the UK that year) 🥇. Since then it has been eight years of making robots and computer vision work for real, from factory robot arms to the wheel loaders I work on now. I spend about as much time at customer sites as at my desk, because that is where you find out whether the thing works.</p>
+<p class="snapshot-lead">I built my first robot when I was 14. It started as a hobby, mostly because of <em>I, Robot</em>, and later <em>The Martian</em> and <em>Interstellar</em>. Without really noticing, I grew a pull towards robots, and space robots most of all. Robotics back then was nowhere near what it is today, so I just kept building for fun, and my wins at national robotics competitions slowly passed thirty 🏆. Somewhere along the way I thought, maybe this is what I want to do for the rest of my life. So I took it seriously: two first-class engineering degrees, then a master's in Advanced Robotics and AI at the University of Bristol, based at the Bristol Robotics Laboratory, the UK's largest academic robotics centre. I finished with a First, with distinction for the dissertation, and started my own company there, Chisel Robotics, building a bionic leg that learns the person wearing it and taking it through four NHS clinical trials 🥇. Since then I have spent eight years taking AI out of the lab and into real use, from roadside cameras and car inspection to 60+ factories, and now wheel loaders.</p>
 
 <h2 class="systems-eyebrow">Now</h2>
 
-<p><a href="https://hiveautonomy.no/">HIVE</a> retrofits the heavy machines customers already own, forklifts to wheel loaders, so they work under human supervision instead of a driver in every cab. I lead the learned-autonomy side from London: one shared intelligence across machines, sites and tasks. Every robot so far has been trained for its own job on its own machine, which is one big reason robotics never scaled the way software did. Making that learning carry from one machine to the next is still an open problem, and it is the one I work on: every new machine should learn faster than the last, days down to hours, thousands of training videos down to one or two.</p>
+<p>Today, almost every heavy machine needs a person in the seat, and every robot is taught one job on one machine. That is why robots are still rare outside factories.</p>
+
+<p>At <a href="https://hiveautonomy.no/">HIVE</a> we give the machines companies already own, like forklifts and wheel loaders, one shared brain. When one machine learns something, every machine learns it.</p>
+
+<p>My job, from London, is to make that brain learn fast. The big goal: a new machine that learns its job in hours instead of days, from one or two examples instead of thousands, until thousands of machines are learning as one.</p>
 
 <figure class="robot-network" data-robot-network aria-label="The machines I work on at HIVE, from a humanoid and robot arms to forklifts and wheel loaders, all linked to one shared intelligence">
 <svg viewBox="-10 0 720 396" aria-hidden="true">
@@ -64,10 +68,10 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 <h2 class="systems-eyebrow">Before HIVE</h2>
 
 <ul class="snapshot">
-<li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. The DeepMind, AWS and NVIDIA programmes above were this chapter.</li>
+<li><strong>Almetra, Berlin.</strong> Led the vision-language foundation model running live in 60+ factories, learning from about 10,000 hours of new video a day. Then built the robotics team, one of 15 startups in Google DeepMind's robotics accelerator and one of nine in the MassRobotics fellowship.</li>
 <li><strong>BCA.</strong> When COVID closed the auction halls, computer vision that let people buy a car from home with confidence: about four hours per car down to under 90 minutes.</li>
 <li><strong>Q-Free.</strong> A roadside camera on an NVIDIA Jetson that counts, classifies and times traffic across up to eight lanes. Ten units in the UK and US.</li>
-<li><strong>Chisel Robotics, my own company.</strong> A bionic leg that learns the person wearing it. Five years, four NHS trials, and performance legs for a Rio Paralympic gold medallist.</li>
+<li><strong>Chisel Robotics, my own company.</strong> A bionic leg that learns the person wearing it. Five years, four NHS trials, Innovate UK's Young Innovators Award, and performance legs for a Rio Paralympic gold medallist.</li>
 </ul>
 
 <h2 class="systems-eyebrow">Off the clock</h2>
