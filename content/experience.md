@@ -38,8 +38,8 @@ description: "Mayur Hulke's roles, from robotics internships in Bristol to Staff
 {{< /event >}}
 
 {{< event date="Dec 2018 – Oct 2023" role="Founder" company="Chisel Robotics" url="https://setsquared-bristol.co.uk/news/setsquared-bristol-welcomes-three-breakthrough-bursary-businesses-into-its-world-class-incubation-programme/" note="· Bristol Robotics Laboratory" location="🇬🇧 UK" logo="/logos/brands/brl.jpg" >}}
-- Founded and led the company alongside my MSc: an intelligent bionic leg that tracks fit, gait and movement in real time (**<50 ms** feedback), with a custom sensor interface and thermal imaging for soft-tissue analysis.
-- **92%** real-time activity classification; validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medallist**.
+- Founded and led the company alongside my MSc: an intelligent bionic leg that tracks fit, gait and movement in real time, with a custom sensor interface and thermal imaging for soft-tissue analysis.
+- Validated across **4 NHS trials**; built for amputees including a **Rio Paralympic gold medallist**.
 - Backed by **Innovate UK**, built on **NHS** research partnerships, in collaboration with BLESMA and Help for Heroes.
 {{< /event >}}
 

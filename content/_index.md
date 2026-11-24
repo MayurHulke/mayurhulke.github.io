@@ -65,7 +65,7 @@ description: "Mayur Hulke is a robotics and autonomy engineer working across per
 
 <ul class="snapshot">
 <li><strong>Almetra, Berlin.</strong> Vision-language models watching 60+ factory sites, then built the robotics team and ran a customer pilot with Franka and UR arms. The DeepMind, AWS and NVIDIA programmes above were this chapter.</li>
-<li><strong>BCA.</strong> Computer vision for remote car inspection: about four hours per car down to under 90 minutes.</li>
+<li><strong>BCA.</strong> When COVID closed the auction halls, computer vision that let people buy a car from home with confidence: about four hours per car down to under 90 minutes.</li>
 <li><strong>Q-Free.</strong> A roadside camera on an NVIDIA Jetson that counts, classifies and times traffic across up to eight lanes. Ten units in the UK and US.</li>
 <li><strong>Chisel Robotics, my own company.</strong> A bionic leg that learns the person wearing it. Five years, four NHS trials, and performance legs for a Rio Paralympic gold medallist.</li>
 </ul>

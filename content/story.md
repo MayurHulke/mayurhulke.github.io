@@ -38,7 +38,7 @@ It started in a dorm room in Bristol, during the MSc: a bionic leg for people wh
 
 The leg was fully actuated. Its control stack combined multimodal sensing, machine learning and real-time feedback to personalise gait and adjust to the surface underfoot. The NHS trials were evaluation and data collection at once, giving the controller real-world data instead of laboratory assumptions. The aim was to make this more accessible than premium powered systems, not just to build a clever prototype.
 
-I turned the project into a company, Chisel Robotics, in 2018, ran it alongside my MSc and led it for five years in all, based at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), backed by **Innovate UK** and grown out of **NHS** research partnerships. The leg also became my thesis.
+I turned the project into a company, Chisel Robotics, in 2018, ran it alongside my MSc and led it for five years in all, based at the [**Bristol Robotics Laboratory**](https://www.bristolroboticslab.com/), backed by **Innovate UK** and grown out of **NHS** research partnerships. The leg also became my thesis. One of the people it was built for was [**Tania Goddard**](https://www.uwe.ac.uk/news/tech-entrepreneurs-research-to-improve-team-gb-hopefuls-prosthetic-leg-socket), a Team GB shooting hopeful who had been through 15 NHS sockets in two years.
 
 <h2 class="act-head" id="perception">Roadside cameras, then cars</h2>
 
@@ -100,7 +100,7 @@ Almetra hired me in 2024 as a **Staff Computer Vision Engineer** to try an idea.
 
 The model had to turn long, messy video into a timeline of actions: picking a part, inserting a component, waiting for material. Some lasted two seconds, others five minutes, with pauses, rework and improvisation mixed in. The hard part was telling normal human variation from a genuine deviation from the customer's standard procedure.
 
-Video poured in from every customer, every day. I ran **large-scale pre-training** of cross-customer **vision-language foundation models**, then distilled them into **student models** small enough to run on-station. Production teams could see cycle times, waiting and bottlenecks continuously, instead of from occasional pen-and-paper time studies.
+Video poured in from every customer, every day: about **10,000 hours of new production video a day**, one of the largest manufacturing datasets in Europe. I ran **large-scale pre-training** of cross-customer **vision-language foundation models**, then distilled them into **student models** small enough to run on-station. Production teams could see cycle times, waiting and bottlenecks continuously, instead of from occasional pen-and-paper time studies.
 
 <div class="customers">
 <span class="customers-label">Deployed with</span>
@@ -146,7 +146,7 @@ Two programmes tested the work beyond our own lab, and I led the technical side 
 
 ![At the Google DeepMind Accelerator, alongside the Head of Robotics at Google DeepMind](/img/deepmind-accelerator.jpg)
 
-Through the 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), I worked with the **AWS** and **NVIDIA** robotics teams. The programme took our work to Boston and the **Robotics Summit & Expo**.
+Through the 2026 [**MassRobotics Physical AI Fellowship**](https://www.massrobotics.org/massrobotics-aws-and-nvidia-announce-second-cohort-of-physical-ai-fellowship/), I worked with the **AWS** and **NVIDIA** robotics teams. Nine startups were picked; the [first cohort](https://www.massrobotics.org/physical-ai-fellowship-cohort/) included Bedrock Robotics, Generalist AI and RobCo. The programme took our work to Boston and the **Robotics Summit & Expo**.
 
 <div class="photo-pair">
 <img src="/img/boston-booth.jpg" alt="At our stand during the Physical AI Fellowship, Robotics Summit and Expo, Boston" loading="lazy">
